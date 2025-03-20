@@ -1,0 +1,16 @@
+.btn_filtrar_reporte{
+    background-image: url("/img/sec_recaudacion/filtrarrecaudacion.png");
+    margin-top:25px;
+    width:48px;
+    height:48px;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    float:right;
+} 
+
+.tabla_reportes.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #FFF;
+}

@@ -1,0 +1,4 @@
+.tabla_contenedor_reportes_web_total{
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,69 @@
+.content_locales{
+	margin-top: -15px;
+}
+#body_locales__style{
+	overflow-x:hidden ;
+}
+#locales_list th{
+	font-size: 10px ;
+}
+#locales_list td {
+	padding-top: 2px ;
+	padding-bottom: 2px ;
+}
+#locales_list_filter{
+	float:right ;
+	padding-top: 7px ;	
+}
+#locales_list_paginate{
+	float:right ;
+}
+#locales_list_info{
+	float:left ;
+}
+#locales_list_wrapper .btn-group{
+	padding-top: 12px ;
+}
+#locales_list_length{
+	padding-top: 5px ;
+}
+.colunmas_local_id{
+	width:35px ;
+}
+.colunmas_local_nombre{
+	
+}
+.columnas_local_direccion{
+
+}
+.columnas_local_mostrar_reporte{
+	width:135px ;
+}
+.columnas_local_estado{
+	width:65px ;
+}
+.columnas_local_opciones{
+	width:75px ;	
+}
+.locales_form_local{
+
+}
+.locales_form_local .form-add_promo .row{
+	margin-bottom: 5px;
+}
+
+#tab_users .panel .panel-controls .panel-buttons .btn-panel-control, 
+#tab_users .panel-default .panel-controls .panel-buttons .btn-panel-control{
+	padding: 7px 0px 10px 10px;
+}
+#locales_add_usuario_modal .form-control-feedback{
+	line-height: 28px;
+}
+#locales_add_usuario_modal .user_locales{
+	max-height: 250px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#locales_add_usuario_modal .user_locales div{
+
+}

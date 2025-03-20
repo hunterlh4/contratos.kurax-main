@@ -1,0 +1,184 @@
+.fechainiciobetbar{
+	font-size: 11px !important;
+}
+.fechafinbetbar{
+	font-size: 11px !important;	
+}
+.localreportebetbarcustom{
+	font-size: 11px !important;		
+}
+.canalventasreportebetbarcustom{
+	font-size: 11px !important;	
+}
+.redcustomreportebetbar{
+	font-size: 11px !important;
+}
+.btn_filtrar_reporte_betbar{
+	margin-top:23px !important;
+}
+.reportes_betbar_datepicker{
+	height:32px !important;
+	min-width: 139px !important;
+    cursor: pointer !important;	
+    font-size:  11px !important;
+
+}
+#table_tickets_comision_cuota_bet_bar{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	padding-right: 0px !important;
+	padding-left:  0px !important;
+}	
+
+#table_tickets_comision_cuota_bet_bar th{
+	font-family: "proximaNovaLight" !important;	
+	border:1px solid #ddd !important;	
+}
+#table_tickets_comision_cuota_bet_bar td{
+	font-size: 10px !important;
+	border-right:1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+#table_tickets_comision_cuota_bet_bar tr:hover{
+	background-color: #ffff99 !important;
+}
+#table_tickets_comision_cuota_bet_bar tbody tr:nth-child(odd) {
+	background-color: #F9F9F9;
+}		
+#table_tickets_comision_cuota_bet_bar_filter{
+	float:right !important;
+	margin-bottom: 5px !important;
+	font-size: 11px !important;		
+}
+#table_tickets_comision_cuota_bet_bar_length{
+	margin-bottom: 5px !important;
+	font-size: 11px !important;
+}
+#table_tickets_comision_cuota_bet_bar_wrapper .btn-group{
+	margin-bottom: -16px !important;
+	font-size: 11px !important;	
+}
+#table_tickets_comision_cuota_bet_bar_paginate{
+	float:right !important;
+	font-size: 11px !important;	
+}
+#table_tickets_comision_cuota_bet_bar_info{
+	float:left !important;
+	font-size: 11px !important;	
+}
+#modal_detalle_liquidaciones_bet_bar{
+	background-color: #fff !important;
+}
+.cashdesk_nombre_tickets_comision_cuota_bet_bar{
+    color: green !important;		
+}
+#tabla_sec_recaudacion_bet_bar tr:hover{
+	background-color: #ffff99 !important;
+	cursor:pointer !important;
+}
+
+.tcc_id_apuestas_number_bet_bar{
+	border-left:1px solid #ddd !important;		
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_bet_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_moneda_text_bet_bar{
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_monto_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_monto_en_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_cuotas_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_porcentaje_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_importe_de_comision_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_ganancias_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_monto_de_bono_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_monto_de_freebet_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_ganancias_en_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;		
+}
+.tcc_tipo_text_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_cashdesk_info_text_bet_bar{
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_estado_text_bet_bar{
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_creado_number_bet_bar{
+	text-align: left !important;
+	font-weight: 100 !important;		
+}
+.tcc_fecha_de_apostado_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_fecha_calc_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_is_live_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_paiddate_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_paid_cash_desk_name_number_bet_bar{
+	text-align: right !important;
+	font-weight: 100 !important;
+}	
+.borde_bottom_th_betbar{
+	/*border-bottom:1px solid #ddd !important;	*/
+}
+
+#tabla_sec_recaudacion .total_cliente_bet_bar{
+    text-align: right !important;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px !important;    
+}
+/*
+#tabla_sec_recaudacion .total_cliente_bet_bar:hover{
+    background-color: #ffff99;
+    text-align: right !important;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px !important;
+    cursor: pointer !important;    
+}
+*/

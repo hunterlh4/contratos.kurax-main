@@ -1,0 +1,73 @@
+.fechainicio_saldos{
+    font-size: 11px ;
+}
+.fechafin_saldos{
+    font-size: 11px ;
+}
+.localreporte_saldos_custom{
+    font-size: 11px ;
+}
+.canalventasreporte_saldos_custom{
+    font-size: 11px ;
+}
+.redcustomreporte_saldos{
+    font-size: 11px ;	
+}
+.btn_filtrar_reporte_saldos{
+	margin-top:27px ;
+}
+.reportes_saldos_datepicker {
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;
+    font-size: 11px ;
+}
+.btn_export_saldos_xlsx {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+}
+
+.btn_export_saldos_xls {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+
+}
+
+.btn_export_saldos_xlsx:hover {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+}
+
+.btn_export_saldos_xls:hover {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+
+}

@@ -1,0 +1,16 @@
+.text-rc{
+  text-align: right;
+}
+
+.scrolfal{
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+  height: 70vh;
+}
+
+@media (max-width: 768px){
+  .text-rc{
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}

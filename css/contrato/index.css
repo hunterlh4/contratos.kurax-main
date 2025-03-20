@@ -1,0 +1,305 @@
+/* Estilos generales */
+:root {
+    --vz-blue: #3577f1;
+    --vz-indigo: #405189;
+    --vz-purple: #6559cc;
+    --vz-pink: #f672a7;
+    --vz-red: #f06548;
+    --vz-orange: #f1963b;
+    --vz-yellow: #f7b84b;
+    --vz-green: #0ab39c;
+    --vz-teal: #02a8b5;
+    --vz-cyan: #299cdb;
+    --vz-white: #fff;
+    --vz-gray: #878a99;
+    --vz-gray-dark: #343a40;
+    --vz-gray-100: #f3f6f9;
+    --vz-gray-200: #eff2f7;
+    --vz-gray-300: #e9ebec;
+    --vz-gray-400: #ced4da;
+    --vz-gray-500: #adb5bd;
+    --vz-gray-600: #878a99;
+    --vz-gray-700: #495057;
+    --vz-gray-800: #343a40;
+    --vz-gray-900: #212529;
+    --vz-primary: #405189;
+    --vz-secondary: #3577f1;
+    --vz-success: #0ab39c;
+    --vz-info: #299cdb;
+    --vz-warning: #f7b84b;
+    --vz-danger: #f06548;
+    --vz-light: #f3f6f9;
+    --vz-dark: #212529;
+    --vz-primary-rgb: 64, 81, 137;
+    --vz-secondary-rgb: 53, 119, 241;
+    --vz-success-rgb: 10, 179, 156;
+    --vz-info-rgb: 41, 156, 219;
+    --vz-warning-rgb: 247, 184, 75;
+    --vz-danger-rgb: 240, 101, 72;
+    --vz-light-rgb: 243, 246, 249;
+    --vz-dark-rgb: 33, 37, 41;
+    --vz-primary-text-emphasis: #364574;
+    --vz-secondary-text-emphasis: #2d65cd;
+    --vz-success-text-emphasis: #099885;
+    --vz-info-text-emphasis: #2385ba;
+    --vz-warning-text-emphasis: #d29c40;
+    --vz-danger-text-emphasis: #cc563d;
+    --vz-light-text-emphasis: #ced4da;
+    --vz-dark-text-emphasis: #343a40;
+    --vz-primary-bg-subtle: #e2e5ed;
+    --vz-secondary-bg-subtle: #e1ebfd;
+    --vz-success-bg-subtle: #daf4f0;
+    --vz-info-bg-subtle: #dff0fa;
+    --vz-warning-bg-subtle: #fef4e4;
+    --vz-danger-bg-subtle: #fde8e4;
+    --vz-light-bg-subtle: #f9fbfc;
+    --vz-dark-bg-subtle: #e9ebec;
+    --vz-primary-border-subtle: #b3b9d0;
+    --vz-secondary-border-subtle: #aec9f9;
+    --vz-success-border-subtle: #9de1d7;
+    --vz-info-border-subtle: #a9d7f1;
+    --vz-warning-border-subtle: #fce3b7;
+    --vz-danger-border-subtle: #f9c1b6;
+    --vz-light-border-subtle: #eff2f7;
+    --vz-dark-border-subtle: #adb5bd;
+    --vz-white-rgb: 255, 255, 255;
+    --vz-black-rgb: 0, 0, 0;
+    --vz-font-sans-serif: "Poppins", sans-serif;
+    --vz-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --vz-gradient: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+    --vz-body-font-family: var(--vz-font-sans-serif);
+    --vz-body-font-size: .8125rem;
+    --vz-body-font-weight: 400;
+    --vz-body-line-height: 1.5;
+    --vz-body-color: #212529;
+    --vz-body-color-rgb: 33, 37, 41;
+    --vz-body-bg: #f3f3f9;
+    --vz-body-bg-rgb: 243, 243, 249;
+    --vz-emphasis-color: #212529;
+    --vz-emphasis-color-rgb: 33, 37, 41;
+    --vz-secondary-color: #878a99;
+    --vz-secondary-color-rgb: 135, 138, 153;
+    --vz-secondary-bg: #fff;
+    --vz-secondary-bg-rgb: 255, 255, 255;
+    --vz-tertiary-color: rgba(33, 37, 41, .5);
+    --vz-tertiary-color-rgb: 33, 37, 41;
+    --vz-tertiary-bg: #eff2f7;
+    --vz-tertiary-bg-rgb: 239, 242, 247;
+    --vz-heading-color: #495057;
+    --vz-link-color: #405189;
+    --vz-link-color-rgb: 64, 81, 137;
+    --vz-link-decoration: none;
+    --vz-link-hover-color: #405189;
+    --vz-link-hover-color-rgb: 64, 81, 137;
+    --vz-code-color: #f672a7;
+    --vz-highlight-color: #212529;
+    --vz-highlight-bg: #fcf8e3;
+    --vz-border-width: 1px;
+    --vz-border-style: solid;
+    --vz-border-color: #e9ebec;
+    --vz-border-color-translucent: #ced4da;
+    --vz-border-radius: .25rem;
+    --vz-border-radius-sm: .2rem;
+    --vz-border-radius-lg: .3rem;
+    --vz-border-radius-xl: 1rem;
+    --vz-border-radius-xxl: 2rem;
+    --vz-border-radius-2xl: var(--vz-border-radius-xxl);
+    --vz-border-radius-pill: 50rem;
+    --vz-box-shadow: 0 1px 2px rgba(56, 65, 74, .15);
+    --vz-box-shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    --vz-box-shadow-lg: 0 5px 10px rgba(30, 32, 37, .12);
+    --vz-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, .075);
+    --vz-focus-ring-width: .25rem;
+    --vz-focus-ring-opacity: .25;
+    --vz-focus-ring-color: rgba(var(--vz-primary-rgb), .25);
+    --vz-form-valid-color: #0ab39c;
+    --vz-form-valid-border-color: #0ab39c;
+    --vz-form-invalid-color: #f06548;
+    --vz-form-invalid-border-color: #f06548;
+}
+
+.panel {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e3e3e3;
+}
+
+.panel-heading {
+    background: #ffffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 6px 6px 0 0;
+}
+
+.panel-body {
+    padding: 5px 15px;
+}
+
+/* Inputs y Selects */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* .form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #495057;
+} */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .9rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--vz-body-color); 
+    appearance: none;
+    background-color: var(--vz-input-bg-custom);
+    background-clip: padding-box;
+    border: var(--vz-border-width) solid var(--vz-input-border-custom);
+    border-radius: var(--vz-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #495057;
+} 
+/* .form-control:focus {
+    border-color: #0b4278;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(99, 102, 241, 0.5);
+} */
+
+.form-control:focus {
+    color: var(--vz-body-color);
+    background-color: var(--vz-input-bg-custom);
+    border-color: var(--vz-primary-border-subtle);
+    outline: 0;
+    box-shadow: 0 0 1 .25rem rgba(var(--vz-primary-rgb),.25);
+    border-radius: .25rem;
+}
+ 
+/* Botones */
+.btn {
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-info {
+    background-color: #405189;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #364574;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-9 {
+        width: 100%;
+    }
+}
+/*Input-Group*/ 
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center; 
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+.input-group .form-control {
+    border: none;
+    min-height: 38px; 
+    flex: 1;
+}
+
+
+.input-group-text {
+    background-color: #f3f6f9;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px; 
+}
+
+
+.input-group-text:hover {
+    background-color: #e2e6ea;
+}
+
+.form-control:focus {
+    color: var(--vz-body-color);
+    background-color: var(--vz-input-bg-custom);
+    border-color: var(--vz-primary-border-subtle);
+    outline: 0;
+    box-shadow: 0 0 1 .25rem rgba(var(--vz-primary-rgb),.25)
+}
+.form-control-lg2 {
+    min-height: calc(1.5em + 1.4rem + calc(var(--vz-border-width) * 2));
+    padding: .7rem 1.2rem;
+    font-size: 1.015625rem;
+    border-radius: var(--vz-border-radius-lg);
+
+
+    display: block;
+    width: 100%;  
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--vz-body-color); 
+    appearance: none;
+    background-color: var(--vz-input-bg-custom);
+    background-clip: padding-box;
+    border: var(--vz-border-width) solid var(--vz-input-border-custom);
+    border-radius: var(--vz-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px; 
+    color: #495057;
+}

@@ -1,0 +1,134 @@
+.fechainicio_depositos{
+    font-size: 11px ;
+}
+.fechafin_depositos{
+    font-size: 11px ;
+}
+.localreporte_depositos_custom{
+    font-size: 11px ;
+}
+.canalventasreportedepositos_custom{
+    font-size: 11px ;
+}
+.redcustomreporte_depositos{
+    font-size: 11px ;	
+}
+.btn_filtrar_reporte_depositos{
+	/*margin-right:27px ;*/
+    float: right ;
+}
+.reportes_depositos_datepicker {
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;
+    font-size: 11px ;
+}
+.btn_export_depositos_xlsx {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+    position: relative;
+    bottom: -13px ;
+}
+
+.btn_export_depositos_xls {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+    position: relative;
+    bottom: -13px ;
+}
+
+.btn_export_depositos_xlsx:hover {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+}
+
+.btn_export_depositos_xls:hover {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+}
+.tabla_reportes_depositos tr:hover{
+    background-color: #ffff99 ;
+}
+.tabla_reportes_depositos tbody tr:nth-child(odd) {
+   background-color: #F9F9F9 ;
+}
+#tabla_reportes_depositos td{
+    border: 1px solid #ddd ;
+    font-size:12px ;
+    padding-left: 5px ;
+    padding-right: 5px ;   
+}
+#tabla_reportes_depositos th{
+    padding:5px ;  
+}
+.bancos_custom_text{
+    font-size: 11px ;
+}
+.sec_reportes_depositos_numero_movimiento{
+    text-align: right;
+}
+.sec_reportes_depositos_importe{
+    text-align: right;
+}
+.sec_reportes_depositos_color{
+    color:#fafafa ;
+    text-align: center;
+}
+.negative_number_depositos{
+    color:red ;
+}
+.total_reporte_depositos{
+    background-color: #C5E0B4 ;
+}
+#th_fecha_de_registro{
+ padding:5px 0px 0px 5px ;
+}
+#th_fecha_de_deposito{
+ padding:5px 0px 0px 5px ;
+}
+#th_deposito{
+ padding:5px 0px 0px 5px ;
+}
+#th_numero_de_cuenta{
+ padding:5px 0px 0px 5px ;
+}
+#th_N_de_transaccion_del_deposito{
+ padding:5px 0px 0px 5px ;
+}
+#th_monto_del_deposito{
+ padding:5px 0px 0px 5px ;
+}
+#tipo_de_transaccion{
+ padding:5px 0px 0px 5px ;    
+}
+#th_color{
+ padding:5px 0px 5px 5px ;     
+}

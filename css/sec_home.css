@@ -1,0 +1,155 @@
+.panel_usuarios_dashboard{
+    height:200px;
+}
+.contratos_por_canal_de_venta .card-box-inline .icon {
+    padding: 13px;
+}
+#chart-container_contratos_por_meses {
+/*    width:100%;
+    height:300px;
+    max-height:350px;
+    min-height:280px;*/
+}
+#chart-container_contrato_por_tipo{
+    width:100%;
+    height:300px; 
+    max-height:350px; 
+    min-height:280px;      
+}
+#chart-container_contratos_por_canal_de_venta{
+    width:100%;
+    height:300px;
+    max-height:350px;
+    min-height:280px;    
+}
+#chart-container_apostado_canal_de_venta_por_mes{
+    width:100%;
+    height:300px;
+    max-height:350px; 
+    min-height:280px;       
+}
+.div_hidden_text_tipo_de_contratos{
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: -13px;
+}
+.div_hidden_text_contrato_por_meses{
+    background-color: #fff;
+    position: relative;
+    float: left;
+    top: -20px;
+    width: 100%;
+    height: 18px;
+}
+.div_hidden_contratos_por_canal_de_venta{
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: -15px;    
+}
+.div_hidden_apostado_por_mes{
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: -15px;    
+}
+.raphael-group-1-background{
+	margin: 0px ;
+	padding:0px ;
+}
+.panel-body_tipos_contratos{
+	padding-left: 1px ;
+	padding-bottom:5px ;
+}
+.panel-body-meses_contratos{
+	padding-left: 1px ;
+	padding-bottom:5px ;	
+}
+.panel-body_total_apostado_ejecutivo_ventas_cdv{
+    padding-left: 0px ;
+    padding-right: 0px ;    
+    padding-bottom:0px ;    
+}
+.btn_consultar_tapostado_ejecutivo_ventas{
+    height: 32px ; 
+    font-size: 11px;
+    margin-right:0px;
+    position:relative;
+    right:-13px;
+}
+.treeview .fa-money:before{
+    color: #016D92;
+    height: 32px;     
+}
+.total_apostado_ejecutivo_ventas_cdv_datepicker_datepicker{
+    min-height: 32px; 
+    min-width:115px;
+    max-width:120px; 
+    font-size: 11px ;      
+}
+.resultados_total_apostado_por_mes_por_cdv{
+    font-size: 11px;
+}
+.resultado_asesor_total_apostado_mes_cdv{
+    font-size: 11px;
+}
+.resultado_cantidad_locales_registro_total_apostado_mes_cdv{
+    font-size: 11px;
+}
+.resultado_cantidad_cdv_registro_total_apostado_mes_cdv{
+    font-size: 11px;   
+}
+#asesor_ejecutivo_de_ventas{
+    font-size: 11px;
+}
+.resultado_cantidad_registro_total_apostado_mes_cdv{
+  color:#548919;  
+  margin-left:5px;
+  font-size: 11px;  
+}
+.total_apostado_mes_cdv_text{
+    font-size: 11px;
+}
+#treeview_total_apostado_por_mes_asesor .node-checked .badge {
+    color: #016D92;  
+    background-color: transparent; 
+}
+#treeview_total_apostado_por_mes_asesor .badge {
+    color: #189c73; 
+    background-color: transparent; 
+}
+#tbl_lista_clientes_paginate {
+    text-align: center;
+}
+#tbl_lista_clientes_info{
+    text-align: center;    
+}
+#tbl_lista_clientes thead th{
+    visibility:hidden;
+    display:none;
+}
+#tbl_lista_clientes th{
+    visibility:hidden;
+    display:none;    
+}
+#tbl_lista_clientes td{
+    border-top: 1px solid #ddd;
+    padding:10px 0px;
+}
+#tbl_lista_clientes_paginate{
+    font-size: 11px;
+}
+#input_text-total_apostado_ejecutivo_ventas_cdv_datepicker_fecha{
+    border:1px solid #34495e;;
+}
+#treeview_total_apostado_por_mes_asesor{
+    height:330px;
+    overflow-y: scroll;
+}
+#tbl_lista_clientes_paginate{
+    font-size: 11px !important;
+}

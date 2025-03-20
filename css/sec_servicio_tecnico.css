@@ -1,0 +1,67 @@
+.st_derivacion_contenedor {
+    padding: 8px 5px;
+    display: inline-flex;
+    gap: 5px;
+    /* column-gap:4px;*/
+    /* grid-template-columns: repeat(auto-fit,minmax(190px,1fr));*/
+    /* grid-auto-flow: column;*/
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans,
+        Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    background-color: rgb(134, 53, 38);
+    overflow-x: scroll;
+}
+.st_card {
+    width: 223px !important;
+    background-color: rgb(235, 236, 240);
+    padding: 5px;
+}
+.st_card_cabecera {
+    display: block;
+}
+
+.st_card_list_contenedor {
+    display: grid;
+    row-gap: 8px;
+}
+.st_card_list_fila {
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.st_card_list_fila:hover {
+    background-color: rgb(255, 229, 229);
+    border-radius: 5px;
+}
+
+.st_card_cabecera_usu {
+    font-weight: 600;
+    padding: 8px 5px;
+    display: inline-block;
+}
+.st_card_cabecera_qty {
+    padding: 8px 5px;
+    float: right;
+}
+/* .st_card_list_state {
+} */
+.st_card_list_state_bar {
+    padding: 4px;
+    width: 46px;
+    background: coral;
+    border-radius: 100vw;
+    display: inline-block;
+}
+.st_card_list_local {
+    cursor: pointer;
+}
+
+.st_card_list_buttons {
+    display: inline-block;
+    font-size: 13px;
+}
+.st_card_list_buttons > span {
+    padding-left: 5px;
+}

@@ -1,0 +1,264 @@
+.heightStatic{
+  height: 70vh;
+  width: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tbl_reporte_resumen_turno_wrap, .tbl_reporte_resumen_dia_wrap{
+    margin-left: 3rem;
+}
+
+
+#tabla_reportes_resumen_dia th{
+    border-right:1px solid #fafafa ;
+    border-bottom: 1px solid #fafafa ;
+    text-align:center ;
+    font-family: "proximaNovaLight" ;
+}
+#tabla_reportes_resumen_dia td{
+    border-right:1px solid #ddd ;
+    border-left:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;
+    padding-left: 5px ;
+    padding-right: 5px ;
+}
+.btn_expand_collapse_rows{
+    background-color: transparent ;
+    border:1px solid transparent ;
+    color: #8E44AD ;
+
+}
+#th_boton{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_anio{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_mes{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_dia{
+    border-right:1px solid #fafafa ;
+    border-bottom: 1px solid #fafafa ;
+    /*background-color: #B4C7E6 ;*/
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_canales_de_venta{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_local{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_tipo_de_administracion{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_tipo_de_punto{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_qty{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_apostado{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_net_win{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_hold{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_depositado_web{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_dinero_retitado_web{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+#th_caja_web{
+    border-right:1px solid #fafafa ;
+    text-align:center ;
+    padding:5px 5px 3px 5px ;
+}
+.sec_reportes_resumen_dia_anio{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_mes{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_dia{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_cv{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_local{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_tipo_admin{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_tipo_punto{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_qty{
+    text-align: left ;
+    padding-left: 5px ;
+}
+.sec_reportes_resumen_dia_local_apostado{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_net_win{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_hold{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_dep_web{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_ret_web{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.sec_reportes_resumen_dia_caja_web{
+    text-align: right ;
+    padding-right: 5px ;
+}
+.fechainicio_resumen_dia{
+    font-size: 11px ;
+}
+.fechafin_resumen_dia{
+    font-size: 11px ;
+}
+.localreporte_resumen_por_dia_custom{
+    font-size: 11px ;
+}
+.canalventasreporteresumen_por_dia_custom{
+    font-size: 11px ;
+}
+.redcustomreporte_resumen_por_dia{
+    font-size: 11px ;
+}
+.btn_filtrar_reporte_resumen_dia{
+	margin-top:23px ;
+}
+.reportes_resumen_dia_datepicker {
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;
+    font-size: 11px ;
+}
+.btn_export_resumen_dia_xlsx {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;
+	border-bottom-right-radius:0px ;
+    font-size: 10px ;
+}
+
+.btn_export_resumen_dia_xls {
+	border:none ;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+
+}
+
+.btn_export_resumen_dia_xlsx:hover {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;
+	border-bottom-right-radius:0px ;
+    font-size: 10px ;
+}
+
+.btn_export_resumen_dia_xls:hover {
+	border:none ;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+
+}
+.total_canal_de_venta_row{
+    background-color:#bdd7ee ;
+}
+.total_por_dia_row{
+    background-color: #C5E0B4 ;
+}
+.rows_expanded_resumen_dia{
+    display:block;
+}
+.rows_hidden_resumen_dia{
+    display: none;
+}
+.sec_reportes_resumen_dia_text{
+    text-align: left ;
+}
+.sec_reportes_resumen_dia_number{
+    text-align: right ;
+}
+.total_por_mes_row{
+    background-color:#ffe699 ;
+}
+.total_por_anio_row{
+    background-color: #B4C7E6 ;
+}
+.sec_reportes_resumen_dia_color_dia{
+    background-color: #B4C7E6 ;
+}

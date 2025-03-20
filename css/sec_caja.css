@@ -1,0 +1,239 @@
+.table.cajatable {
+	margin-bottom: 0px;
+}
+
+.panel_datos_sistema table tbody td {
+	padding: 1px 5px;
+}
+
+.panel_datos_sistema table tfoot th {
+	border-top: 1px solid #f00;
+}
+
+.panel_datos_fisicos table tbody td {
+	padding: 1px 5px;
+}
+
+.fixed {
+	top: 0;
+	position: fixed;
+	width: auto;
+	display: none;
+	border: none;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.checkbox label:after {
+	content: '' !important;
+	display: table !important;
+	clear: both !important;
+}
+
+.fixMargin {
+	margin-left: -31px !important;
+}
+
+.checkbox {
+	margin-left: 0px !important;
+}
+
+.checkbox .cr {
+	position: relative !important;
+	display: inline-block !important;
+	border: 1px solid #a9a9a9 !important;
+	border-radius: 0.25em !important;
+	width: 1.3em !important;
+	height: 1.3em !important;
+}
+
+.checkbox .cr .cr-icon {
+	position: absolute !important;
+	font-size: 0.8em !important;
+	line-height: 0 !important;
+	top: 50% !important;
+	left: 15% !important;
+}
+
+.checkbox label input[type='checkbox'] {
+	display: none !important;
+}
+
+.checkbox label input[type='checkbox'] + .cr > .cr-icon {
+	opacity: 0 !important;
+}
+
+.checkbox label input[type='checkbox']:checked + .cr > .cr-icon {
+	opacity: 1 !important;
+}
+
+.checkbox label input[type='checkbox']:disabled + .cr {
+	opacity: 0.5 !important;
+}
+
+.cashpoint_row {
+	border: 1px solid red;
+}
+
+/*********************************************************************/
+/*********************************************************************/
+.c_observacion_ci {
+	/*background: purple;*/
+	padding: 0px 25px 0px 20px;
+	margin: 10px 0px 10px 0px;
+}
+
+.c_observacion_ci ._header {
+	/*background: yellow;*/
+	position: relative;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.c_observacion_ci ._header ._titulo {
+	/*background: blue;*/
+	position: absolute;
+	height: 30px;
+	left: 0px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.c_observacion_ci ._header ._icono {
+	background: #395168;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 35px;
+	line-height: 30px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.5s;
+	color: #fff;
+	border-radius: 2px;
+}
+
+.c_observacion_ci ._header ._icono:hover {
+	background: #659ce0;
+	transition: all 0.5s;
+}
+
+.c_observacion_ci ._header ._btn_agregar {
+	background: #1ab686;
+	position: absolute;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	transition: all 0.5s;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.c_observacion_ci ._header ._btn_agregar:hover {
+	background: #189c73;
+	transition: all 0.5s;
+}
+
+.c_observacion_ci ._body ._lista ul {
+	padding: 0px;
+}
+
+.c_observacion_ci ._body ._lista ul li {
+	/*background: red;*/
+	position: relative;
+	height: 35px;
+	list-style: none;
+	margin-top: 5px;
+	border-bottom: 1px dotted #ddf;
+}
+
+.c_observacion_ci ._body ._lista ul li ._titulo {
+	position: absolute;
+	left: 0px;
+	width: calc(100% - 70px);
+	height: 30px;
+	line-height: 30px;
+	transition: all 0.5s;
+}
+
+.c_observacion_ci ._body ._lista ul li ._titulo ._count {
+	background: #ddf;
+	width: 30px;
+	padding: 2px 5px;
+	margin-right: 10px;
+	border-radius: 2px;
+}
+
+.c_observacion_ci ._body ._lista ul li ._icono {
+	/*background: yellow;*/
+	position: absolute;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	color: #395168;
+	transition: all 0.5s;
+}
+
+.c_observacion_ci ._body ._lista ul li ._icono:hover {
+	color: #659ce0;
+}
+
+/**************/
+/**************/
+.c_btn_add_oci {
+	/*background: red;*/
+}
+
+.c_btn_add_oci ._add_oci {
+	background: #0085d1;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	cursor: pointer;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.5s;
+}
+
+.c_btn_add_oci ._add_oci:hover {
+	background: #509edb;
+	transition: all 0.5s;
+}
+
+.c_btn_add_oci ._description_oci {
+	text-align: center;
+	cursor: pointer;
+}
+
+.c_btn_add_oci ._description_oci:hover {
+}
+
+.sweet-alert.sweet_alert_wide.showSweetAlert.visible {
+	width: 50%;
+	margin: auto;
+	transform: translateX(-50%);
+}
+
+.table-res thead tr th {
+	white-space: break-spaces;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #547191;
+	color: white;
+}
+
+.table-res tbody tr td:last-child {
+	text-align: center;
+}

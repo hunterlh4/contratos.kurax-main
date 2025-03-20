@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "opensansregular";
+  src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "proximaNovaLight";
+  src: url(../fonts/proximanova/ProximaNova-Light.f5ecce56.woff);
+}
+@font-face {
+  font-family: "proximaNovaRegular";
+  src: url(../fonts/proximanova/ProximaNova-Regular.b105baf2.woff);
+}
+#body_reportes_tickets_style{
+  overflow-x:hidden;
+  -webkit-overflow-scrolling: touch;
+}
+#collapseOne input:hover, select:hover{
+  border-color: #34495e;
+}
+
+#collapseOne label:not(.label_icono_calendar_datepicker) {
+  font-family: "proximaNovaRegular";
+  font-weight: 500 ;
+}
+
+#accordion_tickets .panel-heading .titulo_panel{
+  color:#fff;
+  font-size:12px;
+}
+#collapseOne .input-group-addon:not(.input-group-addon-rounded) {
+  padding: 3px 8px 3px 8px;
+}
+#collapseTwo .panel-body-tickets{
+  padding:10px;
+}
+.container_tickets{
+  margin-right: 5px;
+  margin-left:5px;
+}
+#collapseOne .panel-body {
+  padding: 15px 0px 15px 0px;
+}
+#collapseOne .panel-heading-filtros_tickets a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\e113";
+  float: right;
+  color: grey;
+}
+#collapseOne #collapseTwo .panel .panel-heading
+.panel-title,
+.panel-default .panel-heading
+.panel-title, .panel
+.panel-heading .panel-title a,
+.panel-default .panel-heading
+.panel-title a {
+  color: #fff;
+  font-size: 12px;
+}
+#collapseTwo .panel-heading-tabla_tickets a.collapsed:after {
+  content:"\e114";
+}
+#panel1 .bc-white-btn {
+  font-family: "proximaNovaRegular";
+  background-color: #fff;
+  color: #8a93a3;
+  border-radius: 0px;
+  padding: 7px 32px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+#panel1 .bc-green-btn {
+  font-family: "proximaNovaRegular";
+  color: #fff;
+  background: #659ce0;
+  border-color: #659ce0;
+  border-radius: 0px;
+  padding: 7px 38px;
+}
+#panel1 .bc-green-btn:hover {
+  background: #5893DB;
+  border-color: #659ce0;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 38px;
+}
+#panel1 .titulo_oculto{
+  visibility: hidden;
+}
+#collapseOne .ocultar_mostrar_timepicker{
+  display:none;
+
+}
+#collapseOne .group_bonus_set{
+  padding-top: 35px;
+}
+#collapseOne .radio_buton_bonus_bet{
+  margin-left:6px;
+  position: relative;
+  top: -3px;
+}
+#collapseOne .container_buttons .btn_cancelar{
+  margin-top:25px;
+  outline:none;
+  display:inline-block;
+
+}
+#collapseOne .container_buttons .btn_aplicar{
+  outline: none ;
+  display:inline-block;
+  margin-right:7px;
+
+}
+
+#collapseOne .container_buttons{
+  float: right;
+  position: relative;
+  right: -9px;
+}
+
+#collapseOne .panel-body {
+  margin-bottom: 10px ;
+}
+#collapseOne input{
+  outline:none ;
+}
+#collapseOne select{
+  outline:none ;
+}
+#collapseOne .bootstrap-select .dropdown-toggle:focus {
+  outline: none ;
+}
+#collapseOne .bootstrap-select.btn-group .dropdown-menu li a {
+  outline: none;
+}
+#accordion_tickets .well{
+  border-radius:0px;
+  border:none;
+  background-color:#fff;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+#accordion_tickets .panel-default>.panel-heading {
+  border-radius: 0px;
+}
+
+#collapseOne .form-group.col-xsm-2.col-sm-2.col-md-2.col-lg-2 {
+  margin: 0px;
+  padding: 6px 4px 4px 6px;
+
+}
+
+#collapseOne .form-group {
+  margin: 0px;
+
+}
+#collapseOne .radio_paid_date{
+  margin-top:16px;
+}
+#collapseOne .columa_sport_book_group{
+  background-color: rgb(144, 238, 144);
+}
+#datatable_reporte_tickets thead th{
+  z-index:12 ;
+  font-size: 13px ;
+}
+#datatable_reporte_tickets tfoot th{
+  background-color:#fff;
+  font-size: 13px;
+}
+#datatable_reporte_tickets tbody td{
+  font-size: 12px;
+  font-family: "opensansregular";
+}
+
+#datatable_reporte_tickets table.dataTable {
+  margin-top: -1px;
+}
+.dataTables_length{
+  width:230px;
+  float:left;
+}
+#datatable_reporte_tickets div.dataTables_wrapper div.dataTables_filter {
+	text-align: right;
+	width: 200px ;
+	float: right;
+	margin-right: 25px;
+}
+#datatable_reporte_tickets a.dt-button.btn_clear_search {
+	float:right;
+}
+#datatable_reporte_tickets .columa_numeros{
+	text-align: right;
+}
+#datatable_reporte_tickets td.details-control {
+	background: url('../images/details_open.png') no-repeat center center;
+	cursor: pointer;
+}
+#datatable_reporte_tickets tr.shown td.details-control {
+	background: url('../images/details_close.png') no-repeat center center;
+}
+
+/*timepicker*/
+#collapseOne .bootstrap-timepicker-widget.dropdown-menu.timepicker-orient-left.timepicker-orient-top.open{
+	top:185px;
+	border: 1px solid transparent;
+	box-shadow: none;
+	background-color:transparent;
+	padding: 0px;
+	margin: 0px;
+	height:35px;
+}
+#collapseOne .bootstrap-timepicker-widget table td {
+	text-align: left ;
+	height: 15px;
+	margin: 0 ;
+	padding: 0px ;
+}
+#collapseOne .bootstrap-timepicker-widget.timepicker-orient-top:before {
+	visibility: hidden ;
+}
+#collapseOne .bootstrap-timepicker-widget table td input {
+	width: 50px;
+	height: 34px;
+	border-radius: 0px;
+}
+#collapseOne .bootstrap-timepicker-widget table td span {
+	left: 18px;
+}
+#collapseOne .bootstrap-timepicker-widget table td a {
+	padding: 0px;
+
+}
+#collapseOne .bootstrap-select .dropdown-toggle:focus {
+	outline:none;
+}
+#collapseOne .bootstrap-timepicker-widget table td a:hover {
+	background-color: transparent ;
+	border-color: transparent ;
+}
+#panel2 .titulo_panel{
+	font-size: 14px;
+	font-weight: 500;
+}
+#collapseOne .bootstrap-timepicker-widget.dropdown-menu:after {
+	border-bottom: 6px solid transparent;
+}
+#collapseOne .input-group {
+	min-width: 100%;
+}
+#collapseOne .form-control {
+	height:33px;
+}
+#collapseOne .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+	border: 1px solid #34495e;
+}
+#collapseOne, #collapseTwo{
+	z-index:200;
+}
+.stake_between_pen_uno{
+	width:47% !important;
+	float:left !important;
+}
+.stake_between_pen_dos{
+	width:47% !important;
+	float:right !important;
+}
+.winning_between_pen_uno{
+	width:47% !important;
+	float:left !important;
+}
+.winning_between_pen_dos{
+	width:47% !important;
+	float:right !important;
+}
+.price_between_uno{
+	width:47% !important;
+	float:left !important;
+}
+.price_between_dos{
+	width:47% !important;
+	float:right !important;
+}
+.busqueda_tabla_reporte_tickets{
+  color:#333 ;
+  font-weight: 100 ;
+}
+#collapseOne .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    height: 32.5px ;
+}
+
+
+#collapseOne .select2-container--default .select2-selection--single {
+  border: 1px solid #34495e ;
+  height: 32.5px;
+  color: #8e8e93;
+  font-size: 12px;
+  border-radius: 0px;
+}
+#collapseOne .select2-container--default .select2-results>.select2-results__options {
+    width: 103%;
+}
+#collapseOne .select2-dropdown .select2-dropdown--above{
+    width: 103%;
+}
+#collapseOne .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #8e8e93;
+}

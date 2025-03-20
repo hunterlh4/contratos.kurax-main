@@ -1,0 +1,16 @@
+#body_recaudacion_pagos_manuales_style{
+	overflow-x:hidden !important;
+}
+#recaudacion_modificar_pago_manual_modal{
+    z-index: 1060;
+}
+#recaudacion_add_pago_manual_modal .modal-dialog{
+	width: 450px;
+}
+#recaudacion_add_pago_manual_modal .modal-dialog label{
+	padding-top: 3px;
+}
+
+.nose{
+	width: 100%;
+}

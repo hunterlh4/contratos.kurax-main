@@ -1,0 +1,68 @@
+
+/*desktop*/
+@media (min-width:1200px){
+        .titulosec_contrato{
+            font-size:20px !important;
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+        }
+
+        .btnelegircolumnassec_contratos{
+            margin-top:0px !important;
+        }
+}
+/*desktop pequeño o una tablet*/
+@media (min-width:768px) and (max-width:979px){
+
+        .titulosec_contrato{
+            font-size:20px !important;
+            margin-top: 15px !important;            
+            margin-bottom: 15px !important;
+        }
+
+        .btnelegircolumnassec_contratos{
+            margin-top:0px !important;
+        }
+}
+
+/*tablet o smartphone*/
+@media (max-width:767px){
+        table.dataTable tfoot th, table.dataTable tfoot td {
+            font-size: 12px !important;            
+        }
+        table.dataTable thead th, table.dataTable tfoot th {
+            font-size: 12px !important;
+        }
+
+        .titulosec_contrato{
+            font-size:20px !important;
+            margin-top: 15px !important;            
+            margin-bottom: 15px !important;
+        }
+
+        .btnelegircolumnassec_contratos{
+            margin-top:0px !important;
+        }
+} 
+
+/*smartphone*/
+@media (max-width:480px){
+        table.dataTable tfoot th, table.dataTable tfoot td {
+            font-size: 10px !important;            
+        }
+        table.dataTable thead th, table.dataTable tfoot th {
+            font-size: 10px !important;
+        }
+
+        .titulosec_contrato{
+            font-size:20px !important;
+            margin-top: 15px !important;            
+            margin-bottom: 15px !important;
+        }
+
+        .btnelegircolumnassec_contratos{
+            margin-top:12px !important;
+        }
+
+
+}

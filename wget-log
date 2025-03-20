@@ -1,0 +1,16 @@
+--2019-04-01 21:27:14--  https://takeout.google.com/settings/takeout/download?j=8aec565c-5da8-4e88-a519-44748aff00a4
+Resolving takeout.google.com (takeout.google.com)... 74.125.141.100, 74.125.141.138, 74.125.141.113, ...
+Connecting to takeout.google.com (takeout.google.com)|74.125.141.100|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://takeout.google.com/settings/takeout/download?j%3D8aec565c-5da8-4e88-a519-44748aff00a4&followup=https://takeout.google.com/settings/takeout/download?j%3D8aec565c-5da8-4e88-a519-44748aff00a4&rart=ANgoxcc_9uBwsxXkTtUDrIZ_M9efu2lKrwJ14l91F9H9YRiXvTjbeABeJUfnZHzxcYprq0_zbKAqQgbS81V7-4xu_KQ4iGVzaQ [following]
+--2019-04-01 21:27:14--  https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://takeout.google.com/settings/takeout/download?j%3D8aec565c-5da8-4e88-a519-44748aff00a4&followup=https://takeout.google.com/settings/takeout/download?j%3D8aec565c-5da8-4e88-a519-44748aff00a4&rart=ANgoxcc_9uBwsxXkTtUDrIZ_M9efu2lKrwJ14l91F9H9YRiXvTjbeABeJUfnZHzxcYprq0_zbKAqQgbS81V7-4xu_KQ4iGVzaQ
+Resolving accounts.google.com (accounts.google.com)... 74.125.141.84, 2607:f8b0:400c:c06::54
+Connecting to accounts.google.com (accounts.google.com)|74.125.141.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘download?j=8aec565c-5da8-4e88-a519-44748aff00a4’
+
+download?j=8aec565c-5da8-4e88-a519-44748aff00a4          [<=>                                                                                                                   ]       0  --.-KB/s               download?j=8aec565c-5da8-4e88-a519-44748aff00a4          [ <=>                                                                                                                  ]  55.80K  --.-KB/s    in 0.003s  
+
+2019-04-01 21:27:14 (20.7 MB/s) - ‘download?j=8aec565c-5da8-4e88-a519-44748aff00a4’ saved [57142]
+

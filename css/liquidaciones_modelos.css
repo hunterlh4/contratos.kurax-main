@@ -1,0 +1,139 @@
+.dropdown-menu li a {
+    color: #5b5c5f;
+    background: #f5f7f9;
+    font-size: 11px !important;
+    padding: 0px 0px 3px 10px !important;
+}						
+.dt-button-collection.dropdown-menu{
+    top: 265px !important;
+	left: 433.734px !important;
+	}
+
+table.dataTable thead .sorting:after {
+	display:none !important;
+}
+table.dataTable thead .sorting_asc:after {
+	display:none !important	;
+}
+.container_filtros_fechas_horas_locales_canales_ventas{
+	margin-top:10px !important;
+	margin-bottom:5px !important;
+}
+
+.wide{
+	padding-top:0px !important;
+	margin-top:5px !important;	
+}
+
+.form-control{
+	height: 25px !important;
+}
+.form-group {
+    margin-bottom: 5px !important;
+}
+.recaudacion_generar_liquidaciones_btn{
+    font-size:12px !important;
+}
+
+.table_to_xls_btn{
+    font-size:12px !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #333 !important;
+}
+.dataTables_length{
+    float:left !important; 
+}
+.dt-buttons.btn-group{
+    margin-left: 20px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    overflow-y: scroll !important;
+    max-height: 75px !important;
+    cursor:pointer !important;
+    border-color: #34495e !important;    
+}
+.navtabcustom{
+    font-family: "proximaNovaLight" !important;
+    font-size:11px !important;
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+   color:#D3DBDE !important;
+    font-family: "proximaNovaLight" !important;   
+}
+
+.dataTables_scrollHead{
+	border-top: 1px solid #eee !important;
+}
+.datepicker .table-condensed{
+	width:275px !important; 
+    font-family: "proximaNovaLight" !important;
+}
+.btn-warning {
+    font-size: 12px !important;
+    font-family: "proximaNovaLight" !important;    
+}
+
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child) {
+    font-size: 11px !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    font-size: 11px !important;
+}
+.select2-container--default .select2-results>.select2-results__options {
+    font-size: 11px !important;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    font-size: 11px !important;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    height: 0px !important;
+    padding: 2px 5px !important;
+}
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    font-size: 11px !important;
+}
+.pagination li.active a, .pagination li.active span {
+    font-size: 11px !important;
+}
+.pagination>li>a, .pagination>li>span {
+    font-size: 11px !important;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    float: right !important ;
+}
+div.dataTables_wrapper div.dataTables_info {
+    float: left !important;
+}
+/*						
+table.dataTable thead .sorting_asc:after {
+    top: -7px !important;
+}
+table.dataTable thead .sorting:after {
+    top: -7px !important;
+}*/
+table.dataTable thead .sorting_desc:after {
+    top: -7px !important;
+}
+th { 
+    font-size: 9px !important;
+    color:#333 !important; 
+}
+td { 
+    font-size: 11px !important;
+}
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important; 
+}
+table.dataTable thead .sorting_desc:after {
+	visibility: hidden !important;
+}

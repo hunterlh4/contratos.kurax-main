@@ -1,0 +1,88 @@
+/* Estilos generales */
+.panel {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.panel-heading {
+    background: #f8f9fa;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 6px 6px 0 0;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+/* Inputs y Selects */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.form-control:focus {
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(99, 102, 241, 0.5);
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-info {
+    background-color: #6366f1;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #4f46e5;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-9 {
+        width: 100%;
+    }
+}

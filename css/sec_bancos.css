@@ -1,0 +1,85 @@
+.sec_bancos_copiarButton {
+    border-color: #1c84c6;
+    background-color: #1c84c6;
+    color: #fafafa;
+    padding: 5px 10px 5px 10px;
+    margin: 1px;
+}
+
+.sec_bancos_copiarButton:hover {
+    border-color: #6fadd4;
+    background-color: #6fadd4;
+    color: #fafafa;
+}
+
+.sec_bancos_csvButton {
+    border-color: #c49f47;
+    color: #fafafa;
+    background-color: #c49f47;
+    padding: 5px 10px 5px 10px;
+    margin: 1px;
+}
+.sec_bancos_csvButton:hover {
+    border-color: #d4ba80;
+    color: #fafafa;
+    background-color: #d4ba80;
+}
+.sec_bancos_excelButton {
+    border-color: #8e44ad;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 5px 10px 5px 10px;
+    margin: 1px;
+}
+.sec_bancos_excelButton:hover {
+    border-color: #af67cd;
+    color: #fafafa;
+    background: #af67cd;
+}
+.sec_bancos_visibilidadButton {
+    background: #c49f47;
+    border-color: #c49f47;
+    color: #fafafa;
+    padding: 5px 10px 5px 10px;
+    margin: 1px;
+}
+.sec_bancos_visibilidadButton:hover {
+    background: #d2b265;
+    border-color: #d2b265;
+    color: #fafafa;
+}
+#bancos_list_paginate {
+    float: right;
+}
+#bancos_list_info {
+    float: left;
+}
+#bancos_list_filter {
+    float: right;
+    margin-top: 5px;
+}
+#bancos_list_length {
+    margin-top: 5px;
+}
+#bancos_list_wrapper .btn-group {
+    margin-top: 8px;
+}
+#datos_de_bancos {
+    margin-top: 15px;
+}
+#datos_de_bancos .minicolors-theme-bootstrap .minicolors-swatch {
+    z-index: 2;
+    top: 1px;
+    right: 1px;
+    width: 41px;
+    height: 26px;
+    border-radius: 0px;
+    border-left: 1px solid #34495e;
+}
+
+.color_hexadecimal_bancos {
+    padding: 10px;
+    height: 100%;
+    border-radius: 1px;
+    border: 2px solid #ddd;
+}

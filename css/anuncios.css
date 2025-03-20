@@ -1,0 +1,22 @@
+.anuncio_holder{
+	position: fixed;
+	top: -5px;
+	width: 500px;
+	/*height: 150px;*/
+	left: 50%;
+	margin-left: -255px;
+	z-index: 99999999999999;
+	background-color: #f00;
+	padding: 10px 5px 5px 5px;
+	box-shadow: 0 1px 5px 0 #000000;
+	border-radius: 5px;
+	color: #ff0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	line-height: 13px;
+}
+.anuncio_popup{
+	display: none;
+	visibility: hidden;
+}

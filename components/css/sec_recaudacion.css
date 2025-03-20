@@ -1,0 +1,72 @@
+.fechainiciocustom {
+	font-weight: 100 !important;
+	font-size: 12px !important;
+	padding-top: 7px !important;
+}
+.horainiciocustom {
+	font-weight: 100 !important;
+	font-size: 12px !important;
+	padding-top: 7px !important;
+}
+.fechafincustom {
+	font-weight: 100 !important;
+	font-size: 12px !important;
+	padding-top: 7px !important;
+}
+
+.horafincustom {
+	font-weight: 100 !important;
+	font-size: 12px !important;
+	padding-top: 7px !important;
+}
+.iniciocustom {
+	font-weight: 600 !important;
+}
+.fincustom {
+	font-weight: 600 !important;
+}
+.serviciocustom {
+	font-weight: 600 !important;
+}
+
+.productocustom {
+	font-weight: 600 !important;
+}
+.localcustom {
+	font-weight: 600 !important;
+}
+.canalventascustom {
+	font-weight: 600 !important;
+}
+.export_table_holder {
+	margin-top: 17px;
+}
+
+.navtabcustom {
+	padding-bottom: 12px !important;
+	padding-top: 5px !important;
+}
+
+.not-active {
+	pointer-events: none;
+	cursor: default;
+	color: #d3dbde !important;
+}
+
+.divfechafincustom {
+	padding-bottom: 15px;
+}
+
+.divfechainiciocustom {
+	padding-bottom: 15px;
+}
+
+.filtarrecaudacion {
+	background-image: url('/img/sec_recaudacion/filtrarrecaudacion.png');
+	margin-top: 1px;
+	width: 48px;
+	height: 48px;
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+}

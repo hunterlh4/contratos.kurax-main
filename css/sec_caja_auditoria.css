@@ -1,0 +1,29 @@
+.tablaHeight {
+    /* height: 90vh; */
+    width: 100%;
+    /* overflow-y: scroll; */
+    /* position: relative; */
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+.panel-body.tablaHeight {
+    padding: 0px;
+}
+
+._fixed {
+    background: #fff;
+    z-index: 1;
+}
+
+.btn_export_caja_auditoria {
+    margin: 0.5rem;
+}
+/* TODO: fix this styles => work with reload */
+@media (min-width: 768px) {
+    .tablaHeight {
+        width: 100%;
+        overflow-x: scroll;
+        position: relative;
+        -webkit-overflow-scrolling: touch;
+    }
+}

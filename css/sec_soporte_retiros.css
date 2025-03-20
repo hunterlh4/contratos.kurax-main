@@ -1,0 +1,164 @@
+.modal_soporte{
+    overflow: scroll;
+}
+
+.modal_soporte::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.soporte_retiros .card-box-inline {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    height: 5em !important;
+    color: #fff;
+    }
+
+.soporte_retiros .card-box-inline .value {
+        display: inline-block;
+        position: absolute;
+        top: inherit;
+        right: 15px;
+        font-size: 18px;
+        bottom: 2px;
+    }
+
+.soporte_retiros .card-box-inline .value.date{
+    font-size: 16px;
+    line-height: 1;
+    text-align: right;
+    width: 85%;
+}
+
+.soporte_retiros .card-box-inline .icon {
+        padding: 26px 16px;
+    }
+
+.soporte_retiros .card-box-inline .text{
+    position: absolute;
+    top: 6px;
+}
+
+@media (max-width: 1366px){
+    .soporte_retiros .card-box-inline .value.date{
+        font-size: 13px;
+        width: 70%;
+    }
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-radius: 0;
+}
+.select2-selection--multiple {
+    max-height: 2.5rem !important;
+    overflow: auto !important;
+}
+
+.soporte-retiros.dataTable tbody td{
+    padding: 2px;
+}
+
+.soporte-retiros.dataTable th{
+    padding: 2px;
+}
+
+.soporte-retiros.dataTable th, .soporte-retiros.dataTable td {
+    white-space: nowrap;
+}
+.soporte-retiros.table.dataTable.table-condensed .sorting::after,
+.soporte-retiros.table.dataTable.table-condensed .sorting_asc::after,
+.soporte-retirostable.dataTable.table-condensed .sorting_desc::after{
+    top: -2px;
+}
+
+.compact-padding{
+    padding:0 !important;
+}
+
+.compact-margin{
+    margin:0 !important;
+}
+
+.item_filter{
+    padding: 0 5px;
+}
+
+#tblSoporteRetirosAPI_wrapper .btn-group{
+    padding-right: 1rem;
+}
+
+#tblSoporteRetirosAPI_wrapper .btn-group:nth-last-child(2) {
+    padding-right: 4rem;
+}
+
+#tblSoporteRetirosAPI_wrapper .col-sm-6:nth-child(2){
+    display: flex;
+    justify-content: end;
+    align-items: center
+}
+
+#tblSoporteRetirosAPI_wrapper .btn-group a {
+    margin-left: 1rem;
+}
+
+.btn-primary-border {
+    border-color: #2e6da4;
+    color: #24547d;
+    border-width: 2px;
+}
+
+.btn-info-border {
+    border-color: #5bc0de;
+    color: #46b8da;
+    border-width: 2px;
+}
+
+.btn-danger-border {
+    border-color: #d9534f;
+    color: #d43f3a;
+    border-width: 2px;
+}
+
+table.dataTable tbody tr.selected-row, table.dataTable tbody th.selected-row, table.dataTable tbody td.selected-row {
+    color: #1e1e1e;
+}
+
+table.dataTable tbody > tr.selected-row, table.dataTable tbody > tr > .selected-row {
+    background-color: #E3E6E4;
+}
+
+.fa-1x-2x{
+    font-size: 1.5em;
+}
+
+.bo-process-modal-body{
+    padding: 3rem;
+}
+
+.bo-process-modal-body textarea{
+    width: 100%;
+    border: 1px solid #888787;
+    padding: 2rem;
+}
+
+.bo-process-modal-body .progress{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.bo-process-modal-body .progress span{
+    color: #131313;
+}
+
+.bo-process-modal-body .progress > div{
+    padding: 2px;
+}
+
+.soporte-retiros.table > thead > tr > th > select {
+    display: block;
+}
+
+.soporte-retiros.table > tfoot > tr > th > select {
+    width: 100%;
+}

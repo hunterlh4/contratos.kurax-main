@@ -1,0 +1,86 @@
+#tbl_usuarios_wrapper .btn-group {
+    margin-top: 5px;
+}
+#tbl_usuarios_filter {
+    float: right;
+    margin-top: 5px;
+}
+#body_usuarios__style {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+#adm_mantenimiento_list th {
+    white-space: nowrap;
+    font-size: 10px;
+}
+#adm_mantenimiento_list td {
+    font-family: 'opensansregular';
+    padding: 0px 2px 0px 2px;
+    margin: 0px;
+}
+#tab_usuario {
+    font-family: 'proximaNovaRegular';
+    font-size: 11px;
+    text-shadow: none;
+}
+#datos_de_contrato {
+    font-family: 'proximaNovaRegular';
+    font-size: 11px;
+    text-shadow: none;
+}
+.checkbox,
+.radio {
+    margin-left: 26px;
+}
+.tab-content > .active {
+    margin-top: 20px;
+}
+ul li ul {
+    display: none;
+}
+
+#datos_2 label {
+    font-weight: 100;
+}
+
+.btn_permisos_ususarios .glyphicon {
+    color: #333;
+    background: #f5f5f5;
+}
+.btn_permisos_ususarios {
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+}
+#adm_mantenimiento_list .toggle.btn-xs {
+    min-width: 60px;
+}
+.btn_asignar_permisos_multiple_usuarios {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    min-width: 130px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+}
+.btn_asignar_permisos_multiple_usuarios:hover {
+    background-color: #43b1d1;
+}
+
+.checkbox_red,
+.checkAll_locales {
+    margin-left: 0 !important;
+}
+.container_table_locales_seleccionados,
+.container_table_menus_sub_menus_botones {
+    height: 700px;
+}
+
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width: 1200px;
+    }
+}

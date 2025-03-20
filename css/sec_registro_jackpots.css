@@ -1,0 +1,872 @@
+/* :focus{outline: none;} */
+
+/* .tbl_goldenRace_retail_jackpots *:focus{
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+}
+
+.tbl_goldenRace_retail_jackpots button:focus{
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+}
+
+.tbl_goldenRace_retail_jackpots .btn:focus{
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+    box-shadow: 0px 0px 3px 2px rgba(66,136,204,1);
+} */
+
+.tbl_goldenRace_retail_jackpots .no_pad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tbl_goldenRace_retail_jackpots .search_dni {
+    /* display: block; */
+    text-align: center;
+}
+
+.tbl_goldenRace_retail_jackpots .formulario {
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+.tbl_goldenRace_retail_jackpots .search_dni > p {
+    text-align: left;
+}
+
+.tbl_goldenRace_retail_jackpots .search_dni > div > input {
+    width: 100%;
+    display: inline-block;
+    padding: 4px 8px;
+    height: 34px;
+    /* border: 1px solid #c6c6c6; */
+    border-radius: 0px;
+    margin: 0;
+}
+
+.tbl_goldenRace_retail_jackpots .search_dni > button {
+    width: 15.2rem;
+    margin: 0rem;
+    display: inline-block;
+}
+
+.tbl_goldenRace_retail_jackpots .table {
+    margin: 0.5rem 0rem;
+    max-width: 100% !important;
+}
+
+.tbl_goldenRace_retail_jackpots .table > thead {
+    background: #659de0;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tbl_goldenRace_retail_jackpots .table #txtNroTicket {
+    text-transform: none;
+}
+
+.tbl_goldenRace_retail_jackpots .table > tbody {
+    text-transform: uppercase;
+}
+
+.tbl_goldenRace_retail_jackpots .table > tbody > tr:hover {
+    background: #cff5ff !important;
+}
+
+.tbl_goldenRace_retail_jackpots .content_data {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .content_data p {
+    margin: 0;
+}
+
+.tbl_goldenRace_retail_jackpots .jackpot_data {
+    margin-top: 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .jackpot_data input[type='text'] {
+    /* border: 1px solid #c6c6c6; */
+    border-radius: 0px;
+    height: 35px;
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.tbl_goldenRace_retail_jackpots input[type='text'] {
+    text-transform: uppercase;
+}
+
+.tbl_goldenRace_retail_jackpots .jackpot_data input[type='text'].txtTick {
+    /* width: 75%; */
+    vertical-align: top;
+}
+
+.tbl_goldenRace_retail_jackpots .jackpot_data input[type='checkbox'] {
+    margin-top: 0.4rem;
+}
+
+.tbl_goldenRace_retail_jackpots .jackpot_data select {
+    margin-top: 1rem;
+    height: 35px;
+    background: transparent;
+    border-radius: 5px;
+    width: 100%;
+    border-color: #c6c6c6;
+}
+
+.tbl_goldenRace_retail_jackpots .bton {
+    text-align: center;
+}
+
+.tbl_goldenRace_retail_jackpots .mgR {
+    margin-right: 5rem;
+}
+
+.tbl_goldenRace_retail_jackpots .select2-container .select2-selection--single {
+    height: 35px !important;
+}
+
+.tbl_goldenRace_retail_jackpots .fondoTicket {
+    background: #c6c6c6;
+}
+
+.tbl_goldenRace_retail_jackpots .pdate {
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket {
+    width: 300px;
+    /* height: 315px; */
+    padding: 1rem;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera > h6 {
+    font-weight: bold;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera > .date {
+    margin: 2rem 1rem;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera > .date > p {
+    margin: 0;
+    display: block;
+    text-align: left;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera > .datos {
+    width: 93%;
+    margin: 1rem;
+    text-align: left;
+}
+
+.tbl_goldenRace_retail_jackpots .ticket > .cabecera > .datos .monto {
+    font-size: 2rem;
+}
+
+.firmaTicket {
+    padding: 1rem;
+}
+
+.tbl_goldenRace_retail_jackpots .firmaTicket hr {
+    height: 1px;
+    background-color: #575759;
+}
+
+.tbl_goldenRace_retail_jackpots .section_type_doc {
+    margin: 0rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .section {
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .search_Ce {
+    margin: 1rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .search_Ps {
+    margin: 1rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .txtForm {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tbl_goldenRace_retail_jackpots .txtForm > input {
+    height: 35px;
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+}
+
+.tbl_goldenRace_retail_jackpots .d-none {
+    display: none !important;
+}
+
+.tbl_goldenRace_retail_jackpots .d-block {
+    display: block !important;
+}
+
+.tbl_goldenRace_retail_jackpots .consultaDoc {
+    margin: 0rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots .consultaD {
+    margin: 1rem 0rem;
+}
+
+.tbl_goldenRace_retail_jackpots #textoLegal {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 1rem 1rem;
+}
+
+/* .jackpot_data > table,thead,tbody,tr,td {
+    border:1px solid #c6c6c6;
+} */
+
+.tbl_goldenRace_retail_jackpots .tabla_jackpot > table > tbody > tr > td {
+    padding: 3px;
+}
+
+.table-client-data > tbody > tr > td {
+    padding: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots .tabla_jackpot > td > input {
+    margin: 0px;
+}
+
+.tbl_goldenRace_retail_jackpots .inputContCe > table > tbody > tr > td {
+    padding: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots .inputsContPs > table > tbody > tr > td {
+    padding: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots .listado {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.tbl_goldenRace_retail_jackpots .consultar {
+    width: 100%;
+}
+
+.tbl_goldenRace_retail_jackpots #autorizacion {
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal {
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .modal-body.subirFoto {
+    /*height: 45vh;*/
+    text-align: center;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .modal-body.subirFoto .imgFoto {
+    /* width: 100%; */
+    background: #e6e6e6;
+    margin: 1.5rem 0rem;
+    padding: 0rem 1.5rem;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .modal-body.subirFoto .imgFoto img {
+    max-height: 40vh;
+    max-width: 100%;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .modal-body.subirFoto
+    form
+    .miniaturas {
+    /* width: 100%; */
+    background: #efefef;
+    padding: 0.5rem;
+    min-height: 6rem;
+    -webkit-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .modal-body.subirFoto
+    form
+    .miniaturas
+    img {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .modal-body.subirFoto
+    form
+    .miniaturas
+    img:hover {
+    opacity: 0.5;
+    border: 2px solid #659de0;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+    box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .modal-body.subirFoto form .uploads {
+    margin-top: 4rem;
+}
+
+/*qrcode*/
+.tbl_goldenRace_retail_jackpots #fotoModal .modal-body.subirFoto #qrcode {
+    padding: 1.5rem;
+    width: 160px;
+    margin: 2.5rem auto;
+
+    -webkit-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal #showQR {
+    margin: 2rem;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal #showQR:hover {
+    background-color: #659de0 !important;
+    color: #fff;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .showQR {
+    display: none;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .close {
+    font-size: 16px !important;
+    opacity: 0.6 !important;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal button.close.but {
+    border: 1px solid #c6c6c6;
+    padding: 0.5rem;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .formUpload .uploads .inputfileDesk {
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .formUpload
+    .uploads
+    .inputfileDesk
+    + label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .formUpload
+    .uploads
+    .inputfileDesk
+    + label:hover {
+    background-color: #5bc0de;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .formUpload .uploadInput {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .formUpload .uploadInput.activate {
+    background-color: #2aa845 !important;
+}
+
+.tbl_goldenRace_retail_jackpots
+    #fotoModal
+    .formUpload
+    .uploadInput.desactivate {
+    background-color: #6c757d !important;
+}
+
+.tbl_goldenRace_retail_jackpots #fotoModal .formUpload .uploadInput:hover {
+    background-color: #5bc0de;
+}
+
+.tbl_goldenRace_retail_jackpots .textCenter {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.tbl_goldenRace_retail_jackpots form .btn_tipo_premio {
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.tbl_goldenRace_retail_jackpots form hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza label {
+    background-color: #dc3545;
+    padding: 0.3rem 0.3rem 0.3rem 3.3rem;
+    border-radius: 3px;
+    width: 290px;
+    color: #ffffff;
+    margin: 0.5rem 0rem 2rem;
+
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza label input {
+    box-shadow: none;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .ckAutoriza
+    label
+    input:checked
+    ~ .checkmark {
+    background-color: #39aa48;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza label .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .ckAutoriza
+    label
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+}
+
+.tbl_goldenRace_retail_jackpots form .ckAutoriza label .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* *-------------------------------------------------* */
+
+/* .tbl_goldenRace_retail_jackpots form .btnRadio label .checkmark{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.tbl_goldenRace_retail_jackpots form .btnRadio label input:checked ~ .checkmark{
+    background-color: #39aa48;
+}
+
+.tbl_goldenRace_retail_jackpots form .btnRadio label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.tbl_goldenRace_retail_jackpots form .btnRadio label input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.tbl_goldenRace_retail_jackpots form .btnRadio label .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} */
+
+/*  ------------------------------------------------------------------------------------ */
+
+.tbl_goldenRace_retail_jackpots .btnRadio {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 11rem;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio > label {
+    background-color: #659de0;
+    padding: 0.3rem 0.5rem 0.3rem 2.5rem;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio label input {
+    box-shadow: none;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio label .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio label .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio label input:checked ~ .checkmark {
+    background-color: #39aa48;
+}
+
+.tbl_goldenRace_retail_jackpots
+    .btnRadio
+    label
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+}
+
+.tbl_goldenRace_retail_jackpots .btnRadio label .checkmark:after {
+    left: 9px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.clicked {
+    /*background: #39AA48 !important;*/
+}
+
+.clicked_o,
+.clicked_t {
+    background: #39aa48 !important;
+}
+
+.clicked_no,
+.clicked_no > .checkmark {
+    background: #ec6b76 !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.tbl_goldenRace_retail_jackpots form .btn_tipo_premio .chekes {
+    border-radius: 4px;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.tbl_goldenRace_retail_jackpots form .btn_tipo_premio .chekes label {
+    background: #659de0;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: none;
+    color: #fff;
+    padding: 0.3rem 1rem 0.3rem 2.6rem;
+    border-radius: 4px;
+
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tbl_goldenRace_retail_jackpots form .btn_tipo_premio .chekes label input {
+    box-shadow: none;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.tbl_goldenRace_retail_jackpots form .btn_tipo_premio .chekes label .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .btn_tipo_premio
+    .chekes
+    label
+    .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .btn_tipo_premio
+    .chekes
+    label
+    input:checked
+    ~ .checkmark {
+    background-color: #39aa48;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .btn_tipo_premio
+    .chekes
+    label
+    input:checked
+    ~ .checkmark:after {
+    display: block;
+}
+
+.tbl_goldenRace_retail_jackpots
+    form
+    .btn_tipo_premio
+    .chekes
+    label
+    .checkmark:after {
+    left: 9px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* ----------------------------------------- Modal firma  ----------------------------------- */
+
+.tbl_goldenRace_retail_jackpots #firmaModal {
+    font-size: 17px;
+    text-align: center;
+    color: #262626;
+}
+
+.tbl_goldenRace_retail_jackpots #firmaModal .subirFirma .showQRfirma {
+    padding: 1.5rem;
+    width: 160px;
+    margin: 2.5rem auto;
+
+    -webkit-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+/* ----------------------------- EFECTO DE BORDER EN FOCUS DE INPUTS ---------------------------- */
+
+/* .foco{
+    position: relative;
+    padding: 0;
+} */
+.tbl_goldenRace_retail_jackpots input[type='text']:focus::placeholder {
+    color: #d93f0b;
+}
+
+.tbl_goldenRace_retail_jackpots .focoPadre {
+    width: 100%;
+    position: relative;
+}
+
+.tbl_goldenRace_retail_jackpots input[type='text'] {
+    border: 1px solid #c6c6c6;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    color: #262626;
+}
+
+.tbl_goldenRace_retail_jackpots input[type='text'] ~ .triki {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 50%;
+    border-bottom: 3px solid #d93f0b;
+    transition: 0.3s;
+}
+
+.tbl_goldenRace_retail_jackpots input[type='text']:focus {
+    /* #FAFFBD; */
+    background-color: #fff;
+    color: #262626;
+    font-weight: 800;
+    animation: shadow-pulses 1s infinite;
+}
+
+.tbl_goldenRace_retail_jackpots input[type='text']:focus ~ .triki {
+    width: 100%;
+    left: 1px;
+    transition: 0.3s;
+}
+
+@keyframes shadow-pulses {
+    0% {
+        box-shadow: 0 0 0 0px rgba(217, 63, 11, 0.6);
+    }
+    80% {
+        box-shadow: 0 0 0 10px rgba(217, 63, 11, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 15px rgba(217, 63, 11, 0);
+    }
+}
+
+.tbl_registro_premios {
+    width: 95%;
+    padding-top: 46rem;
+    margin: 0 auto;
+}
+
+.reg-client-data {
+    text-transform: initial;
+    width: 100%;
+    height: 35px;
+    padding: 4px 8px;
+    border-radius: 0px;
+    border: 1px solid #c6c6c6;
+    color: #262626;
+}
+
+@media only screen and (min-width: 1290px) {
+    .tbl_registro_premios {
+        width: 80%;
+    }
+}

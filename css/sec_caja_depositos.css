@@ -1,0 +1,14 @@
+.scrol{
+  overflow-x: scroll;
+  overflow-y: auto;
+  height: 70vh;
+  -webkit-overflow-scrolling: touch;
+}
+
+.row.depositos > div {
+  margin-bottom: 1rem;
+}
+
+.row.depositos > div > button,input{
+  margin-bottom: 0rem;
+}

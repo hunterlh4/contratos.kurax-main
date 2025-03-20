@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "opensansregular";
+  src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "proximaNovaLight";
+    src: url(../fonts/proximanova/ProximaNova-Light.f5ecce56.woff);
+}
+@font-face {
+    font-family: "proximaNovaRegular";
+    src: url(../fonts/proximanova/ProximaNova-Regular.b105baf2.woff);
+}
+.tabla_reportes tbody tr:nth-child(odd) {
+   background-color: #fafafa ;
+}
+.table-hover > tbody > tr.select-row:hover {
+    background-color: #bddef9;
+}
+.tabla_reportes, th, td {
+   border: 1px solid #ddd;
+   font-size:12px !important;
+}
+.oculto{
+	font-family: "opensansregular" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+.mostrado{
+	font-family: "opensansregular" !important;
+	text-align: right !important;
+	padding-right:5px !important;	
+}
+.nombre_canal_de_venta_reporte{
+	text-align: left !important;
+	padding-left:5px !important;
+}
+.nombre_local_reporte{
+	text-align: left !important;
+	padding-left:5px !important;
+}
+.mes_reporte{
+	font-family: "opensansregular" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+.periodo_reporte{
+	font-family: "opensansregular" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+.tercero_reporte{
+	text-align: left !important;
+	padding-left:5px !important;
+}
+.num_reporte{
+	font-family: "opensansregular" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+
+/**************/
+.cabecera_canal_venta{
+	font-family: "proximaNovaLight" !important;
+	text-align: left !important;
+	padding-left:5px !important;	
+}
+.cabecera_local{
+	font-family: "proximaNovaLight" !important;	
+	text-align: left !important;
+	padding-left:5px !important;
+}
+.cabecera_tipo{
+	font-family: "proximaNovaLight" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+.cabecera_tipo_administracion{
+	font-family: "proximaNovaLight" !important;
+	text-align: right !important;
+	padding-right:5px !important;
+}
+.cabecera_tipo_punto{
+	font-family: "proximaNovaLight" !important;	
+	text-align: left !important;
+	padding-left:5px !important;
+}
+.cabecera_qty{
+	font-family: "proximaNovaLight" !important;
+	text-align: right !important;
+	padding-right:5px !important;	
+}
+.etiqueta_total{
+	padding-left:5px !important;	
+}
+/***************/
+
+.cabecera_dinero_apostado{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;	
+	color:#333 !important;
+}
+.cabecera_premios_pagados_por_pagar{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;
+	color:#333 !important;		
+}
+.cabecera_premios_por_pagar{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;	
+	color:#333 !important;	
+}
+.cabecera_net_win_t{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;
+	color:#333 !important;		
+}
+.cabecera_hold{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;
+	color:#333 !important;		
+}
+.cabecera_tickets_emitidos{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;	
+	color:#333 !important;	
+}
+.cabecera_apuesta_por_ticket{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;
+	color:#333 !important;		
+}
+.cabecera_ticket_premiados{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;
+	color:#333 !important;		
+}
+.cabecera_dinero_depositado_web{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;	
+	color:#333 !important;	
+}
+.cabecera_dinero_retirado_web{
+	text-align: center !important;
+	font-family: "proximaNovaLight" !important;	
+	color:#333 !important;	
+}
+
+.tabla_sec_reporte_modelo_uno th{
+	font-size: 10px !important;
+	padding:0px !important;
+}
+.tabla_sec_reporte_modelo_uno td{
+	font-size: 10px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.cabecera_canal_venta{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;
+}
+.cabecera_local{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;
+}
+.cabecera_tipo_reporte_resultado_apuestas_resumen_2017{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;
+}
+.cabecera_tipo{
+	background-color: #618fd8 !important; 
+	color:#fafafa !important;
+}
+.cabecera_tipo_administracion{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;
+}
+.cabecera_tipo_punto{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;
+}
+.cabecera_qty{
+	background-color: #618fd8 !important;
+	color:#fafafa !important;	
+}
+
+.cabecera_anio{
+	background-color: #3777D9;
+	text-align: center;
+	color:#fff !important;	
+	font-weight:800 !important; 
+	font-size: 14px !important;
+}
+
+
+
+
+.cabecera_dinero_apostado{
+	background-color: #9BCB91 !important;
+}
+.cabecera_premios_pagados_por_pagar{
+	background-color: #9BCB91 !important;
+}
+.cabecera_premios_por_pagar{
+	background-color: #9BCB91 !important;
+}
+.cabecera_net_win_t{
+	background-color: #AEB0AD !important;
+}
+.cabecera_hold{
+	background-color: #AEB0AD !important; 
+}
+.cabecera_tickets_emitidos{
+	background-color: #8FB9FB !important; 
+}
+.cabecera_apuesta_por_ticket{
+	background-color: #8FB9FB !important; 
+}
+.cabecera_ticket_premiados{
+	background-color: #618fd8 !important;
+}
+.cabecera_dinero_depositado_web{
+	background-color: #C1EFFC !important;
+}
+.cabecera_dinero_retirado_web{
+	background-color: #C1EFFC !important;
+}
+
+.columna_ubicacion{
+	text-align: left !important;
+}
+.columna_tipo{
+	text-align: left !important;
+}
+.columna_tipo_admin{
+	text-align: left !important;
+}
+.columna_tipo_punto{
+	text-align: left !important;
+}
+.columna_qty{
+	text-align: left !important;
+}
+.btn_hide_year{
+	background-color: transparent !important;
+	border:none !important; 
+}
+.btn_show_year{
+	background-color: transparent !important;
+	border:none !important; 	
+}
+.btn_hide_month{
+	background-color: transparent !important;
+	border:none !important; 
+}
+.btn_show_month{
+	background-color: transparent !important;
+	border:none !important; 	
+}
+.columnas_meses{
+	text-align: center !important;
+}
+.columna_numero_meses{
+	text-align: right !important;	
+}
+.cabecera_anio_detalles{
+	text-align: center !important;
+	background-color:#CECAC9 !important;
+	color:#333 !important;	
+}
+.cabecera_meses_del_anio{
+	text-align: center !important;
+	background-color:#CECAC9 !important;
+	color:#333 !important;
+}
+
+.total_reporte{
+	color: #8a6d3b !important;
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc !important;	
+}
+.tabla_contenedor_reportes{
+	/*margin-top: -5px;*/
+}
+.negative_number {
+    color:red;
+}
+
+
+.xlsx {
+    border-color: #337ab7 !important;
+    background: #337ab7 !important;
+    color: #fafafa !important;
+    padding: 2px 5px !important;
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important; 
+}
+
+.xls {
+	display:none;
+    border-color: #c49f47;
+    color: #fafafa;
+    background-color: #c49f47;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important;    
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;     
+}
+.csv {
+    border-color: #8E44AD;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;  
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important;    
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;       
+}
+
+.txt {
+    background: #c49f47;
+    border-color: #c49f47;
+    color: #fafafa;
+    padding: 2px 5px !important;
+    margin-left: 0px !important; 
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;       
+}
+
+.xlsx:hover {
+    border-color: #337ab7 !important;
+    background: #337ab7 !important;
+    color: #fafafa !important;
+    padding: 2px 5px !important;
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important; 
+}
+
+.xls:hover {
+    border-color: #c49f47;
+    color: #fafafa;
+    background-color: #c49f47;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important;    
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;     
+}
+.csv:hover {
+    border-color: #8E44AD;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;  
+    border-top-right-radius:0px !important; 
+    border-bottom-right-radius:0px !important;    
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;       
+}
+
+.txt:hover {
+    background: #c49f47;
+    border-color: #c49f47;
+    color: #fafafa;
+    padding: 2px 5px !important;
+    margin-left: 0px !important; 
+    border-top-left-radius:0px !important; 
+    border-bottom-left-radius:0px !important;       
+}
+.btn_filtrar_reporte{
+	background-image: url("../img/sec_recaudacion/filtrarrecaudacion.png");
+	margin-top:10px;
+	width:48px;
+	height:48px;
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+} 

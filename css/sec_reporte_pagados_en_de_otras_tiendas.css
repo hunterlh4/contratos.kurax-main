@@ -1,0 +1,277 @@
+#body_reportes_pagados_en_de_otras_tiendas_style {
+    overflow-x: hidden;
+}
+#tabla_pagados_de_otras_tiendas thead {
+    background-color: #70ad47;
+    color: #fafafa;
+}
+#tabla_pagados_de_otras_tiendas th {
+    background-color: #70ad47;
+    color: #fafafa;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 10px;
+}
+#tabla_pagados_de_otras_tiendas td {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+#tabla_pagados_de_otras_tiendas tr:hover {
+    background-color: #ffff99 !important;
+}
+#tabla_pagados_de_otras_tiendas tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#tabla_pagados_en_otras_tiendas thead {
+    background-color: #70ad47;
+    color: #fafafa;
+}
+#tabla_pagados_en_otras_tiendas th {
+    background-color: #70ad47;
+    color: #fafafa;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 10px;
+}
+#tabla_pagados_en_otras_tiendas td {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+#tabla_pagados_en_otras_tiendas tr:hover {
+    background-color: #ffff99 !important;
+}
+#tabla_pagados_en_otras_tiendas tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.btn_export_pagados_de_xlsx {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+.btn_export_pagados_de_xls {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.btn_export_pagados_de_xlsx:hover {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+.btn_export_pagados_de_xls:hover {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.btn_export_pagados_en_xlsx {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+.btn_export_pagados_en_xls {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.btn_export_pagados_en_xlsx:hover {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+.btn_export_pagados_en_xls:hover {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.reportes_pagados_de_otras_tiendas_datepicker {
+    height: 32px;
+    min-width: 139px;
+    cursor: pointer;
+}
+.btn_filtrar_reporte_pagados_de_otras_tiendas {
+    border-radius: 0px;
+    font-size: 13px;
+    font-family: 'proximaNovaLight';
+    margin-top: 25px;
+}
+.negative_number_pdot {
+    color: red;
+}
+.sec_rep_pdot_tienda_pago {
+    text-align: left;
+    padding: 5px;
+}
+.sec_rep_pdot_tienda_origen {
+    text-align: left;
+    padding: 5px;
+    font-family: 'opensansregular';
+}
+.sec_rep_pdot_cantidad_pagado {
+    text-align: right;
+    padding: 5px;
+    font-family: 'opensansregular';
+}
+.sec_rep_pdot_tienda_pago_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_pdot_tienda_origen_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_pdot_cantidad_pago_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+
+.sec_rep_peot_tienda_origen {
+    text-align: left;
+    padding: 5px;
+    font-family: 'opensansregular';
+}
+.sec_rep_peot_cantidad_pagado {
+    text-align: right;
+    padding: 5px;
+    font-family: 'opensansregular';
+}
+.sec_rep_peot_tienda_pago_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_peot_tienda_origen_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_peot_cantidad_pago_th {
+    padding: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sub_totales_pdot {
+    background-color: #c5e0b4 !important;
+    font-weight: 800;
+    color: #333;
+    z-index: 2;
+}
+.sub_totales_peot {
+    background-color: #c5e0b4 !important;
+    font-weight: 800;
+    color: #333;
+    z-index: 2;
+    padding-left: 3px;
+}
+.sec_rep_pdot_tienda_pago {
+    background-color: #e2f0d9;
+    font-weight: 800;
+    color: #333;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_pdot_tienda_pago:hover {
+    background-color: #ffff99 !important;
+    font-weight: 800;
+    color: #333;
+}
+.total_general_pdot {
+    background-color: #f9f9f9;
+    color: #333;
+    font-weight: 800;
+    font-family: 'proximaNovaRegular';
+    border-bottom: 2px solid #70ad47;
+}
+.total_general_peot {
+    background-color: #f9f9f9;
+    color: #333;
+    font-weight: 800;
+    font-family: 'proximaNovaRegular';
+    border-bottom: 2px solid #70ad47;
+}
+.sec_rep_pdet_tienda_pago {
+    background-color: #e2f0d9;
+    font-weight: 800;
+    color: #333;
+    padding-left: 5px;
+}
+.sec_rep_pdet_tienda_pago:hover {
+    background-color: #ffff99 !important;
+    font-weight: 800;
+    color: #333;
+}
+
+.sec_rep_peot_tienda_pago {
+    background-color: #e2f0d9;
+    font-weight: 800;
+    color: #333;
+    padding-left: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_peot_tienda_pago:hover {
+    background-color: #ffff99 !important;
+    font-weight: 800;
+    color: #333;
+}
+.sec_rep_peot_nombre_total_tienda {
+    padding-left: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.sec_rep_pdot_nombre_total_tienda {
+    padding-left: 5px;
+    font-family: 'proximaNovaRegular';
+}
+.border_personalizado_tiendas_de_en_pagar {
+    border-right: 1px solid #333;
+}
+.border_standar_tiendas_de_en_pagar {
+    border-right: 1px solid #ddd;
+}

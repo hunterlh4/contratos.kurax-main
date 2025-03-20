@@ -1,0 +1,506 @@
+#body_reportes_resultados_apuestas_style{
+	overflow-x: scroll ;
+	overflow-y: scroll ;
+	-webkit-overflow-scrolling: touch;
+}
+.tabla_reportes tr:hover{
+	background-color: #ffff99;
+}
+.tabla_reportes tbody tr:nth-child(odd) {
+   background-color: #F9F9F9 ;
+}
+.table-hover > tbody > tr.select-row:hover {
+    background-color: #bddef9;
+}
+.tabla_reportes td, .tabla_reportes th {
+	border: 1px solid #ddd;
+	font-size:12px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.oculto{
+	font-family: "opensansregular";
+	text-align: right;
+	padding-right:5px;
+	min-width: 80px;
+	max-width: 225px;
+}
+.mostrado{
+	font-family: "opensansregular";
+	text-align: right;
+	padding-right:5px;
+}
+.nombre_canal_de_venta_reporte{
+	text-align: left;
+	padding-left:5px;
+}
+.nombre_local_reporte{
+	text-align: left;
+	padding-left:5px;
+}
+.col_local_propiedad{
+	text-align: left;
+	padding-left:5px;
+}
+.col_local_asesor_nombre{
+	text-align: left;
+	padding-left:5px;
+}
+.col_local_administracion{
+	text-align: left;
+	padding-left:5px;
+}
+.col_local_tipo_de_punto{
+	text-align: left;
+	padding-left:5px;
+	padding-right: 5px;
+}
+.col_qty{
+	text-align: left;
+	padding-left:5px;
+	padding-right: 5px;
+}
+.mes_reporte{
+	font-family: "opensansregular";
+	text-align: right;
+	padding-right:5px;
+}
+.periodo_reporte{
+	font-family: "opensansregular";
+	text-align: right;
+	padding-right:5px;
+}
+.tercero_reporte{
+	text-align: left;
+	padding-left:5px;
+}
+.num_reporte{
+	font-family: "opensansregular";
+	text-align: right;
+	padding-right:5px;
+}
+
+/**************/
+.cabecera_collapse_expand{
+	font-family: "proximaNovaLight";
+	text-align: left;
+	padding-left:5px;
+	background-color: #3777D9;
+	color:#fafafa;
+}
+
+.cabecera_canal_venta{
+	font-family: "proximaNovaLight";
+	text-align: center;
+	padding-left:5px;
+	background-color: #3777D9;
+	color:#fafafa;
+}
+.cabecera_local{
+	font-family: "proximaNovaLight";
+	text-align: center;
+	padding-left:5px;
+	background-color: #3777D9;
+	color:#fafafa;
+	width:200px;
+}
+.cabecera_tipo{
+	font-family: "proximaNovaLight";
+	text-align: center;
+	padding-right:5px;
+	background-color: #3777D9;
+	color:#fafafa;
+}
+.cabecera_agente{
+	font-family: "proximaNovaLight";
+	text-align: center;
+	padding-right:5px;
+	background-color: #3777D9;
+	color:#fafafa;
+	width:195px;
+}
+.cabecera_tipo_administracion{
+	font-family: "proximaNovaLight" ;
+	text-align: center ;
+	padding-right:5px ;
+	background-color: #3777D9 ;
+	color:#fafafa ;
+}
+.cabecera_asesor{
+	font-family: "proximaNovaLight" ;
+	text-align: center ;
+	padding-right:5px ;
+	background-color: #3777D9 ;
+	color:#fafafa ;
+}
+.cabecera_tipo_punto{
+	font-family: "proximaNovaLight" ;
+	text-align: center ;
+	padding-left:5px ;
+	background-color: #3777D9 ;
+	color:#fafafa ;
+}
+.cabecera_qty{
+	font-family: "proximaNovaLight" ;
+	text-align: center ;
+	padding-right:5px ;
+	background-color: #3777D9 ;
+	color:#fafafa ;
+}
+.etiqueta_total{
+	padding-left:5px ;
+}
+/***************/
+
+.cabecera_dinero_apostado{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_premios_pagados_por_pagar{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_premios_por_pagar{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_net_win_t{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_hold{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_tickets_emitidos{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_apuesta_por_ticket{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+	background-color: #8FB9FB ;
+}
+.cabecera_ticket_premiados{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+	background-color: #8FB9FB ;
+}
+.cabecera_dinero_depositado_web{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+	background-color: #C1EFFC ;
+}
+.cabecera_dinero_retirado_web{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+	background-color: #C1EFFC ;
+}
+
+
+.cabecera_tipo_reporte_resultado_apuestas_resumen_2017{
+	background-color: #618fd8 ;
+	color:#fafafa ;
+}
+
+.cabecera_anio{
+	background-color: #3777D9;
+	text-align: center;
+	color:#fff ;
+	font-weight:800 ;
+	font-size: 14px ;
+}
+
+.cabecera_dinero_apostado{
+	background-color: #9BCB91 ;
+}
+.cabecera_premios_pagados_por_pagar{
+	background-color: #9BCB91 ;
+}
+.cabecera_total_ganado{
+	background-color: #9BCB91 ;
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_premios_pagados{
+	background-color: #9BCB91 ;
+	text-align: center ;
+	font-family: "proximaNovaLight" ;
+	color:#333 ;
+}
+.cabecera_num_tickets_ganados_pagados{
+    text-align: center ;
+    font-family: "proximaNovaLight" ;
+    color: #333 ;
+    background-color: #8FB9FB ;
+}
+.cabecera_num_tickets_por_pagar{
+    text-align: center ;
+    font-family: "proximaNovaLight" ;
+    color: #333 ;
+    background-color: #8FB9FB ;
+}
+.cabecera_premios_por_pagar{
+	background-color: #9BCB91 ;
+}
+.cabecera_net_win_t{
+	background-color: #AEB0AD ;
+}
+.cabecera_hold{
+	background-color: #AEB0AD ;
+}
+.cabecera_tickets_emitidos{
+	background-color: #8FB9FB ;
+}
+
+.columna_ubicacion{
+	text-align: left ;
+}
+.columna_tipo{
+	text-align: left ;
+}
+.columna_tipo_admin{
+	text-align: left ;
+}
+.columna_tipo_punto{
+	text-align: left ;
+}
+.columna_qty{
+	text-align: left ;
+}
+.btn_hide_year{
+	background-color: transparent ;
+	border:none ;
+}
+.btn_show_year{
+	background-color: transparent ;
+	border:none ;
+}
+.btn_hide_month{
+	background-color: transparent ;
+	border:none ;
+}
+.btn_show_month{
+	background-color: transparent ;
+	border:none ;
+}
+.columnas_meses{
+	text-align: center ;
+}
+.columna_numero_meses{
+	text-align: right ;
+}
+.cabecera_anio_detalles{
+	text-align: center ;
+	background-color:#CECAC9 ;
+	color:#333 ;
+}
+.cabecera_meses_del_anio{
+	text-align: center ;
+	background-color:#CECAC9 ;
+	color:#333 ;
+}
+
+.total_reporte{
+	color: #8a6d3b ;
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc ;
+}
+.negative_number {
+    color:red;
+}
+.btn_export_resultado_apuestas_xlsx {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+}
+
+.btn_export_xls {
+	border:none ;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+
+}
+
+.btn_export_resultado_apuestas_xlsx:hover {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+}
+
+.btn_export_xls:hover {
+	border:none ;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+    font-size: 10px ;
+
+}
+
+
+
+.buscador_canal_venta{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-right:10px ;
+}
+.buscador_local{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-right:5px ;
+}
+.buscador_tipo{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-left:5px ;
+	margin-right:5px ;
+}
+.buscador_asesor{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-left:5px ;
+	margin-right:5px ;
+}
+.buscador_tipo_admin{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-left:5px ;
+	margin-right:5px ;
+}
+.buscador_tipo_punto{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-right:5px ;
+}
+.buscador_qty{
+	color:#333 ;
+	border:1px #337ab7 ;
+	width: 95% ;
+	min-width: 85px ;
+	margin-left: 5px ;
+	margin-right:5px ;
+}
+.btn_collapse_expand_row_reporte_apuestas{
+	border: 1px solid transparent ;
+	background-color:transparent ;
+    width: 100% ;
+    height: 100% ;
+}
+.btn_collapse_expand_row_reporte_apuestas span{
+	color:#8E44AD ;
+}
+
+.contener_reporte_resultado_apuestas .inner-addon {
+    position: relative;
+}
+.contener_reporte_resultado_apuestas .inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+}
+.contener_reporte_resultado_apuestas .right-addon .glyphicon-remove {
+ right: 0px;
+ color:#333 ;
+ cursor:pointer;
+}
+.contener_reporte_resultado_apuestas .left-addon input  {
+ padding-left:  30px;
+}
+.contener_reporte_resultado_apuestas .right-addon input {
+ padding-right: 30px;
+}
+.mensaje_busqueda_no_resultados{
+
+	text-align: left;
+	color:red ;
+	font-weight: 800;
+}
+.mensaje_text_no_registros{
+	margin-left: 25px;
+}
+tr .norecords{
+	border-left:1px solid #3777D9 ;
+	border-right:1px solid #3777D9 ;
+	border-bottom:1px solid #3777D9 ;
+}
+.localreporteapuestascustom{
+	font-size: 11px ;
+}
+.canalventasreporteapuestas{
+	font-size: 11px ;
+}
+.redreporteapuestascustom{
+	font-size: 11px ;
+}
+.zonareporteapuestascustom{
+	font-size: 11px ;
+}
+.fechainicioreporteapuestas{
+	font-size: 11px ;
+}
+.fechafintextreporteapuestas{
+	font-size: 11px ;
+}
+
+.reportes_resultado_apuestas_datepicker{
+	height:32px ;
+	min-width:139px ;
+	cursor:pointer ;
+}
+
+.btn_filtrar_reporte{
+	border-radius: 0px ;
+	font-size: 13px ;
+    font-family: "proximaNovaLight" ;
+	margin-top:23px;
+}
+.rows_hidden{
+	display: none;
+}
+.rows_expanded{
+	display:block;
+}

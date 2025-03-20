@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "opensansregular";
+  src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+.titulo_panel{
+	color:#fff !important;
+	font-size:12px !important;
+}
+.input-group-addon:not(.input-group-addon-rounded) {
+  padding: 3px 8px 3px 8px !important;
+}				      
+.panel-body-tickets{
+	padding:10px !important;
+}
+.container-fluid{
+	margin-right: 5px !important;
+	margin-left:5px !important;
+}
+.panel-body {
+padding: 15px 0px 15px 0px !important;
+}				      
+.panel-heading a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\e113";
+  float: right;
+  color: grey;
+}
+.panel .panel-heading 
+.panel-title, 
+.panel-default .panel-heading 
+.panel-title, .panel 
+.panel-heading .panel-title a, 
+.panel-default .panel-heading 
+.panel-title a {
+  color: #fff !important;
+  font-size: 12px !important;
+}				      
+.panel-heading a.collapsed:after {
+  content:"\e114";
+}
+.bc-white-btn {
+  background-color: #fff;
+  color: #8a93a3;
+  border-radius: 0px !important;
+  padding: 7px 32px;
+  text-decoration: none;
+  border: 1px solid #ddd;      
+}
+.bc-green-btn {
+  background-color: #48c9b0;
+  border-color: #44b39d;
+  color: #d8f1ec;
+  border-radius: 0px !important;
+  padding: 7px 38px;    
+}
+.bc-green-btn:hover {
+  background-color: #76d6c4;
+  border-color: #73c6b6;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 38px;    
+}
+.titulo_oculto{
+visibility: hidden;
+}
+.ocultar_mostrar_timepicker{
+display:none;
+
+}
+.ocultar_mostrar_paiddate_timepicker{
+display:none;
+
+}      
+.group_bonus_set{
+  padding-top: 35px !important; 
+}      
+.radio_buton_bonus_bet{
+  margin-left:6px !important;
+  position: relative;
+  top: -3px !important;  
+}
+.btn_cancelar{
+  margin-top:25px !important;  
+  outline:none !important;
+  display:inline-block !important;
+  
+}
+.btn_aplicar{
+  outline: none !important;
+  display:inline-block !important; 
+  margin-right:7px !important;          
+
+}
+.container_buttons{
+  float: right !important;
+  position: relative;
+  right: -9px !important;
+}
+.panel-body {
+  margin-bottom: 10px !important;
+}      
+input{
+  outline:none !important;        
+}
+select{
+  outline:none !important;        
+} 
+.bootstrap-select .dropdown-toggle:focus {
+outline: none !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a {
+outline: none !important;        
+}
+.navbar {
+  position: relative;
+  min-height: 50px !important;
+  margin-bottom:0px !important; 
+  border-radius:0px !important; 
+  border:none !important;
+}      
+.well{
+  border-radius:0px !important; 
+  border:none !important;   
+  background-color:#fff !important; 
+  margin-bottom:0px !important;
+  margin-top:0px !important;    
+}
+.panel-default>.panel-heading {
+  border-radius: 0px !important;
+}
+
+.form-group.col-xsm-2.col-sm-2.col-md-2.col-lg-2 {
+  margin: 0px !important;
+  padding: 6px 4px 4px 6px !important;
+
+}
+
+.form-group {
+  margin: 0px !important;
+
+}
+.radio_paid_date{
+  margin-top:16px !important;        
+}
+.columa_sport_book_group{
+  background-color: rgb(144, 238, 144);        
+}
+.medium_risk_rm{
+  background-color:rgb(255, 165, 0);
+}
+thead th{
+    z-index:12 !important;
+    font-size: 13px !important;
+}
+tfoot th{
+    background-color:#fff !important;
+    font-size: 13px !important;
+
+}
+tbody td{
+    font-size: 12px !important;
+    font-family: "opensansregular" !important;
+}
+
+table.dataTable {
+    margin-top: -1px !important;
+}
+.dataTables_length{
+    width:230px !important;
+    float:left !important;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    width: 200px !important;
+    float: right;
+    margin-right: 25px !important;
+}
+a.dt-button.btn_clear_search {
+float:right !important;
+}
+.columa_numeros{
+text-align: right !important;
+}
+td.details-control {
+  background: url('../images/details_open.png') no-repeat center center;
+  cursor: pointer;
+}
+tr.shown td.details-control {
+  background: url('../images/details_close.png') no-repeat center center;
+}
+
+/*timepicker*/
+
+.bootstrap-timepicker-widget.dropdown-menu.timepicker-orient-left.timepicker-orient-top.open{
+	top:185px !important;
+	border: 1px solid transparent !important;
+	box-shadow: none !important;
+	background-color:transparent !important;
+	padding: 0px !important;
+	margin: 0px !important;		
+	height:35px !important;
+}
+.bootstrap-timepicker-widget table td {
+	text-align: left !important;
+	height: 15px !important; 
+	margin: 0 !important; 
+	padding: 0px !important; 
+}
+.bootstrap-timepicker-widget.timepicker-orient-top:before {
+   visibility: hidden !important;
+}
+.bootstrap-timepicker-widget table td input {
+	width: 50px !important;
+	height: 34px !important;
+	border-radius: 0px !important;
+}
+.bootstrap-timepicker-widget table td span {
+	left: 18px !important;
+}
+.bootstrap-timepicker-widget table td a {
+	padding: 0px !important;
+
+}
+.bootstrap-select .dropdown-toggle:focus {
+	outline:none !important;	
+}
+.bootstrap-timepicker-widget table td a:hover {
+background-color: transparent !important; 
+border-color: transparent !important; 
+}
+.titulo_panel{
+font-size: 14px !important;
+font-weight: 500 !important; 
+}
+.iconofecha{
+border-radius:0px !important;        
+}
+.inputtextfecha{
+border-radius:0px !important;        
+}
+.bootstrap-timepicker-widget.dropdown-menu:after {
+  border-bottom: 6px solid transparent !important;
+}
+.main-container {
+padding-top: 20px !important;
+}

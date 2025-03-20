@@ -1,0 +1,127 @@
+.fecha_inicio_reporte_resumen_fecha_inicio_text{
+	font-size: 11px ;
+}
+.fecha_fin_reporte_resumen_apostado_fecha_fin_text{
+	font-size: 11px ;
+}
+
+.btn_export_resumen_apostado_xlsx {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+	font-size: 10px ;
+}
+.btn_export_resumen_apostado_xls {
+	border:none ;	
+	color: #fafafa;
+	background: #8E44AD;
+	padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+	font-size: 10px ;
+
+}
+.btn_export_resumen_apostado_xlsx:hover {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+	font-size: 10px ;
+}
+.btn_export_resumen_apostado_xls:hover {
+	border:none ;	
+	color: #fafafa;
+	background: #8E44AD;
+	padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+	font-size: 10px ;
+}
+
+.btn_filtrar_reporte_resumen_apostado{
+	margin-top:24px ;
+	border-radius: 0px ;
+	font-size: 13px ;	
+    font-family: "proximaNovaLight" ;		
+}
+.local_resumen_apostado_text{
+	font-size: 11px ;	
+}
+.canal_venta_resumen_apostado_text{
+	font-size: 11px ;	
+}
+.red_resumen_apostado_text{
+	font-size: 11px ;	
+}
+.red_reporte_resumen_apostado{
+	font-size: 11px ;	
+}
+.reportes_resumen_apostado_datepicker{
+	height:32px ; 
+	min-width:139px ;
+	cursor:pointer ;	
+}
+.btn_hide_year_resumen_apostado{
+	background-color: transparent ;
+	border:none ; 
+}
+.btn_show_year_resumen_apostado{
+	background-color: transparent ;
+	border:none ; 	
+}
+.rows_hidden{
+	display: none;
+}
+.rows_expanded{
+	display:block;
+}
+.cabecera_dinero_apostado_resumen_apostado{
+	text-align: center ;
+	font-family: "proximaNovaLight" ;	
+	color:#333 ;
+	background-color: #9BCB91 ;	
+}
+.cabecera_meses_del_anio_resumen_apostado {
+    text-align: center ;
+    background-color: #CECAC9 ;
+    color: #333 ;
+}
+#tabla_reportes_resumen_apostado tr:hover{
+	background-color: #ffff99 !important;
+}
+#tabla_reportes_resumen_apostado tbody tr:nth-child(odd) {
+   background-color: #f9f9f9 ;
+}
+.total_canales_resumen_apostado{
+	border-bottom: 1px solid #ddd ;
+}
+.cabecera_anio_resumen_apostado{
+	background-color: #3777D9;
+	text-align: center;
+	color:#fff !important;	
+	font-weight:800 ; 
+	font-size: 14px ;
+}
+.cabecera_canal_venta_resumen_apostado{
+	font-family: "proximaNovaLight" ;
+	text-align: center ;
+	padding-left:5px ;
+	background-color: #3777D9 ;
+	color:#fafafa !important;		
+}
+.etiqueta_total_resultado_apostado{
+	padding-left:5px ;	
+}

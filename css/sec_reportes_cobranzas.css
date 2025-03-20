@@ -1,0 +1,93 @@
+.btn_export_xlsx {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+.btn_export_xls {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.btn_export_xlsx:hover {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+
+.btn_export_xls:hover {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+
+.text_input {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fechainiciocobranzas {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fechafincobranzas {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.localreportecobranzascustom {
+    font-size: 14px;
+    font-weight: bold;
+}
+.canalventasreportecobranzascustom {
+    font-size: 14px;
+    font-weight: bold;
+}
+.redcustomreportecobranzas {
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn_filtrar_reporte_cobranzas {
+    margin-top: 24px;
+    border-radius: 0px;
+    font-size: 13px;
+    font-family: 'proximaNovaLight';
+}
+
+.reportes_cobranzas_datepicker {
+    /* height:32px ; */
+    /* min-width:139px ; */
+    cursor: pointer;
+}
+
+.selen select {
+    width: 100% !important;
+}
+
+.selen span {
+    width: 100% !important;
+}

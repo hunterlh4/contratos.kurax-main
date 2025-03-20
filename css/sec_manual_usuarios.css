@@ -1,0 +1,53 @@
+.tbl_menu_sub_menu_botones .opciones {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.tbl_menu_sub_menu_botones_primer_td{
+    border: 1px solid #ddd;
+}
+.tbl_menu_sub_menu_botones_padres_detalles td:first-child {
+    padding-left: 70px;
+    border: 1px solid #ddd;
+    
+}
+.container_table_menus_sub_menus_botones{
+	overflow-y: visible;	
+}
+.tbl_menu_sub_menu_botones th{
+    text-align: center;
+}
+
+#filter_tbl_manuales_busqueda {
+	width:300px;
+	font-family: "proximaNovaLight";	
+}
+
+#tbl_menu_sub_menu_botones {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tbl_menu_sub_menu_botones th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+#tbl_menu_sub_menu_botones td {
+    border: 1px solid #ddd; 
+}

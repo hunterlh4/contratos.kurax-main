@@ -1,0 +1,9 @@
+  @font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/ProximaNova-Light.f5ecce56.woff);
+}
+
+body{
+  font-family: myFirstFont;
+
+}

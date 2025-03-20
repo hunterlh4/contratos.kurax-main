@@ -1,0 +1,175 @@
+.registroFotoJackpots{
+    text-align: center;
+    font-size: 16px;
+}
+
+.registroFotoJackpots form{
+    height: auto;
+    text-align: center;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    padding: 5rem;
+}
+
+
+.registroFotoJackpots form .choosePic .inputfile{
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.registroFotoJackpots form .choosePic .inputfile + label{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #9e9e9e;
+    display: inline-block;
+    padding: 2.5rem 3rem;
+
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+}
+
+.registroFotoJackpots form .choosePic label i{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.registroFotoJackpots form .choosePic .inputfile+label:hover{
+    background-color: #5bc0de;
+}
+
+.registroFotoJackpots form .choosePic .inputfile.load+label{
+    background-color: #2AA845;
+}
+
+.registroFotoJackpots form .choosePic .inputfile:focus + label{
+    cursor: pointer;
+}
+
+.registroFotoJackpots form .choosePic .inputfile:focus + label{
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.registroFotoJackpots form .uploadPic{
+    margin-top: 2rem;
+}
+
+.registroFotoJackpots form .uploadPic button{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #9e9e9e;
+    display: inline-block;
+    padding: 2.6rem 3rem;
+    border: 0px;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+}
+
+.registroFotoJackpots form .uploadPic button i{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* .registroFotoJackpots form .uploadPic button:focus{
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+} */
+
+.registroFotoJackpots form .uploadPic button:hover{
+    background-color: #5bc0de;
+}
+
+.registroFotoJackpots form .uploadPic .uploadInput.activate{
+    background-color: #2AA845 !important;
+}
+
+.registroFotoJackpots form .uploadPic .uploadInput.desactivate{
+    background-color: #6C757D !important;
+}
+
+.registroFotoJackpots_mobile .exit{
+    border: 1px solid #c6c6c6;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    background: #ccff00;
+}
+
+.registroFotoJackpots_mobile .exit h3{
+    font-size: 15rem;
+}
+
+/**********************************************************************************************/
+/* LOADING CSS */
+.registroFotoJackpots .lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.registroFotoJackpots .lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #cfd8dc transparent transparent transparent;
+}
+
+.registroFotoJackpots .lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.registroFotoJackpots .lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.registroFotoJackpots .lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*********************************************************************************************/
+/* CHECKMARK */
+.registroFotoJackpots .divcheck{
+    position: relative;
+    border: 4px solid #fff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 25px;
+    background: #2AA845;
+}
+
+.registroFotoJackpots .divcheck .check{
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-60%) skew(-45deg, 45deg);
+}

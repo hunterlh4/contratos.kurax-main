@@ -1,0 +1,94 @@
+	#body_personal_personal_style{
+	}
+	#tbl_personal th{
+	    font-size:11px ;	
+	}
+	#tbl_personal td{
+		font-family: "opensansregular" ;
+		padding:1px 2px ;
+	}
+	#tbl_personal_filter{
+		float: right ;
+	}
+	#tbl_personal_wrapper .btn-group{
+		margin-top:8px ;
+		margin-bottom: 0px ;
+	}
+	#tbl_personal_length{
+		margin-top:3px ;
+	}
+	#tbl_personal_filter{
+		margin-top: 3px ;
+	}
+	#datos_1 label{
+	  font-weight: 100 ;   
+	}
+	/*botones exportacion*/
+	.sec_personal_copiarButton{
+		border-color: #337ab7;
+		background: #337ab7;
+		color: #fafafa;
+		padding: 2px 5px ;                
+	}
+	.sec_personal_copiarButton:hover{
+		border-color: #1c84c6;
+		background-color: #1c84c6;
+		color: #fafafa;
+		padding: 2px 5px ;                
+	}           
+	.sec_personal_csvButton{
+		border-color: #c49f47;
+		color: #fafafa;
+		background-color: #c49f47;
+		padding: 2px 5px ;                
+	}
+	.sec_personal_csvButton:hover{
+		border-color: #A47F27;
+		color: #fafafa;
+		background-color: #A47F27;
+		padding: 2px 5px ;                
+	}           
+	.sec_personal_excelButton{
+		border-color: #8E44AD;
+		color: #fafafa;
+		background: #8E44AD;
+		padding: 2px 5px ;                
+	}
+	.sec_personal_excelButton:hover{
+		border-color: #74378E;
+		color: #fafafa;
+		background: #74378E;
+		padding: 2px 5px ;                
+	}           
+	.sec_personal_emailButton{
+		background-color: #337ab7;
+		border-color: #337ab7;
+		color: #fafafa;
+		padding: 2px 5px ;                                
+	}
+	.sec_personal_emailButton:hover{
+		background-color: #16699E;
+		border-color: #16699E;
+		color: #fafafa;
+		padding: 2px 5px ;                                
+	}           
+	.sec_personal_visibilidadButton{
+		background: #c49f47;
+		border-color: #c49f47;
+		color: #fafafa;
+		padding: 2px 5px ;                
+	}
+	.sec_personal_visibilidadButton:hover{
+		border-color: #A47F27;
+		color: #fafafa;
+		background-color: #A47F27;
+		padding: 2px 5px ;                
+	}  
+	.tbl_personal_columnas{
+		text-align: left;
+		font-size: 11px ;
+	}
+	.tbl_personal_columnas_numeros{
+		text-align: right;
+		font-size: 11px ;		
+	}

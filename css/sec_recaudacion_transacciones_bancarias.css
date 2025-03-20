@@ -1,0 +1,30 @@
+#un_used_local_list_holder{
+	/*background-color: #0f0;*/
+	min-height: 280px;
+}
+#un_used_local_list_holder ul{
+	/*border: 1px solid #eee;*/
+	height: 200px;
+	list-style-type: none;
+	margin: 0;
+	position: relative;
+	/*float: left;*/
+	margin-right: 10px;
+	padding:0;
+	display: block;
+	width: 254px;
+}
+#un_used_local_list_holder ul li{
+	padding: 2px 5px;
+	cursor: pointer;
+}
+.un_used_local_list .move_btn{
+	margin: 0;
+	font-size: 10px;
+}
+.un_used_local_list .move_left_btn{
+	margin-right: 5px;
+}
+#list_unused, #list_used{
+	overflow: auto;
+}

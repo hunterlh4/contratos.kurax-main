@@ -1,0 +1,29 @@
+#body_reportes_graficos_dinero_apostado_style{
+	overflow-x:hidden ;
+}
+.fechainicioreportegraficosdineroapostadotext{
+	font-size: 11px ;
+}
+.fechafinreportegraficosdineroapostadotext{
+	font-size: 11px ;
+}
+.localreportegraficosdineroapostadocustom{
+	font-size: 11px ;
+}
+.canalventasreportegraficosdineroapostadocustom{
+	font-size: 11px ;
+}
+.redgraficosdineroapostadocustom{
+	font-size: 11px ;
+}
+.reportes_graficos_dinero_apostado_datepicker{
+	height:32px ; 
+	min-width:139px ;
+	cursor:pointer ;
+}
+.btn_filtrar_reporte_graficos_dinero_apostado{
+	border-radius: 0px ;
+	font-size: 13px ;	
+    font-family: "proximaNovaLight" ;	
+	margin-top:-5px;	
+}

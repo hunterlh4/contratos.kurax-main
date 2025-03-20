@@ -1,0 +1,1059 @@
+/*Modelo uno*/
+.columna_local_modelo_uno{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-left: 1px solid #ddd;    
+    text-align: left ;
+    padding-left:5px ;
+}
+.cliente_local_cabecera_modelo_uno{
+    background-color:#fff ;
+    text-align: left ;
+    padding-left:5px ;
+    border-top: 1px solid #ddd;     
+}
+.columna_dias_procesados_modelo_uno{
+    text-align: right ;
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-left: 1px solid #ddd;    
+    padding-right:3px ;
+    border-top: 1px solid #ddd;    
+}
+.dias_procesados_cabecera_modelo_uno{
+    background-color:#fff ;
+    border-right:1px solid #ddd ; 
+    border-top: 1px solid #ddd;    
+}
+.titulo_general_colspan_modelo_uno{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;         
+}
+
+/**/
+.apostado_modelo_uno{
+    background-color: #fcf8e3 ;
+    text-align: right ;
+    padding-right:3px ;
+    border-bottom: 1px solid #ddd ;          
+}
+.ganado_modelo_uno{
+    background-color: #f2dede ;
+    text-align: right ;  
+    padding-right:3px ;   
+    border-bottom: 1px solid #ddd ;       
+}
+.pagado_modelo_uno{
+    background-color: #fff ;
+    text-align: right ;  
+    padding-right:3px ; 
+    border-bottom: 1px solid #ddd ;         
+}
+.produccion_modelo_uno{
+    background-color: #dff0d8 ;
+    text-align: right ;    
+    padding-right:3px ;  
+    border-bottom: 1px solid #ddd ;        
+}
+.columnasnumeros_modelo_uno{
+    text-align: right ;  
+}
+
+.apostado_cabecera_modelo_uno{
+    background-color: #fcf8e3 ;
+    text-align: center ; 
+    padding:0px 5px 0px 5px ; 
+    border-right:1px solid #ddd ;
+    padding-right:3px ;
+}
+.ganado_cabecera_modelo_uno{
+    background-color: #f2dede ;
+    text-align: center ;  
+    padding:0px 5px 0px 5px ; 
+    border-right:1px solid #ddd ; 
+    padding-right:3px ;          
+}
+.pagado_cabecera_modelo_uno{
+    background-color: #fafafa ;
+    text-align: center ;  
+    padding:0px 5px 0px 5px ; 
+    border-right:1px solid #ddd ; 
+    padding-right:3px ;             
+}
+.produccion_cabecera_modelo_uno{
+    background-color: #dff0d8 ;
+    text-align: center ;  
+    padding:0px 5px 0px 5px ; 
+    padding-right:3px ;    
+}
+.titulo_general_colspan_modelo_uno{
+    text-align: center ;
+    border-right:1px solid #ddd ;
+}
+
+/*modelo dos*/
+.columnaprincipal_modelo_dos{
+    background:#337ab7 !important; 
+    color:#fff;
+    border-top: 1px solid #fff; 
+    border-left: 1px solid #ddd;    
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    padding-left:5px ;
+}
+.columna_dias_modelo_dos{
+    text-align: right;
+    border-right:1px solid #ddd;
+    padding-right: 5px ;
+}
+.canal_venta_modelo_dos{
+    border-right:1px solid #ddd;
+    border-bottom: 1px solid #ddd;    
+    padding-left: 5px ;   
+}
+.apostado_modelo_dos{
+    text-align: right ;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;  
+    padding-right:3px ;  
+}
+.ganado_modelo_dos{
+    text-align: right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:3px ;                
+}
+.pagado_modelo_dos{
+    text-align: right ; 
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd; 
+    padding-right:3px ;                
+}
+.produccion_modelo_dos{
+    text-align: right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:3px ;                
+}
+.columnasnumeros_modelo_dos{
+    text-align: right ;  
+}
+.colunmas_numeracion_modelo_dos_head_th{
+    color:#333;
+    font-weight: 400 ;
+    background-color:#fff ;  
+    text-align: center ; 
+    border-left:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;
+    border-top:1px solid #ddd ;        
+}
+.colunmas_local_modelo_dos_head_th{
+    background-color:#fff !important;  
+    border-bottom:1px solid #ddd ;
+    border-top:1px solid #ddd ;
+    color:#fff;          
+}
+.colunmas_dias_modelo_dos_head_th{
+    border-left:1px solid #ddd ;    
+    border-top:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;        
+}
+.colunmas_canal_de_venta_modelo_dos_head_th{
+    border-top:1px solid #ddd ;
+}
+.colunmas_apostado_modelo_dos_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+.colunmas_ganado_modelo_dos_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+.colunmas_pagado_modelo_dos_head_th{
+    background-color:#fff ; 
+    border-top:1px solid #ddd ;       
+}
+.colunmas_produccion_modelo_dos_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+
+/*modelo tres*/
+
+.table-liquidaciones-modelo-3 .columnaprincipal_modelo_tres{
+    background:#337ab7 !important; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-left: 1px solid #fff;    
+    border-right: 1px solid #fff;   
+    padding-left: 5px ; 
+}
+.table-liquidaciones-modelo-3 .colunmas_local_modelo_tres_head_th{
+    padding-left: 5px ;
+    border-left:1px solid #ddd ;
+    border-top: 1px solid #ddd;
+    background:#fff !important;
+    color:#333 !important;     
+}
+.table-liquidaciones-modelo-3  .columnas_propietario_modelo_tres_head_th , .table-liquidaciones-modelo-3  .columnas_departamento_modelo_tres_head_th , .table-liquidaciones-modelo-3  .columnas_provincia_modelo_tres_head_th , .table-liquidaciones-modelo-3  .columnas_distrito_modelo_tres_head_th{
+    padding-left: 5px ;
+    border-left:1px solid #ddd ;
+    border-top: 1px solid #ddd;
+    background:#fff !important;
+    color:#333 !important;
+}
+.columna_dias_modelo_tres{
+    text-align:right ; 
+    padding-right:5px ;
+    border-right:1px solid #ddd ;
+    border-left:1px solid #ddd ;    
+    border-bottom:1px solid #ddd ;          
+}
+.columna_canal_de_venta_modelo_tres{
+    padding-left:5px ;
+    border-right:1px solid #ddd ;   
+    border-bottom:1px solid #ddd ;   
+}
+.apostado_modelo_tres{
+    text-align:right ; 
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:5px ;       
+}
+.ganado_modelo_tres{
+    text-align:right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd;
+    padding-right:5px ;             
+}
+.pagado_modelo_tres{
+    text-align:right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:5px ;            
+}
+.produccion_modelo_tres{
+    text-align:right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:5px ;         
+}
+.columnasnumeros_modelo_tres{
+    text-align: right ;  
+}
+.porcentaje_modelo_tres{
+    text-align: right ; 
+    padding-right:5px ; 
+    border-bottom:1px solid #ddd;        
+}
+.cliente_modelo_tres{
+    text-align: right ; 
+    padding-right:5px ; 
+    border-bottom:1px solid #ddd;        
+}
+.freegames_modelo_tres{
+    text-align: right ;
+    padding-right:5px ;
+    border-bottom:1px solid #ddd;              
+}
+.colunmas_numeracion_modelo_tres_head_th{
+    background-color:#fff ; 
+    color:#333 ;
+    text-align: center ;
+    border-left:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;
+}
+.colunmas_local_modelo_tres_head_th{
+    background-color:#fff ;
+    border-bottom:1px solid #ddd ;        
+}
+.columnas_propietario_modelo_tres_head_th , .columnas_departamento_modelo_tres_head_th , .columnas_provincia_modelo_tres_head_th , .columnas_distrito_modelo_tres_head_th{
+    background-color:#fff ;
+    border-bottom:1px solid #ddd ;        
+}
+.columna_dias_modelo_tres_head_th{
+    border-top:1px solid #ddd ;    
+}
+.columna_canal_de_venta_modelo_tres_head_th{
+    border-top:1px solid #ddd ;   
+}
+.colunmas_apostado_modelo_tres_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+.colunmas_ganado_modelo_tres_head_th{
+    background-color:#fff ; 
+    border-top:1px solid #ddd ;       
+}
+.colunmas_pagado_modelo_tres_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+.colunmas_produccion_modelo_tres_head_th{
+    background-color:#fff ;
+    border-top:1px solid #ddd ;        
+}
+.porcentaje_modelo_tres{
+    border-right:1px solid #ddd ;
+    border-top:1px solid #ddd ;    
+}
+.cliente_modelo_tres{
+    border-right:1px solid #ddd ; 
+    border-top:1px solid #ddd ;     
+}
+/*modelo cuatro*/
+
+.colunmasControl{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ; 
+   
+}
+.columnaprincipal{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+ 
+}
+.local_id{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ; 
+}
+.local_nombre{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ;    
+}
+.razon_social{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ;    
+}
+.ruc{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ;    
+}
+.zona_nombre{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ;    
+}
+.dias{
+    text-align: right ; 
+    padding-right: 3px ; 
+    background: #337ab7 ;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #ddd ;
+    white-space: normal ;
+    font-size: 11px;
+}
+.cc_id{
+    text-align: right;
+    padding-right: 3px;
+    background: #337ab7;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #ddd ;
+    white-space: normal;
+    font-size: 11px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.propietario , 
+.departamento ,
+.provincia ,
+.distrito{
+    background:#337ab7 ; 
+    color:#fff;
+    border-bottom: 1px solid #fff;  
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;
+    padding-left:5px ;    
+}
+.canales_de_venta{
+    padding-left: 3px ;
+    border-right: 1px solid #ddd ;
+    
+}
+.total_num_tickets{
+    text-align: right ;
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+    border-right: 1px solid #ddd;
+    border-left: 3.2px solid #ddd;/* 1px solid #ddd;*/
+   /* border-top: 1px solid #ddd;*/
+}
+.total_depositado{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_anulado_retirado{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_apostado{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;         
+}
+.total_ganado{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;        
+}
+.total_pagado{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;        
+}
+.total_produccion{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.GGR{
+    text-align: right ;
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+}
+.resultado_negocio{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.impuesto_juego{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.base_imponible_mntto{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;  
+}
+.impuesto{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+}
+.participacion_cliente{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+    background-color:#EBE9B0 ;
+}
+.participacion_freegames{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;  
+}
+.base_calculo{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.saldo_arrastrar_siguiente_mes{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.saldo_arrastrar_anterior_mes{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_depositado_web{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_retirado_web{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;     
+}
+.total_caja_web{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;     
+}
+.porcentaje_cliente{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_cliente{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+    background-color:#EBE9B0 ;          
+}
+.porcentaje_freegames{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.total_freegames{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;   
+}
+.pagado_en_otra_tienda{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+}
+.pagado_de_otra_tienda{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.propios_pagados_en_su_punto{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;   
+}
+.total_pagos_fisicos{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;     
+}
+.caja_fisico{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.test_balance{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;   
+}
+.test_diff{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;    
+}
+.sec_recaudacion_footer{
+    border-bottom:1px solid #ddd ;
+    border-top: 1px solid #ddd ;
+}
+.sec_recaudacion_footer_cdv{
+    border-bottom:1px solid #ddd ;
+    display:none ;
+}
+.columna_local_id_head_th{
+     border-left: 1px solid #ddd ;
+     border-right: 1px solid #fff ;
+     border-top: 1px solid #ddd ;
+     border-right: 1px solid #ddd ;               
+     background-color:#fff ;
+     min-width:45px ; 
+     padding-left: 0px 3px;
+     text-align: center;
+}
+.columna_nombre_local_head_th{
+     border-right: 1px solid #fff ;
+     border-top: 1px solid #ddd ;
+     border-right: 1px solid #ddd ;               
+     background-color:#fff ;
+     min-width:185px ; 
+     padding:5px ;
+}
+.columna_zona_nombre_procesados_head_th{
+    border-right: 1px solid #fff ;
+    border-top: 1px solid #ddd ;
+    border-right: 1px solid #ddd ;               
+    background-color:#fff ;
+    min-width:30px ; 
+    padding:5px ;
+}
+.columna_dias_procesados_head_th{
+     background-color:#fff ;
+     border-top: 1px solid #ddd ;
+     border-right: 1px solid #ddd ;
+     min-width:30px ;
+     padding-right: 3px;
+     text-align: right;      
+}
+.columna_head_th{
+     background-color:#fff ;
+     border-top: 1px solid #ddd ;
+     border-right: 1px solid #ddd ;
+     min-width:70px ;
+     padding-right: 3px;
+}
+
+.canal_de_venta_modelo_cuatro_head_th{
+    text-align: left ;    
+    min-width:95px ;
+    border-right: 1px solid #fff;    
+    border-top: 1px solid #ddd ;
+    padding-left: 5px;
+}
+.canal_de_venta_modelo_cuatro{
+    /*border-left: 1px solid #ddd;*/
+    padding-left: 3px ;
+    border-right: 1px solid #ddd ;
+}
+.columnasnumeros_head_th{
+    text-align: right ;
+    padding-left: 20px ; 
+    min-width:95px ; 
+    border-right: 1px solid #ddd ; 
+    border-top: 1px solid #ddd ;
+    padding-right: 5px;
+}
+.columnasnumeros_body_td{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ;
+}
+.columna_dias_modelo_cuatro_body_td{
+    text-align: right ; 
+    padding-right: 3px ;     
+}
+.apostado_modelo_cuatro{
+    text-align:right ;  
+    border-right:1px solid #ddd; 
+    padding-right: 3px ;          
+}
+.columna_apostado_modelo_cuatro_head_th{
+    min-width:95px ; 
+}
+.ganado_modelo_cuatro{
+    text-align:right ; 
+    border-right:1px solid #ddd; 
+    padding-right: 3px ;         
+}
+.columna_ganado_modelo_cuatro_head_th{
+    background-color: #fff ; 
+    min-width:95px ; 
+}
+.pagado_modelo_cuatro{
+    text-align:right ; 
+    border-right:1px solid #ddd; 
+    padding-right: 3px ;        
+}
+.columna_pagado_modelo_cuatro_head_th{
+     background-color: #fff ;
+     min-width:95px ; 
+}
+.produccion_modelo_cuatro{
+    text-align:right ;
+    border-right:1px solid #ddd; 
+    padding-right: 3px ;     
+}
+.columna_produccion_modelo_cuatro_head_th{
+     background-color: #fff ;
+     min-width:95px ;
+}
+#tabla_sec_recaudacion_modelo_uno td{
+    border-right:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;    
+}
+.contenedor_general_sec_recaudacion_filtros{
+    max-height: 100px ;
+}
+.ftm4{
+    background:#337ab7 ; 
+    color:#fff ;
+    border-bottom: 1px solid #fff;  
+    border-left: 1px solid #fff;    
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ; 
+}
+.ftm41{
+    background:#337ab7 ; 
+    color:#fff ;
+    border-top: 1px solid #fff; 
+    border-bottom: 1px solid #fff;  
+    border-left: 1px solid #fff;    
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    font-size:11px ;   
+    text-align: right ;
+}
+.ft_tr2{
+    border-bottom:1px solid #ddd  ;
+}
+.paginate_button.active:hover{
+    background-color:orange ;
+}
+
+.pagination>.active>span:focus 
+ {
+    color:blue ;
+}
+.etotl{
+    color: #333;
+    font-weight: bold;
+    font-size: 9px ;
+}
+.etotv{
+    color: green;
+    font-weight: bold;
+    font-size: 10px ;
+}
+.tdft{
+    border-right: 1px solid #ddd ;    
+}
+.liquidaciones_footer_modelo_cuatro{
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #ddd;    
+}
+/*botones exportacion*/
+.copiarButton{
+    border-color: #337ab7;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 2px 5px ;                
+}
+.copiarButton:hover{
+    border-color: #1c84c6;
+    background-color: #1c84c6;
+    color: #fafafa;
+    padding: 2px 5px ;                
+}           
+.csvButton{
+    border-color: #c49f47;
+    color: #fafafa;
+    background-color: #c49f47;
+    padding: 2px 5px ;                
+}
+.csvButton:hover{
+    border-color: #A47F27;
+    color: #fafafa;
+    background-color: #A47F27;
+    padding: 2px 5px ;                
+}           
+.excelButton{
+    border-color: #8E44AD;
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 2px 5px ;                
+}
+.excelButton:hover{
+    border-color: #74378E;
+    color: #fafafa;
+    background: #74378E;
+    padding: 2px 5px ;                
+}           
+.emailButton{
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fafafa;
+    padding: 2px 5px ;                                
+}
+.emailButton:hover{
+    background-color: #16699E;
+    border-color: #16699E;
+    color: #fafafa;
+    padding: 2px 5px ;                                
+}           
+.visibilidadButton{
+    background: #c49f47;
+    border-color: #c49f47;
+    color: #fafafa;
+    padding: 2px 5px ;                
+}
+.visibilidadButton:hover{
+    border-color: #A47F27;
+    color: #fafafa;
+    background-color: #A47F27;
+    padding: 2px 5px ;                
+}
+.cashdesk_balance{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    padding-right: 3px ; 
+}
+.cashdesk_balance_modelo_cuatro{
+    background-color:#ff0000 ;
+    font-weight:900 ;
+    color:#fafafa ;    
+}
+.test_diff_background_color{
+    background-color:red !important;
+    color:#fff !important;
+}
+
+/* modelo cinco */
+.colunmas_prueba_uno_modelo_cinco{
+    background:#337ab7 ; 
+    color:#fff ;
+    font-weight:400 ;
+    border-bottom: 1px solid #ddd;   
+    border-left: 1px solid #ddd;    
+    border-right: 1px solid #fff;   
+    white-space: normal ;
+    padding-left: 5px ;     
+}
+.colunmas_prueba_uno_modelo_cinco_head_th{
+    background-color:#fff ;
+    color:#333 ;
+    font-weight:800 ;
+    padding-left: 5px ;    
+}
+.colunmas_prueba_dos_modelo_cinco{
+    border-bottom: 1px solid #ddd;  
+    border-left: 1px solid #fff;    
+    border-right: 1px solid #ddd;   
+    white-space: normal ;
+    padding-left: 5px ;
+}
+.columnas_prueba_dos_modelo_cinco_head_th{
+    border-right: 1px solid #ddd;     
+    color:#333 ;
+    padding-left: 5px ;    
+}
+.colunmas_prueba_tres_modelo_cinco{
+    text-align:right ; 
+    padding-right:5px ;
+    border-right:1px solid #ddd ;
+    border-bottom:1px solid #ddd ;          
+}
+.columnas_prueba_tres_modelo_cinco_head_th{
+    padding-left:5px ;
+    border-right:1px solid #ddd ;   
+}
+.colunmas_prueba_cuatro_modelo_cinco{
+    text-align:right ;  
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd;
+    padding-right:5px ;         
+}
+.colunmas_prueba_cuatro_modelo_cinco_head_th{
+    padding-right:5px ;    
+}
+.colunmas_prueba_cinco_modelo_cinco{
+    text-align:right ; 
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:5px ;        
+}
+.colunmas_prueba_cinco_modelo_cinco_head_th{
+    padding-right:5px ;    
+}
+.colunmas_prueba_seis_modelo_cinco{
+    text-align:right ; 
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd;
+    padding-right:5px ;             
+}
+.colunmas_prueba_seis_modelo_cinco_head_th{
+    padding-right:5px ;
+}
+.colunmas_prueba_siete_modelo_cinco{
+    text-align:right ;
+    border-right:1px solid #ddd; 
+    border-bottom:1px solid #ddd; 
+    padding-right:5px ;         
+}
+.colunmas_prueba_siete_modelo_cinco_head_th{
+    text-align:right ;    
+    padding-right:5px ;    
+}
+.colunmas_prueba_ocho_modelo_cinco{
+    text-align:right ;    
+    padding-right:5px ;
+    border-right: 1px solid #ddd ;  
+    border-bottom:1px solid #ddd ;       
+}
+.colunmas_prueba_ocho_modelo_cinco_head_th{
+    text-align:right ;    
+    padding-right:5px ;
+    border-right: 1px solid #ddd ;     
+}
+.colunmas_prueba_nueve_modelo_cinco{
+    text-align:right ;    
+    padding-right:5px ; 
+    border-right: 1px solid #ddd ;
+    border-bottom:1px solid #ddd ;         
+}
+.colunmas_prueba_nueve_modelo_cinco_head_th{
+    text-align:right ;    
+    padding-right:5px ; 
+    border-right: 1px solid #ddd ;     
+}
+.colunmas_prueba_diez_modelo_cinco{
+    text-align:right ;    
+    padding-right:5px ;
+    border-right: 1px solid #ddd ;      
+}
+.colunmas_prueba_diez_modelo_cinco_head_th{
+    text-align:right ;    
+    padding-right:5px ;
+    border-right: 1px solid #ddd ;      
+}
+.DTFC_LeftBodyWrapper{
+    top: 1px ;
+}
+/*modelo 5*/
+.tipo_punto_modelo_cuatro_head_th{
+    border-top: 1px solid #ddd;
+}
+.qty_modelo_cuatro_head_th{
+    border-top: 1px solid #ddd;
+}
+.columnaprincipalm5{
+    border-bottom: 1px solid #ddd;  
+    border-right: 1px solid #ddd;   
+    white-space: normal ;
+}
+
+#tabla_sec_recaudacion .impuesto_juego{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+}
+#tabla_sec_recaudacion .base_calculo{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+}
+#tabla_sec_recaudacion .saldo_arrastrar_siguiente_mes{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+}
+#tabla_sec_recaudacion .saldo_arrastrar_anterior_mes{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+}
+#tabla_sec_recaudacion .total_cliente{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    /* padding-right: 3px ; */
+    background-color:#EBE9B0;    
+}
+#tabla_sec_recaudacion .total_cliente:hover{
+    background-color: #ffff99;
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    /* padding-right: 3px ; */
+    cursor: pointer ;    
+}
+#tabla_sec_recaudacion .participacion_cliente{
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    /* padding-right: 3px ; */
+    background-color:#EBE9B0;    
+}
+#tabla_sec_recaudacion .participacion_cliente:hover{
+    background-color: #ffff99;
+    text-align: right ;  
+    border-right: 1px solid #ddd;
+    /* padding-right: 3px ; */
+    cursor: pointer ;    
+}
+
+.dt-button-collection .dropdown-menu{
+    color:#fff ;
+}
+
+.container_filtros_consolidado_agentes
+{
+    text-shadow: none !important;
+    font-size : 11px;
+    font-weight: 600 !important;
+    font-family: "proximaNovaLight" !important;
+    font-size: 11px !important;
+}
+.btnfiltarconsolidado
+{
+    margin-top:23px;
+}
+
+#tabla_sec_consolidado_agente td
+{
+    font-size: 11px;
+}/*
+thead .tabla_sec_consolidado_agente_local_td
+{
+    font-size: 10px !important;
+    color: #333 !important;
+}
+thead .tabla_sec_consolidado_agente_cdv_td
+{
+    font-size: 10px !important;
+    color: #333 !important;
+}
+thead .tabla_sec_consolidado_agente_tfoot_meses
+{
+    font-size: 10px !important;
+    color: #333 !important;
+}*/
+   
+tbody .tabla_sec_consolidado_agente_cdv_td{
+    padding-left: 5px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;    
+}
+tbody .tabla_sec_consolidado_agente_local_td{
+    background: #337ab7;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    white-space: normal;
+    font-size: 11px;
+    padding-left: 5px;
+}
+tfoot .tabla_sec_consolidado_agente_cdv_td
+{
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    white-space: normal;
+    font-size: 9px;
+    padding-left: 5px;
+}
+tfoot .tabla_sec_consolidado_agente_local_td  {
+    background: #337ab7;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    white-space: normal;
+    font-size: 9px;
+    padding-left: 5px;
+}
+
+tfoot .tabla_sec_consolidado_agente_tfoot_meses  {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    white-space: normal;
+    font-size: 9px;
+    padding-left: 5px;
+}

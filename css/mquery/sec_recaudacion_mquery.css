@@ -1,0 +1,292 @@
+@font-face {
+	font-family: 'proximaNovaLight';
+	src: url(../../fonts/proximanova/ProximaNova-Light.f5ecce56.woff);
+}
+@font-face {
+	font-family: 'proximaNovaRegular';
+	src: url(../../fonts/proximanova/ProximaNova-Regular.b105baf2.woff);
+}
+/*desktop*/
+@media (min-width: 1200px) {
+	.contenedor-fluido {
+		width: 115%;
+		background-color: orange;
+	}
+
+	table #liquidaciones_modelo_uno th.sorting {
+		display: block;
+		width: 16px;
+	}
+	.contenedor-fluido .col-sm-6 {
+		width: 46.5%;
+	}
+	.containerfechainicial {
+		position: relative;
+		left: 0px;
+	}
+	.fechainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.horainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.containerhorainicio {
+		position: relative;
+		left: 0px;
+	}
+	.fechafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+
+	.horafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.iniciocustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.fincustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.contenedorgenerallocal {
+		float: right;
+	}
+	.contenedorlocal {
+		position: relative;
+		left: 0px;
+	}
+	.contenedorgenerallocal {
+		float: right;
+	}
+	.contenedorlocal {
+		position: relative;
+		left: 0px;
+	}
+	.page-header {
+		padding-top: 0px;
+		margin-top: 0px;
+		padding-bottom: 5px;
+		margin-bottom: 0px;
+	}
+	.page-title {
+		font-family: 'proximaNovaRegular';
+		font-size: 20px;
+		color: #10407c !important;
+	}
+}
+/*desktop pequeño o una tablet*/
+@media (min-width: 768px) and (max-width: 979px) {
+	.containerfechainicial {
+		position: relative;
+		left: 0px;
+	}
+	.fechainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.horainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.containerhorainicio {
+		position: relative;
+		left: 0px;
+	}
+	.fechafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+
+	.horafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.iniciocustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.fincustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.contenedorgenerallocal {
+		float: right;
+	}
+	.contenedorlocal {
+		position: relative;
+		left: 0px;
+	}
+	.page-header {
+		padding-top: 0px;
+		margin-top: 0px;
+		padding-bottom: 5px;
+		margin-bottom: 0px;
+	}
+	.page-title {
+		font-family: 'proximaNovaRegular';
+		font-size: 20px;
+		color: #10407c !important;
+	}
+}
+
+/*tablet o smartphone*/
+@media (max-width: 767px) {
+	.containerfechainicial {
+		position: relative;
+		left: 0px;
+	}
+	.fechainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.horainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.containerhorainicio {
+		position: relative;
+		left: 0px;
+	}
+	.fechafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+
+	.horafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.iniciocustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.fincustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.contenedorgenerallocal {
+		float: right;
+	}
+	.contenedorlocal {
+		position: relative;
+		left: 0px;
+	}
+	.page-header {
+		padding-top: 0px;
+		margin-top: 0px;
+		padding-bottom: 5px;
+		margin-bottom: 0px;
+	}
+	.page-title {
+		font-family: 'proximaNovaRegular';
+		font-size: 20px;
+		color: #10407c !important;
+	}
+}
+
+/*smartphone*/
+@media (max-width: 480px) {
+	.containerfechainicial {
+		position: relative;
+		left: 0px;
+	}
+
+	.divfechainiciocustom {
+		position: relative;
+		left: 0px;
+	}
+
+	.fechainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.horainiciocustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.containerhorainicio {
+		position: relative;
+		left: 0px;
+	}
+	.fechafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+
+	.horafincustom {
+		font-weight: 100;
+		font-size: 11px;
+		padding-top: 7px;
+		font-family: 'proximaNovaLight';
+	}
+	.iniciocustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.fincustom {
+		font-weight: 600;
+		font-family: 'proximaNovaLight';
+		font-size: 11px;
+	}
+	.contenedorgenerallocal {
+		float: right;
+	}
+	.contenedorlocal {
+		position: relative;
+		left: 0px;
+	}
+	.page-header {
+		padding-top: 0px;
+		margin-top: 0px;
+		padding-bottom: 5px;
+		margin-bottom: 0px;
+	}
+	.page-title {
+		font-family: 'proximaNovaRegular';
+		font-size: 20px;
+		color: #10407c !important;
+		margin-bottom: 10px;
+	}
+}

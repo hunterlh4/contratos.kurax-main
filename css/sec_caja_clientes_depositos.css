@@ -1,0 +1,238 @@
+.filtros_dt{margin-top:10px;}
+.pendiente {font-weight:bold;}
+
+.div_select_estado select{
+    width:50% !important;
+    /*width:16.66666667%*/
+
+}
+.modal_depositos{
+    text-align: center;
+
+}
+.modal_depositos .imgFoto{
+    background: #e6e6e6;
+    margin: 1.5rem 0rem;
+    padding: 0rem 1.5rem;
+}
+
+.tbl_goldenRace_retail_jackpots input[type="number"] {
+    border: 1px solid #c6c6c6;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    color: #262626;
+}
+
+.modal_depositos .close {
+    font-size: 22px !important;
+    opacity: 0.6 !important;
+}
+
+.modal_depositos .imgFoto img{
+    max-height: 40vh;
+    max-width: 100%;
+}
+.modal_depositos .imgFoto form .miniaturas{
+    background: #efefef;
+    padding: 0.5rem;
+    min-height: 6rem;
+    -webkit-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;    
+}
+.modal_depositos .imgFoto form .uploads {
+    margin-top: 4rem;
+
+}
+
+.modal_depositos .modal-body.subirFoto form .miniaturas img{
+   
+   width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+    transition: .5s; 
+}
+ 
+.modal_depositos .modal-body.subirFoto form .miniaturas img:hover{
+        opacity: 0.5;
+    border: 2px solid #659DE0;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+    box-shadow: 0px 0px 10px 5px rgba(101, 156, 224, 1);
+ }
+.modal_depositos .modal-body.subirFoto form .uploads{
+    margin-top: 4rem;
+}
+.modal_depositos .close{
+        font-size: 16px !important;
+    opacity: 0.6 !important;
+}
+.modal_depositos button.close.but {
+    border: 1px solid #c6c6c6;
+    padding: 0.5rem;
+}
+
+.modal_depositos .formUpload .uploads .inputfileDesk {
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.modal_depositos .formUpload .uploads .inputfileDesk + label {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+.modal_depositos .formUpload .uploads .labelbtn {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.modal_depositos .formUpload .uploads .inputfileDesk + label:hover {
+    background-color: #5bc0de;
+}
+
+.modal_depositos .formUpload .uploadInput {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+.modal_depositos .formUpload .btn_rechazar {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: #ed6b76;
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    border: 0px;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+
+.modal_depositos .formUpload .uploadInput.activate {
+    background-color: #2AA845 !important;
+}
+
+
+.modal_depositos .formUpload .uploadInput.desactivate {
+    background-color: #6C757D !important;
+}
+
+.modal_depositos .formUpload .uploadInput:hover {
+    background-color: #5bc0de;
+}
+
+.table-small-padding > tbody > tr > td,
+.table-small-padding > tbody > tr > th,
+.table-small-padding > tfoot > tr > td,
+.table-small-padding > tfoot > tr > th,
+.table-small-padding > thead > tr > td,
+.table-small-padding > thead > tr > th {
+    padding: 3px;
+    white-space: normal;
+}
+
+.btn-deposito-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 3px;
+}
+
+.input-col {
+    width: 125px !important;
+}
+
+#tbl_depositos{
+    table-layout:fixed;
+}
+
+/* SWITCH */
+.onoffswitch4 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch4-checkbox {
+    display: none;
+}
+
+.onoffswitch4-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 1px solid #34495e; border-radius: 0px;
+}
+
+.onoffswitch4-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch4-inner:before, .onoffswitch4-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.onoffswitch4-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #FFFFFF; color: #1cb787;
+}
+
+.onoffswitch4-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #ed6b76;
+    text-align: right;
+}
+
+.onoffswitch4-switch {
+    display: block; width: 25px; margin: 0px;
+    background: #ed6b76;
+    position: absolute; top: 0; bottom: 0; right: 65px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-inner {
+    margin-left: 0;
+    background: #1cb787;
+}
+
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-switch {
+    right: 0px;
+    background: #1cb787;
+}

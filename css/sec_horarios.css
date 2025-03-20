@@ -1,0 +1,17 @@
+#cellCalendar{ cursor:pointer; }
+#cellHorarioName{ cursor:pointer; }
+#cellHorarioColor{ cursor:pointer; }
+.calendar-table{ table-layout: fixed; width: 100%; }
+.calendar-row{ margin-top:20px; }
+.calendar-cell{ width:14.28%; height: 147px; vertical-align: top !important; }
+.calendar-cell h5{ margin-top: 0px;}
+.calendar-border{ border:1px solid #aaa !important; }
+.calendar-border div h5{ margin-top: 0px;}
+.calendar-alert{ margin-top:0px; margin-bottom: 0px; min-height:100px; height: 100px; padding: 5px;}
+.calendar-alert h5{ margin-top: 0px;}
+.calendar-search{ margin-top: 16px; }
+.calendar-grid{ overflow-y: auto; width: 100%; min-height: 400px !important; }
+.tblh .calendar-cell .alert.calendar-alert{
+    min-height: 80px;
+    height: 80px;
+}

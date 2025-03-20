@@ -1,0 +1,188 @@
+.fechainicioventa_general_tienda{
+    font-size: 11px ;
+}
+.fechafinventa_general_tienda{
+    font-size: 11px ;
+}
+.localreporteventa_general_tiendacustom{
+    font-size: 11px ;
+}
+.canalventasreporteventa_general_tiendacustom{
+    font-size: 11px ;
+}
+.redcustomreporteventa_general_tienda{
+    font-size: 11px ;
+}
+#reporte_apuestas_venta_general_tienda thead{
+    background-color: #C0C0C0 ;
+    color: #333 ;
+    font-size: 11px ;
+    font-family: "proximaNovaLight" ;
+}
+#reporte_apuestas_venta_general_tienda thead th{
+    border:1px solid #fff ;
+    font-family: "proximaNovaLight" ;
+}
+#reporte_apuestas_venta_general_tienda td{
+    border:1px solid #ddd ;
+    width:85px ;
+	font-family: "opensansregular" ;
+}
+#reporte_apuestas_venta_general_tienda tr:hover{
+	background-color: #ffff99 ;
+}
+#reporte_apuestas_venta_general_tienda tbody tr:nth-child(odd) {
+   background-color: #f9f9f9 ;
+}
+#reporte_apuestas_venta_general_tienda > tbody > tr.select-row:hover {
+    background-color: #bddef9;
+}
+.cabecera_vgt_columna{
+	font-size: 11px ;
+}
+.btn_filtrar_reporte_venta_general_tienda{
+	margin-top:23px ;
+}
+.btn_collapse_expand_row_venta_general_tienda{
+	color: #8E44AD ;
+	background-color: transparent ;
+	border:1px transparent ;
+}
+.sub_total_red_venta_general_tienda{
+	font-family: "opensansregular" ;
+	color: #484848 ;
+    background-color: #ffe699 !important;
+	border-color: #faebcc ;
+	font-weight: 100 ;
+}
+.sub_total_propiedad_venta_general_tienda{
+	font-family: "opensansregular" ;
+	color: #484848 ;
+    background-color: #C5E0B4 !important;
+	border-color: #faebcc ;
+	font-weight: 100 ;
+}
+.total_general_venta_general_tienda{
+	font-family: "opensansregular" ;
+	color: #484848 ;
+	background-color: #C5E0B4 ;
+	border-color: #faebcc ;
+	font-weight: 100 ;
+}
+.apostado_venta_general_tienda{
+	text-align: right ;
+	padding-right:5px ;
+}
+.net_win_venta_general_tienda{
+	text-align: right ;
+	padding-right: 5px ;
+}
+.hold_venta_general_tienda{
+	text-align: right ;
+	padding-right: 5px ;
+}
+.nombre_local_venta_general_tienda{
+	text-align: left ;
+	padding-left:5px ;
+}
+.btn_export_venta_general_tienda_xlsx {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;
+	border-bottom-right-radius:0px ;
+	font-size: 10px ;
+}
+.btn_export_venta_general_tienda_xls {
+	border:none ;
+	color: #fafafa;
+	background: #8E44AD;
+	padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+	font-size: 10px ;
+
+}
+.btn_export_venta_general_tienda_xlsx:hover {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;
+	border-bottom-right-radius:0px ;
+	font-size: 10px ;
+}
+.btn_export_venta_general_tienda_xls:hover {
+	border:none ;
+	color: #fafafa;
+	background: #8E44AD;
+	padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;
+	border-bottom-right-radius:2px ;
+	font-size: 10px ;
+}
+.alineacion_numeros{
+	text-align: right ;
+	padding-right: 5px ;
+}
+.titulo_red_cabecera{
+	width:35px ;
+}
+.nombre_red_venta_general_tienda{
+	width:35px ;
+}
+.border_cabecera{
+	border-right:1px solid #fafafa ;
+}
+.border_cabecera_canal_venta{
+	border-right:1px solid #fafafa ;
+	border-bottom:1px solid #fafafa ;
+}
+.border_cabecera_canal_venta{
+	padding-top:5px ;
+	white-space: nowrap ;
+}
+.cabecera_vgt_columna{
+	white-space: nowrap ;
+	padding-top:8px ;
+	padding-right:5px ;
+	padding-left:5px ;
+}
+.nombre_local_venta_general_tienda{
+	padding-right:5px ;
+	padding-left:5px ;
+}
+.rows_hidden_venta_general_tienda{
+	display: none;
+}
+.rows_expanded_venta_general_tienda{
+	display:block;
+}
+.reportes_venta_general_tienda_datepicker {
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;
+    font-size: 11px ;
+}
+
+.tabla_reportes_venta_general_tienda > thead > tr > th{
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ventageneral > div {
+  margin-top: 1rem
+}
+
+.panel-body.ventageneral{
+  padding: 15px 15px 15px 15px !important;
+}

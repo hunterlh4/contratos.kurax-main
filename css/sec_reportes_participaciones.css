@@ -1,0 +1,550 @@
+#tabla_reportes_participaciones th{
+    background-color: #C0C0C0 ; 
+    font-weight: 100 ;
+}
+#tabla_reportes_participaciones td{
+    
+}
+#tabla_reportes_participaciones tr:hover{
+    background-color: #ffff99 !important;    
+}
+#tabla_reportes_participaciones tbody tr:nth-child(odd) {
+   background-color: #F9F9F9 ;
+}
+.fechainicio_participaciones{
+    font-size: 11px ;
+}
+.fechafin_participaciones{
+    font-size: 11px ;
+}
+.localreporte_participaciones_custom{
+    font-size: 11px ;
+}
+.canalventasreporte_participaciones_custom{
+    font-size: 11px ;
+}
+.redcustomreporte_participaciones{
+    font-size: 11px ;	
+}
+.btn_filtrar_reporte_participaciones{
+	margin-top:23px ;
+}
+.reportes_participaciones_datepicker {
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;
+    font-size: 11px ;
+}
+.btn_export_participaciones_xlsx {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+}
+
+.btn_export_participaciones_xls {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+
+}
+
+.btn_export_participaciones_xlsx:hover {
+	border:none ;
+    background: #337ab7 ;
+    color: #fafafa ;
+    padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:0px ;	
+	border-bottom-right-radius:0px ;				 
+    font-size: 10px ;
+}
+
+.btn_export_participaciones_xls:hover {
+	border:none ;	
+    color: #fafafa;
+    background: #8E44AD;
+    padding: 3px 5px ;
+	border-top-left-radius:0px ;
+	border-bottom-left-radius:0px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;	  
+    font-size: 10px ;
+
+}
+.reportes_participaciones_datepicker{
+    height: 32px ;
+    min-width: 139px ;
+    cursor: pointer ;	
+}
+#th_anio_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_mes_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ; 
+    padding:0px 5px ;   
+}
+#th_rango_fecha_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_fecha_emision_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_fecha_vencimiento_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_dias_de_atraso_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_ejecutivo_de_ventas_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;
+    white-space: nowrap;    
+}
+#th_antiguedad_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_cliente_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_punto_venta_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;
+    white-space: nowrap;        
+}
+#th_canal_de_venta_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_tipo_de_punto_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_qty_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_porcentaje_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_total_depositado_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_anulado_retirado_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_total_apostado_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_tk_pagados_en_su_punto_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_tk_pagado_en_otro_punto_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_total_premiados_pagados_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_resultado_del_negocio_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_caja_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_depositado_web_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_retirado_web_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_tk_pagado_de_otro_punto_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;        
+}
+#th_participacion_cliente_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_participacion_free_games_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_difer_web_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;       
+}
+#th_difer_tickets_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_abonado_participacion_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_abonado_web_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_factor_de_redondeo_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_total_a_pagar_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_comision_apostado_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+#th_comision_web_part{
+    border-right:1px solid #fafafa;
+    text-align: center;
+    font-weight: 700 ;
+    padding:0px 5px;    
+}
+.btn_expand_collapse_rows_participaciones {
+    background-color: transparent ;
+    border: 1px solid transparent ;
+    color: #8E44AD ;
+}
+.sec_reportes_participaciones_button{
+     border-left:1px solid #ddd;
+     border-bottom: 1px solid #ddd;   
+}
+.sec_reportes_participaciones_anio{
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;    
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_mes{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_rango{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_fecha_emision{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd; 
+}
+.sec_reportes_participaciones_fecha_vencimiento{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_dias_de_atraso{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_ejecutivo_de_ventas{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_antiguedad{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_cliente{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_punto_de_venta{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_canal_de_venta{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_tipo_de_punto{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_qty{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_porcentaje{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_depositado{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_anulado_retirado{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_apostado{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_pagados_en_su_punto{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_pagado_en_otro_punto{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_premios_pagados{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_resultado_del_negocio{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_caja{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_depositado_web{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_retirado_web{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_pagado_de_otro_punto{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_participacion_cliente{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_participacion_freegames{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_difer_web{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_difer_tickets{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_abonado_participacion{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_abonado_web{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_factor_de_redondeo{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_total_a_pagar{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_comision_apostado{
+    border-right:1px solid #ddd;
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+.sec_reportes_participaciones_comision_web{
+    border-right:1px solid #ddd;    
+    padding:0px 5px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+.row_mes_collapse_expand{
+    background-color: #C5E0B4 !important;
+}    
+.rows_hidden_participaciones{
+    display: none;
+}
+.rows_expanded_participaciones{
+    display:block;
+}
+.sec_reportes_participaciones_mes{
+    background-color: #B4C7E6 !important;
+}
+.row_mes_collapse_expand_all{
+    background-color: #B4C7E6 !important;
+}
+.btn_expand_collapse_rows_participaciones_all{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #8E44AD;    
+}
+#th_boton_all_bottom{
+    background-color: transparent !important;    
+}
+.negative_number_reportes_participaciones{
+    color:red !important;
+}

@@ -1,0 +1,22 @@
+version: '2.0'
+services:
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-at
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8090:8082"
+      - "8091:8083"
+    volumes:
+      - /var/www/html/:/var/www/html/
+      - /var/www/bingototal/:/var/www/bingototal/
+      - /var/www/lottingo/:/var/www/lottingo/
+
+#    iptables -t nat -A POSTROUTING -s 10.8.0.2/16 \! -d 10.8.0.2/16 -j SNAT --to-source 10.8.0.1
+# iptables -t filter -A FORWARD -p tcp -d 10.8.0.2 --dport 8090 -j ACCEPT
+
+# iptables -t nat -A PREROUTING -p tcp --dport 8090 -j DNAT --to-destination 10.8.0.2:8090

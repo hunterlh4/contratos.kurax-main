@@ -1,0 +1,187 @@
+
+#tbl_televentas_transacciones thead th{
+	 position: -webkit-sticky;
+    position: sticky;
+	 background:#659DE0;
+    top: 0;
+    z-index: 10;
+}
+.tbl_televentas_transacciones_contenedor{
+	margin-top:5px;max-height:290px;overflow-y: auto
+}
+
+.buscador_contenedor{
+	margin-bottom:18px;
+}
+
+.td_botones{
+	text-align:center;
+}
+
+#loader_{
+
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    background: url(../img/AjaxLoader.gif) center center no-repeat rgba(255,255,255,0.8);
+    display: block;
+}
+
+.chrome-tab-close {
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path stroke='rgba(0, 0, 0, .65)' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+  }
+
+.tab_parpadeo_fondo_azul{
+    background-color:  #395168 !important;
+}
+.tab_parpadeo_fondo_naranja{
+    background-color:  #FD5C03 !important;
+}
+
+
+#tabs {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs li {
+  float: left;
+  /*margin: 0 .5em 0 0;*/
+  margin: 0 .2em 0 0;
+
+}
+
+#tabs .tab_titulo {
+  position: relative;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);
+  padding: .7em 3.5em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  border-radius: 5px 0 0 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  border:2px solid rgb(221, 221, 221);
+  /*cambio*/
+  background: #395168;
+  color: white;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+#tabs .tab_titulo:hover,
+#tabs .tab_titulo:hover::after,
+#tabs .tab_titulo:focus,
+#tabs .tab_titulo:focus::after {
+  background: #fff;
+  /*cambio*/
+  background: #659ce0;
+  color: white;
+  font-weight: bold;
+}
+
+#tabs .tab_titulo:focus {
+  outline: 0;
+}
+
+#tabs .tab_titulo::after {
+  /*content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;
+  bottom: 0;
+  width: 1em;
+  background: #ddd;
+  background-image: linear-gradient(to bottom, #fff, #ddd);
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transform: skew(10deg);
+  border-radius: 0 5px 0 0;*/
+}
+
+#tabs #current .tab_titulo,
+#tabs #current .tab_titulo::after {
+  background: #fff;
+  z-index: 3;
+  /*cambio*/
+  background: #659ce0;
+  color: white;
+}
+
+#content_tabs {
+  background: #fff;
+  padding: 2em;
+  height: 220px;
+  position: relative;
+  z-index: 2;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+
+
+.chrome-tab-close {
+    z-index:100;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /*position: relative;*/
+  position: absolute;
+    top: 0px;
+    right: 0px;
+    padding:18px;
+    cursor:pointer;
+  width: 16px;
+  height: 16px;
+  border-radius: 0%;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' style='background-color:red;'><path stroke='rgba(255, 255, 255, 255)' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-color: red;
+  min-height: 40px;
+}
+@media (hover: hover) {
+  .chrome-tabs .chrome-tab .chrome-tab-close:hover {
+    background-color: #e8eaed;
+    background-color: #395168;
+  }
+  .chrome-tabs .chrome-tab .chrome-tab-close:hover:active {
+    background-color: #dadce0;
+    background-color: #395168;
+  }
+}
+@media not all and (hover: hover) {
+  .chrome-tabs .chrome-tab .chrome-tab-close:active {
+    background-color: #dadce0;
+  /*cambio*/
+    background-color: #395168;
+  }
+}
+@media (hover: hover) {
+  .chrome-tabs .chrome-tab:not([active]) .chrome-tab-close:not(:hover):not(:active) {
+    opacity: 0.8;
+  }
+}
+.chrome-tabs .chrome-tab[is-smaller] .chrome-tab-close {
+  margin-left: auto;
+}
+.chrome-tabs .chrome-tab[is-mini]:not([active]) .chrome-tab-close {
+  display: none;
+}
+.chrome-tabs .chrome-tab[is-mini][active] .chrome-tab-close {
+  margin-left: auto;
+  margin-right: auto;
+}

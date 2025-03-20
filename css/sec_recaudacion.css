@@ -1,0 +1,870 @@
+/*#body_recaudacion_procesos_style{
+	overflow-x:hidden !important;
+}
+*/
+body {
+	/*background-color: #fff !important;*/
+	/*font-size: 140%;*/
+	/*padding: 1em;    */
+}
+.ui-datepicker {
+	z-index: 1060 !important;
+}
+.serviciocustom {
+	font-weight: 600 !important;
+	font-family: 'proximaNovaLight' !important;
+	font-size: 11px !important;
+}
+.productocustom {
+	font-weight: 600 !important;
+	font-family: 'proximaNovaLight' !important;
+	font-size: 11px !important;
+}
+.localcustom {
+	font-weight: 600 !important;
+	font-family: 'proximaNovaLight' !important;
+	font-size: 11px !important;
+}
+.canalventascustom {
+	font-weight: 600 !important;
+	font-family: 'proximaNovaLight' !important;
+	font-size: 11px !important;
+}
+.export_table_holder {
+	border-top: 1px solid #eee;
+	padding-top: 5px !important;
+	font-family: 'proximaNovaLight' !important;
+}
+.divfechafincustom {
+	padding-bottom: 15px;
+	font-family: 'proximaNovaLight' !important;
+}
+
+.divfechainiciocustom {
+	padding-bottom: 15px;
+	font-family: 'proximaNovaLight' !important;
+}
+
+/************************************/
+
+#recaudacion_pago_manual_view_ticket_modal hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#recaudacion_pago_manual_view_ticket_modal .panel_ticket_info .panel-body {
+	padding: 10px 20px 10px 20px;
+}
+#recaudacion_pago_manual_view_ticket_modal
+	.panel_ticket_info
+	.panel-body
+	table {
+	margin-bottom: 0px;
+}
+#recaudacion_pago_manual_view_ticket_modal
+	.panel_ticket_info
+	.panel-body
+	table
+	td {
+	padding: 2px;
+}
+#recaudacion_pago_manual_view_ticket_modal
+	.panel-controls
+	.panel-buttons
+	.btn-panel-control {
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+
+.modal-backdrop_recaudacion_add_pago_manual_modal {
+	z-index: 1059;
+}
+#recaudacion_pago_manual_view_ticket_modal {
+	z-index: 1050;
+}
+.modal-backdrop_recaudacion_pago_manual_view_ticket_modal {
+	z-index: 1049;
+}
+
+.pro_bg_0 {
+	background-color: #d3daff;
+}
+.pro_bg_1 {
+	background-color: #cfd6e7;
+}
+.pro_bg_2 {
+	background-color: #ffe7df;
+}
+.pro_bg_3 {
+	background-color: #d9ffd2;
+}
+.pro_bg_4 {
+	background-color: #d3daff;
+}
+.pro_bg_6 {
+	background-color: #ffe6e6;
+}
+.pro_bg_9 {
+	background-color: #edcf95;
+}
+.pro_bg_13 {
+	background-color: #f0ffff;
+}
+.pro_bg_15 {
+	background-color: #82e0aa;
+}
+.pro_bg_17 {
+	background-color: #abddff;
+}
+.pro_bg_18 {
+	background-color: #f1d2d2;
+}
+.iniciocustom {
+	font-size: 11px !important;
+	text-shadow: none !important;
+}
+.fincustom {
+	font-size: 10px !important;
+	text-shadow: none !important;
+}
+.localcustom {
+	font-size: 11px !important;
+	text-shadow: none !important;
+}
+.canalventascustom {
+	font-size: 11px !important;
+	text-shadow: none !important;
+}
+.redcustom {
+	font-size: 11px !important;
+	text-shadow: none !important;
+}
+.zonacustom {
+	font-size: 11px !important;
+	text-shadow: none !important;
+}
+.filtarrecaudacion {
+	border-radius: 0px !important;
+	font-size: 13px !important;
+	font-family: 'proximaNovaLight' !important;
+	margin-top: 24px !important;
+	text-shadow: none !important;
+}
+
+/*******************************************/
+
+.container_nav_tabs_recaudacion .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+	color: #333 !important;
+}
+.container_datatable_recaudacion .dataTables_length {
+	float: left !important;
+	font-size: 11px !important;
+	font-family: 'proximaNovaLight' !important;
+}
+
+.container_datatable_recaudacion #tabla_sec_recaudacion_filter {
+	font-size: 11px !important;
+	font-family: 'proximaNovaLight' !important;
+}
+.container_filtros_recaudacion .dt-buttons.btn-group {
+	font-size: 11px !important;
+	margin-left: 20px !important;
+	background-color: orange !important;
+	color: red !important;
+}
+.container_filtros_recaudacion
+	.select2-container--default
+	.select2-selection--multiple {
+	overflow-y: scroll !important;
+	max-height: 75px !important;
+	cursor: pointer !important;
+	border-color: #34495e !important;
+}
+.container_nav_tabs_recaudacion .navtabcustom {
+	font-family: 'proximaNovaLight' !important;
+	font-size: 11px !important;
+}
+
+.container_nav_tabs_recaudacion .not-active {
+	pointer-events: none;
+	cursor: default;
+	color: #d3dbde !important;
+	font-family: 'proximaNovaLight' !important;
+}
+
+.container_datatable_recaudacion .dataTables_scrollHead {
+	/*border-top: 1px solid #eee !important;*/
+}
+.container_filtros_recaudacion .datepicker .table-condensed {
+	width: 275px !important;
+	font-family: 'proximaNovaLight' !important;
+}
+.container_filtros_recaudacion
+	.input-group
+	.form-control:not(:first-child):not(:last-child),
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child) {
+	font-size: 11px !important;
+}
+
+.container_filtros_recaudacion .input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+	font-size: 11px !important;
+}
+/*
+	.container_filtros_recaudacion .input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+		height: 0px !important;
+		padding: 2px 5px !important;
+	}
+	*/
+
+.container_datatable_recaudacion table.dataTable.nowrap th,
+table.dataTable.nowrap td {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.container_datatable_recaudacion .pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover {
+	font-size: 11px !important;
+}
+.container_datatable_recaudacion .pagination li.active a,
+.pagination li.active span {
+	font-size: 11px !important;
+}
+.container_datatable_recaudacion .pagination > li > a,
+.pagination > li > span {
+	font-size: 11px !important;
+}
+.container_datatable_recaudacion div.dataTables_wrapper div.dataTables_filter {
+	float: right !important ;
+}
+.container_datatable_recaudacion div.dataTables_wrapper div.dataTables_info {
+	float: left !important;
+	font-size: 11px !important;
+}
+
+.container_datatable_recaudacion table.dataTable thead .sorting_desc:after {
+	top: -7px !important;
+	background-color: orange !important;
+}
+
+.table-liquidaciones-modelo-1 th {
+	font-size: 9px !important;
+	color: #333 !important;
+}
+.table-liquidaciones-modelo-2 th {
+	font-size: 9px !important;
+	color: #333 !important;
+}
+.table-liquidaciones-modelo-3 th {
+	font-size: 9px !important;
+	color: #333 !important;
+}
+.table-liquidaciones-modelo-4 th {
+	font-size: 9px !important;
+	color: #333 !important;
+}
+.table-liquidaciones-modelo-5 th {
+	font-size: 9px !important;
+	color: #333 !important;
+}
+.table-liquidaciones-modelo-1 td {
+	font-size: 11px !important;
+}
+.table-liquidaciones-modelo-2 td {
+	font-size: 11px !important;
+}
+.table-liquidaciones-modelo-3 td {
+	font-size: 11px !important;
+}
+.table-liquidaciones-modelo-4 td {
+	font-size: 11px !important;
+}
+.table-liquidaciones-modelo-5 td {
+	font-size: 11px !important;
+}
+#local_recaudacion.select2 option {
+	font-size: 11px !important;
+}
+#canalventarecaudacion.select2 option {
+	font-size: 11px !important;
+}
+#red_recaudacion.select2 option {
+	font-size: 11px !important;
+}
+.filtro_datepicker {
+	height: 32px !important;
+	min-width: 139px !important;
+	cursor: pointer !important;
+}
+
+/*tickets_comision_cuota modal detalle cotizaciones*/
+/*modal fullscreen */
+#modal_detalle_liquidaciones {
+	background-color: #fff !important;
+}
+/*
+	.container_datatable_recaudacion_modelo_cuatro .modal-open .modal {
+	    overflow-x: hidden !important;
+	    overflow-y: hidden !important;
+	}
+	*/
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen
+	.modal-dialog,
+.modal.modal-fullscreen .modal-content {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen
+	.modal-dialog {
+	margin: 0;
+	width: 100%;
+	animation-duration: 0.6s;
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen
+	.modal-content {
+	border: none;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+	/* change bg color below */
+	/* background:#1abc9c; */
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen.force-fullscreen {
+	/* Remove the padding inside the body */
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen.force-fullscreen
+	.modal-body {
+	padding: 0;
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen.force-fullscreen
+	.modal-header,
+.modal.modal-fullscreen.force-fullscreen .modal-footer {
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen.force-fullscreen
+	.modal-header {
+	top: 0;
+}
+.container_datatable_recaudacion_modelo_cuatro
+	.modal.modal-fullscreen.force-fullscreen
+	.modal-footer {
+	bottom: 0;
+}
+#table_tickets_comision_cuota {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+#table_tickets_comision_cuota th {
+	font-family: 'proximaNovaLight' !important;
+}
+#table_tickets_comision_cuota td {
+	font-size: 10px !important;
+	border-right: 1px solid #ddd !important;
+	border-bottom: 1px solid #ddd !important;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+#table_tickets_comision_cuota tr:hover {
+	background-color: #ffff99 !important;
+}
+#table_tickets_comision_cuota tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+.tcc_bet_id {
+	border-left: 1px solid #ddd !important;
+}
+#table_tickets_comision_cuota_filter {
+	float: right !important;
+	margin-bottom: 5px !important;
+	font-size: 11px !important;
+}
+#table_tickets_comision_cuota_length {
+	margin-bottom: 5px !important;
+	font-size: 11px !important;
+}
+#table_tickets_comision_cuota_wrapper .btn-group {
+	margin-bottom: -16px !important;
+	font-size: 11px !important;
+}
+#table_tickets_comision_cuota_paginate {
+	float: right !important;
+	font-size: 11px !important;
+}
+#table_tickets_comision_cuota_info {
+	float: left !important;
+	font-size: 11px !important;
+}
+.body_modal_tickets_comision_cuota {
+	margin-bottom: 45px !important;
+	font-size: 11px !important;
+}
+.body_modal_tickets_comision_cuota .modal-body {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+#modal_detalle_liquidaciones .modal-dialog .modal-content .modal {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.tcc_id_number {
+}
+.tcc_id_apuestas_number {
+	border-left: 1px solid #ddd !important;
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_bet_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_moneda_text {
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_monto_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_monto_en_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_cuotas_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_porcentaje_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_importe_de_comision_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_ganancias_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_monto_de_bono_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_monto_de_freebet_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_ganancias_en_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_tipo_text {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_cashdesk_info_text {
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_estado_text {
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_creado_number {
+	text-align: left !important;
+	font-weight: 100 !important;
+}
+.tcc_fecha_de_apostado_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_fecha_calc_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_is_live_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_paiddate_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.tcc_paid_cash_desk_name_number {
+	text-align: right !important;
+	font-weight: 100 !important;
+}
+.ttcc_num {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_id_apuestas_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_bet_number_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_moneda_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_monto_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_monto_en_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_cuotas_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_porcentaje_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_importe_de_comision_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_ganancias_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_monto_de_bono_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_monto_de_freebet_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_ganancias_en_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_tipo_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_cashdesk_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_cashdesk_info_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+
+.ttcc_estado_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_creado_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_fecha_de_apostado_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_fecha_calc_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_is_live_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_paiddate_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_paidcashdeskname_th {
+	font-size: 11px !important;
+	padding: 0px 5px !important;
+	border-right: 1px solid #ddd !important;
+	background-color: #337ab7 !important;
+	color: #fafafa !important;
+	font-weight: 100 !important;
+}
+.ttcc_footer_th {
+	border-top: 1px solid #fff !important;
+	border-bottom: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;
+	padding: 0px 5px !important;
+	font-weight: 100 !important;
+}
+.cashdesk_nombre_tickets_comision_cuota {
+	color: green !important;
+}
+
+.transaccion_bancaria_modal .line {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 5px;
+	margin-bottom: 10px;
+}
+
+.transaccion_bancaria_modal .btn-default.active,
+.btn-default:active {
+	color: #000000;
+	/*border-color: #dfe5ec;*/
+	background-color: #b1c4d6;
+}
+.table_transacciones_bancarias td {
+	position: relative;
+}
+.table_transacciones_bancarias .line {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	width: 10px;
+	margin-right: 50px;
+}
+.td_banco span {
+	margin-left: 10px;
+}
+.table_transacciones_bancarias .label {
+	margin-right: 5px;
+}
+
+.progress_holder .progress {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.periodos_holder_scroller {
+	max-height: 370px;
+	overflow: auto;
+}
+
+.modal-fs {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.modal-fs .modal-content {
+	height: 100%;
+}
+.modal-fs .modal-content .modal-header {
+	position: absolute;
+	width: 100%;
+	height: 55px;
+	/*background-color: #ff0;*/
+}
+.modal-fs .modal-content .modal-body {
+	top: 55px;
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 120px);
+	/*background-color: #f00;*/
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.modal-fs .modal-content .modal-footer {
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	/*background-color: #f0f;*/
+	bottom: 0;
+}
+
+#transaccion_bancaria_modal .locales_list_holder {
+	/*background-color: #f00;*/
+	height: 292px;
+	overflow-y: auto;
+}
+#transaccion_bancaria_modal #deudas_holder {
+	/*background-color: #eee;*/
+	/*padding: 5px;*/
+	max-height: 234px;
+	overflow-y: auto;
+	font-size: 10px;
+}
+#transaccion_bancaria_modal .locales_list_holder button {
+	height: 100%;
+}
+#transaccion_bancaria_modal .locales_list_holder tr:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.cursor_pointer {
+	cursor: pointer;
+}
+
+#locales_list_panel .panel-heading {
+	padding: 5px 5px 5px 5px;
+}
+#locales_list_panel .panel-body {
+	padding: 5px 6px 5px 10px;
+}
+#panel_trans_info {
+	margin-bottom: 5px;
+}
+#panel_trans_info .panel-body {
+	padding: 5px;
+}
+#panel_trans_info .panel-body table {
+	margin-bottom: 0;
+}
+#panel_deuda {
+	margin-bottom: 0;
+}
+#panel_deuda .panel-body {
+	padding: 5px;
+}
+#locales_list_table {
+	margin-bottom: 0;
+}
+
+.table_recaudacion_importacion .file_name {
+	/*background-color: #f00;*/
+	word-break: break-all;
+}
+
+.dataTables_scrollHead {
+	margin-top: 0px !important;
+}
+
+.border_top_separet_cashpoint td {
+	border-top: 1px solid red !important;
+}
+
+.bg-total {
+	background-color: rgb(155, 223, 253);
+	color: rgb(8, 15, 252);
+}
+
+.bg-header {
+	background-color: #f0f0f0;
+}
+
+.center-content {
+	margin: auto;
+	width: 50% !important;
+}

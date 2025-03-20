@@ -1,0 +1,165 @@
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder{
+	/*background-color: #f0f;*/
+	max-height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder.ui-accordion .ui-accordion-content{
+	padding: 5px 1.5px;
+}
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder.ui-accordion .ui-accordion-content .col-xs-2,
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder.ui-accordion .ui-accordion-content .col-xs-5,
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder.ui-accordion .ui-accordion-content .col-xs-6,
+#cobranzas_generar_estados_de_cuenta_modal #locales_list_holder.ui-accordion .ui-accordion-content .col-xs-12{
+	padding: 0 2px;
+}
+#cobranzas_generar_estados_de_cuenta_modal .panel .panel-heading{
+	padding: 5px;
+}
+#cobranzas_generar_estados_de_cuenta_modal .panel .panel-body{
+	padding: 5px;
+}
+
+
+#cobranzas_gestionar_estados_de_cuenta_modal{
+	z-index: 1100;
+}
+/*#cobranzas_generar_estados_de_cuenta_modal{
+	z-index: 1010;
+}*/
+/*#cobranzas_generar_estados_de_cuenta_modal .modal-dialog{
+	z-index: 1002;
+}*/
+#cobranzas_generar_estados_de_cuenta_add_deuda_manual_modal{
+	z-index: 1120;
+}
+#cobranzas_estados_de_cuenta_add_pago_modal{
+	z-index: 1120;
+}
+#cobranzas_preview_mail_modal_iframe_holder{
+	height: calc( 100% - 120px );
+	overflow: auto;
+	padding: 0;
+	/*background-color: #eee;*/
+
+}
+#cobranzas_preview_mail_modal_iframe{
+	width: 100%;
+	height: calc( 100% - 5px );
+	border: none;
+	/*background-color: rgba(50,200,15,0.5);*/
+}
+.cobranzas_bold{
+	font-weight: bold;
+}
+.view_detalle_table{
+	margin-bottom: 0;
+}
+.cobranzas_eecc_view_detalle_btn{
+	/*width: 24px;
+	overflow: hidden;*/
+}
+.cobranzas_eecc_view_detalle_btn:hover{
+	/*width: auto;
+	position: absolute;*/
+
+}
+.cobranzas_eecc_view_detalle_btn label{
+	margin-left: 2px;
+}
+.td_padding_zero{
+	padding: 0 !important;
+}
+/*.table-condensed>tbody>tr>td, 
+.table-condensed>tbody>tr>th, 
+.table-condensed>tfoot>tr>td, 
+.table-condensed>tfoot>tr>th, 
+.table-condensed>thead>tr>td, 
+.table-condensed>thead>tr>th {
+    padding: 5px;
+}*/
+
+
+.eecc_holder{
+	background-color: #eee;
+	display: block;
+}
+.eecc_holder div{
+	font-size: 0;
+}
+.eecc_holder span{
+	font-size: 0;
+	font-size: 14px;
+}
+.eecc_holder .cabecera{
+}
+.eecc_holder .cabecera div{
+	background-color: #ddd;
+	display: inline-block;
+}
+.year_holder{
+	display: block;
+}
+.year_holder div{
+	background-color: #ccc;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+.gest_list_holder{
+	background-color: #0f0;
+	/*min-height: 280px;*/
+	overflow: auto;
+	max-height: 400px;
+}
+.gest_list_holder .move_btn{
+	margin: 0;
+	font-size: 10px;
+}
+.gest_list_holder .list-group-item{
+	padding: 5px;
+}
+.gest_list_holder .nombre{
+	max-width: 225px;
+	word-break: break-word;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

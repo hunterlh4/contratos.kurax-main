@@ -1,0 +1,188 @@
+    #body_adm_mantenimientos_21_style{
+		overflow-x:hidden ;
+    }
+	#body_adm_mantenimientos_11_style{
+		overflow-x:hidden ;
+	}
+	#body_adm_mantenimientos_12_style{
+		overflow-x:hidden ;
+	}
+	#body_adm_mantenimientos_15_style{
+		overflow-x:hidden ;
+	}
+	#body_adm_mantenimientos_20_style{
+		overflow-x:hidden ;
+	}
+	.btn_opcion_hijo{
+		color:#333 ;
+	}
+	.btn_agregar_hijo{
+		color:#333 ;
+	}
+	.moveall .glyphicon-arrow-right:after, .moveall .glyphicon-arrow-right:before {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    color: #34495e ;
+	    font-size: 16px ;
+	}
+
+	.movel .glyphicon-arrow-right:after, .move .glyphicon-arrow-right:before {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    color: #34495e ;
+	    font-size: 16px ;
+	}
+	.removeall .glyphicon-arrow-left:after, .removeall .glyphicon-arrow-left:before {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    color: #34495e ;
+	    font-size: 16px ;
+	}
+	.remove .glyphicon-arrow-left:after, .remove .glyphicon-arrow-left:before {
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    color: #34495e ;
+	    font-size: 16px ;
+	}
+
+
+	.bootstrap-duallistbox-container .btn-group .btn {
+	    border-bottom-left-radius: 0;
+	    border-bottom-right-radius: 0;
+	    border: 1px solid #34495e ;
+	}
+	.bootstrap-duallistbox-container .moveall, .bootstrap-duallistbox-container .removeall {
+	    width: 50% ;
+	}
+	.bootstrap-duallistbox-container .move, .bootstrap-duallistbox-container .remove {
+	    width: 50% ;
+	}
+	#trrrrrrreeeeeee{
+		margin-top:20px ;
+	}
+	#trrrrrrreeeeeee th{
+		font-size:10px ;
+		white-space: nowrap ;
+	}
+	#trrrrrrreeeeeee td{
+		padding:0px 5px 0px 5px ;
+		margin:0px ;
+	    font-family: "opensansregular" ;
+	}
+
+	#trrrrrrreeeeeee 
+	div.dataTables_wrapper 
+	div.dataTables_paginate{
+		font-size:11px ;
+	}
+	.toggle.btn {
+	    margin:0px ; 
+	}
+	.id_mantenimiento{
+		width:15px ;
+	} 
+	.grupo_id_mantenimiento{
+		width:50px ;
+	}
+	.titulo_mantenimiento{
+		width:70px ;
+	    font-family: "proximaNovaLight" ;			
+	} 
+	.descripcion_mantenimiento{
+		width:400px ;
+	    font-family: "proximaNovaLight" ;		
+	}
+	.relacion_id_mantenimiento{
+		width:20px ;
+		font-family: "proximaNovaLight" ;
+	} 
+	.relacion_grupo_id{
+		width:20px ;
+	} 
+	.tipo{
+		width:20px ;
+	}
+	.sec_id{
+		width:95px ;
+	
+	}
+	.sub_sec_id{
+		width:20px ;
+	} 
+	.icono_mantenimiento{
+		width:15px ;
+		text-align: center ;
+	} 
+	.sistema_id_mantenimiento{
+		width:50px ;
+	    font-family: "proximaNovaLight" ;		
+	} 
+	.ord_mantenimiento{
+		width:20px ;
+		text-align: right ;		
+	} 
+	.opciones_botones_sec_admin{
+		height:30px ;
+	}
+
+
+	#adm_mantenimiento_list{
+		display: none;
+	}
+	.parent_color_row{
+		background-color: #a6ceff ;	
+	}
+	.parent_color_row:hover{
+		background-color: #a6ceff ;	
+	}	
+	.children_color_row{
+		background-color: #e6f3fe ;		
+	}
+	.btn_enviar_lista_botones{
+	    background-color: #337ab7 ;
+	    border-color: #337ab7 ; 
+	    color:#fafafa ;		
+	}	
+	.form_editar_menu_sistema{
+		margin-top:35px ;
+	}
+	.form_editar_menu_sistema .control-label{
+		font-weight: 500 ;
+	    font-family: "opensansregular" ;
+	}
+	.form_editar_menu_sistema{
+	    font-family: "proximaNovaLight" ;		
+	}
+	.btn_open_modal_crear_nuevo_boton{
+	    color: #fff;
+	    background-color: #189c73;
+	    border-radius: 2px ;
+	    border: 1px solid transparent ;
+	    font-size: 11px ;
+		margin-left: 14px ;
+    	margin-top: 6px ;
+	}
+	#form_envio_botones .modal-body{
+		padding-top: 5px ;
+	}
+	.btn_enviar_nuevo_boton{
+		margin-top: 10px ;
+		background-color: #1b809e ;
+		border:1px solid transparent ;
+		color:#fafafa ;
+		font-size: 11px ;
+		border-radius: 2px ;
+		padding:2px 5px ;
+		margin-right:15px ;
+
+	}
+	.btn_cerrar_add_child_box{
+		margin-right: 0px ;
+	}
+	.btn_guardar_add_child_box{
+		margin-right: 15px ;		
+	}

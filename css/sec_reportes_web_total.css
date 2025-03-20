@@ -1,0 +1,295 @@
+#tabla_reportes_web_total thead {
+	font-family: "opensansregular" ;
+	border-top:1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right:1px solid #ddd !important;	
+}
+
+#tabla_reportes_web_total th{
+	font-family: "proximaNovaLight" ;
+	border-top:1px solid #fafafa ;
+	border-bottom:1px solid #fafafa ;
+	border-right:1px solid #fafafa ;	
+	border-left:1px solid #fafafa ;
+	white-space: nowrap ;	
+	font-weight: 100 ;	
+}
+#tabla_reportes_web_total td{
+	font-family: "opensansregular" ;	
+	border-top:1px solid #ddd ;
+	border-left:1px solid #ddd ;
+	padding:1px 6px ; 			
+}
+#tabla_reportes_web_total tbody>tr:hover{
+	background-color: #ffff99 !important;
+}
+#tabla_reportes_web_total tr:nth-child(even) {
+  background-color:#F5F5F5;
+}
+.th_exportar_xlsx{
+	border-left: 1px solid #ddd !important;
+}
+.th_exportar_xls{
+	border-right: 1px solid #ddd;	
+}
+.negative_number{
+	color:red ;
+}
+.titulo_columna_tabla{
+	text-align: center ;
+}
+.btn_collapse_expand_row_web_total{
+	border: 1px solid transparent ;
+	background-color:transparent ;
+}
+.btn_collapse_expand_row_web_total span{ 
+	color:#8E44AD ;
+}
+.cabecera_cantidad_web_total{
+	text-align: center ;
+	background-color:#ffe699;
+	color:#333 ;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px ;
+	font-weight: 800;
+	border-left: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;	
+}
+.cabeceras_sin_bordes{
+	border-right:1px #ddd !important;
+}
+.titulo_seleccionar_todos_collapse_expand_row{
+	background: #649BFB ;    
+}
+.titulo_columna_tabla_anio{
+	background-color: #8FAADC ;
+	color:#333 ;  
+	font-weight: 100 ;  
+}
+.titulo_columna_tabla_mes{
+	background-color: #8FAADC ;
+	color:#333 ;  
+	font-weight: 100 ;      
+}
+.titulo_columna_tabla_numero_registros{
+	background-color: #8FAADC ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_bonus_web{
+	background-color: #BDD7EE ;
+	color:#333 ;  
+	font-weight: 100 ; 
+}
+
+.titulo_columna_tabla_dinero_depositado{
+	background-color: #BDD7EE ;
+	color:#333 ;  
+	font-weight: 100 ; 
+}
+.titulo_columna_tabla_dinero_retirado_web{
+	background-color: #BDD7EE ;
+	color:#333 ;  
+	font-weight: 100 ;     
+}
+.titulo_columna_tabla_caja_web{
+	background-color: #9DC3E6 ;
+	color:#333 ;  
+	font-weight: 100 ;    
+}
+.titulo_columna_tabla_dinero_apostado{
+	background-color: #E2F0D9 ;
+	color:#333 ;  
+	font-weight: 100 ; 
+}
+.titulo_columna_tabla_payout_money{
+	background-color: #E2F0D9 ;
+	color:#333 ;  
+	font-weight: 100 ;    
+}
+.titulo_columna_tabla_net_win{
+	background-color: #C9C9C9 ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_pay_out{
+	background-color: #C9C9C9 ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_hold{
+	background-color: #C9C9C9 ;
+	color:#333 ;  
+	font-weight: 100 ;    
+}
+.titulo_columna_tabla_tickets_emitidos{
+	background-color: #B4C7E7 ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_tickets_ganados{
+	background-color: #B4C7E7 ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_apuesta_por_tickets{
+	background-color: #B4C7E7 ;
+	color:#333 ;  
+	font-weight: 100 ;
+}
+.titulo_columna_tabla_tickets_premiados{
+	 background-color: #B4C7E7 ;
+	color:#333 ;  
+	font-weight: 100 ;   
+}
+.titulo_columna_tabla_creditos_en_web{
+	background-color: #c5e0b4 ;
+	color:#333 ;  
+	font-weight: 100 ;    
+}
+.negative_number {
+	color:red;
+}
+.num_registros{
+	text-align: right ; 
+}
+.bonus_web{
+	text-align: right ;
+}
+.dinero_depositado{
+	text-align: right ;
+}
+.dinero_retirado{
+	text-align: right ;
+}
+.caja_web{
+	text-align: right ;
+}
+.dinero_apostado{
+	text-align: right ;
+}
+.payout_money{
+	text-align: right ;
+
+}
+.net_win{
+	text-align: right ;
+
+}
+.pay_out{
+	text-align: right ;    
+}
+.hold{
+	text-align: right ;
+  
+}
+.num_tickets{
+	text-align: right ;
+}
+.tickets_pagados{
+	text-align: right ;
+}
+.apuesta_x_ticket{
+	text-align: right ;
+}
+.tickets_premiados{
+	text-align: right ; 
+}
+.creditos_web{
+	text-align: right ; 
+	   
+}
+.anio{
+	text-align: left ;
+}
+.mes{
+	text-align: left ;
+}
+.caja_web_general{
+	background-color: #9DC3E6 ;
+	color:#333 ;  
+}
+.dinero_apostado_total_general{
+	background-color: #E2F0D9 ;
+}
+.payout_money_total_general{
+	background-color: #E2F0D9 ;    
+}
+.num_tickets_total_general{
+	background-color: #649BFB ;
+}
+.tickets_pagados_general{
+	background-color: #649BFB ;
+}
+.apuesta_x_ticket_total_general{
+	background-color: #649BFB ;
+}
+.tickets_premiados_total_general{
+	background-color: #649BFB ;
+}
+
+.creditos_web_total_general{
+	background-color: #ACDD94 ;
+}
+.net_win_total_general{
+	background-color:#C9C9C9 ; 
+}
+.pay_out_total_general{
+	background-color:#C9C9C9 ; 
+}
+.hold_total_general{
+	background-color:#C9C9C9 ; 
+}
+.num_tickets_total_general{
+	background-color: #B4C7E7 ;
+}
+.tickets_pagados_total_general{
+	background-color: #B4C7E7 ;
+}
+.apuesta_x_ticket_total_general{
+	background-color: #B4C7E7 ;
+}
+.tickets_premiados_total_general{
+	background-color: #B4C7E7 ;
+}
+.creditos_web_total_general{
+	background-color: #c5e0b4 ;     
+}
+.fechainicioreportewebtotaltext{
+	font-size: 11px ;
+}
+.fechafinreportewebtotaltext{
+	font-size: 11px ;
+}
+.localreportewebtotaltextcustom{
+	font-size: 11px ;
+}
+.canalventasreportewebtotaltextcustom{
+	font-size: 11px ;
+}
+.redreportewebtotaltextcustom{
+	font-size: 11px ;
+}
+.reportes_web_total_datepicker{
+	height:32px ; 
+	min-width:139px ;
+	cursor:pointer ;
+}
+.btn_filtrar_reporte_web_total {
+	border-radius: 0px ;
+	font-size: 13px ; 
+	font-family: "proximaNovaLight" ;     
+	margin-top: 24px;
+}
+.rows_hidden_web_total{
+	display: none;
+}
+.rows_expanded_web_total{
+	display:block;
+}
+.sub_total_web_total{
+	background-color: #fcf8e3 !important; 	
+}
+.total_general_web_total{
+	border-bottom: 1px solid #ddd !important;
+}

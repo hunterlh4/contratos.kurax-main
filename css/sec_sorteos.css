@@ -1,0 +1,36 @@
+.tooltip-inner {
+  white-space:nowrap !important;
+  max-width:none !important;
+}
+#txtSorteosDNI {
+    color: transparent;
+    text-shadow: 0 0 0 #555555;
+
+    &:focus {
+        outline: none;
+    }
+}
+#txtSorteosTickets {
+    color: transparent;
+    text-shadow: 0 0 0 #555555;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.sorteos input:focus {
+  outline: none; 
+  border: 4px solid blue;
+  animation: shadow-pulse 1s infinite;
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 255, 0.6);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 255, 0);
+     }
+}

@@ -1,0 +1,75 @@
+    #body_clientes__style{
+    	overflow-x:hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+/*botones exportacion*/
+    .sec_clientes_copiarButton{
+        border-color: #337ab7;
+        background: #337ab7;
+        color: #fafafa;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_copiarButton:hover{
+        border-color: #1c84c6;
+        background-color: #1c84c6;
+        color: #fafafa;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_csvButton{
+        border-color: #c49f47;
+        color: #fafafa;
+        background-color: #c49f47;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_csvButton:hover{
+        border-color: #A47F27;
+        color: #fafafa;
+        background-color: #A47F27;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_excelButton{
+        border-color: #8E44AD;
+        color: #fafafa;
+        background: #8E44AD;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_excelButton:hover{
+        border-color: #74378E;
+        color: #fafafa;
+        background: #74378E;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_visibilidadButton{
+        background: #c49f47;
+        border-color: #c49f47;
+        color: #fafafa;
+        padding: 2px 5px ;
+    }
+    .sec_clientes_visibilidadButton:hover{
+        border-color: #A47F27;
+        color: #fafafa;
+        background-color: #A47F27;
+        padding: 2px 5px ;
+    }
+    #clientes_list_filter{
+    	float:right ;
+    }
+    #clientes_list_filter input{
+		width: 250px ;
+    }
+    #clientes_list_wrapper .btn-group{
+    	margin-top:11px ;
+
+    }
+    #clientes_list_length{
+    	margin-top:5px ;
+    }
+    #clientes_list_filter{
+    	margin-top:5px ;
+    }
+    #clientes_list_paginate{
+    	float:right ;
+    }
+    #clientes_list_info{
+    	float:left ;
+    }

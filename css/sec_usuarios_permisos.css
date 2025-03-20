@@ -1,0 +1,730 @@
+.select_permisos{
+	float:left;
+	width:200px ;
+}
+.btn_copiar_user_settings{
+	padding: 5px 12px;
+	font-size: 11px;
+}
+#table_tree_permisos th{
+	border:1px solid transparent ;
+}
+#table_tree_permisos td{
+	border:1px solid transparent ;
+}
+#table_botones_permisos th{
+	border:1px solid transparent ;
+}
+#table_botones_permisos td{
+	border:1px solid transparent ;
+}
+.container_button_asignar_permisos{
+	margin-left:auto;
+	margin-right:auto;
+	width:170px;
+	margin-top:15px; 	
+}
+.check-icon{
+	float:right ;
+}
+.select_permisos{
+	width:200px ;
+	float:left; 
+}
+.select_permisos_usuario_a_copiar{
+	width:200px ; 
+}
+.select_permisos_checkbox{
+	border:1px solid #333 ;
+}
+.alerta_permisos_asignados{
+	display:none ;
+}
+#modal_permisos_usuarios_multiples .modal-body{
+	padding-left: 15px ;
+	padding-top: 0px ;
+	padding-bottom: 0px ;
+	margin-bottom: 0px ;
+}
+.sec_permisos_treeview_usuarios{
+	margin-top:10px ;
+	margin-bottom:5px ;
+	border-radius:5px ;
+}
+.sec_permisos_treeview_locales{
+	max-height:300px;
+	overflow-y: scroll;
+	width: 100%;  
+}
+.sec_usuarios_permisos_filtros{
+	margin-top:10px ;
+}
+.records_table th{
+	border-top:1px solid #ddd; 
+	border-bottom:1px solid #ddd;
+	color:#fafafa ;
+	padding:0px 5px ; 
+	background-color: #189c73 ; 
+	font-weight: 100 ;
+	font-size: 10px ;
+	padding: 5px 0px;
+	height: 20px;
+}
+.records_table td{
+	border-top:1px solid #ddd; 
+	border-bottom:1px solid #ddd;     
+	color:#333 ;
+	padding:0px 5px ;     
+}
+.records_table_usuario_seleccionado th{
+	border-top:1px solid #ddd; 
+	border-bottom:1px solid #ddd;
+	color:#fafafa ;
+	padding:0px 5px ; 
+	background-color: #189c73 ; 
+	font-weight: 100 ;
+	font-size: 10px ;
+	padding: 5px 0px;
+	height: 20px;
+}
+.records_table_usuario_seleccionado td{
+	border-top:1px solid #ddd; 
+	border-bottom:1px solid #ddd;     
+	color:#333 ;
+	padding:0px 5px ;     
+}
+.td_first_botones_seleccionados{
+	border-left:1px solid #ddd;
+}
+.td_second_botones_seleccionados{
+	border-right:1px solid #ddd;
+}
+.td_first_botones_disponibles{
+	border-left:1px solid #ddd;
+}
+.td_second_botones_disponibles{
+	border-right:1px solid #ddd;   
+}
+.th_first_thead_botones{
+	border-left:1px solid #ddd;
+}
+.th_second_thead_botones{
+	border-right:1px solid #ddd;   
+}
+.btn_save_settings_users_permisos{
+	float: right;
+	position: relative;
+	right: 0px;
+	bottom:0px;
+	padding: 5px 12px;
+	font-size: 11px; 
+	margin-top:25px;   
+}
+.select_permisos_checkbox{
+	margin-right:auto ;
+	margin-left:auto ;
+}
+.container_checkb_option{
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titulo_opciones_permisos{
+	font-weight: 100 ;
+	margin-bottom:10px;
+}
+.treeview span.check-icon{
+	 pointer-events: none;
+	 cursor: default;
+	 color: #048E12;
+	}
+.treeview span.expand-icon{
+	color:#8E44AD;
+}
+.modal-fullscreen {
+	background: transparent;
+}
+.modal-fullscreen .modal-content {
+	background: transparent;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+	background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+	opacity: .97;
+	filter: alpha(opacity=97);
+}
+/* .modal-fullscreen */
+.modal-fullscreen .modal-dialog {
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.modal-fullscreen .modal-dialog {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.modal-fullscreen .modal-dialog {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.modal-fullscreen .modal-dialog {
+		 width: 1170px;
+	}
+}
+.fullscreen_ususarios_permisos_enabled{
+	background-color: transparent ;
+	border:none ;
+	float:right ;
+	color: #D1CECE ;
+}
+.fullscreen_ususarios_permisos_disabled{
+	background-color: transparent ;
+	border:none ; 
+	float:right ;       
+	color: #D1CECE ;   
+}
+
+.records_table input[type="checkbox"] {
+	margin: 5px 0px -7px 0px ;
+}
+
+.records_table tr:hover {
+	background-color: #ffff99;
+}
+
+.records_table input[type="checkbox"] {
+	margin: 5px 0px -7px 0px ;
+}
+
+.records_table tr:hover {
+	background-color: #ffff99;
+}
+.treeview span.glyphicon-list {
+	color: #016D92 ;
+}
+.treeview span.glyphicon-home {
+	color: #016D92 ;
+}
+#titulo_locales_permisos_usuarios{
+	font-family: "proximaNovaLight";
+	color: #1c84c6;
+	font-weight: 800;
+	text-transform: uppercase; 
+	padding-left:15px; 	
+}
+#titulo_menus_sub_menus_permisos_usuarios{
+	font-family: "proximaNovaLight";
+	color: #1c84c6;
+	font-weight: 800;
+	text-transform: uppercase; 
+	padding-left:15px; 
+}
+.btn_permisos_ususarios_usuario_selecionado_table span{
+		color:#333 ;
+}
+.btn_copy_settings_users_menu_permisos{
+	color: #fff;
+	background: #34b4c1;
+	border-color: #34b4c1;  
+	padding: 5px 12px;
+	font-size: 11px; 
+	border:none ; 
+	border-radius: 2px ;  
+}
+.title_usuario_seleccionado{
+	color: #016D92 ;
+	display:inline;
+}
+.current_user{
+	clear:left ;
+	color: #886104 ;
+	display:inline;
+}
+.contener_usuario_fuente{
+	margin-top: 10px;	
+}
+#btn-check-all_permisos_usuarios{
+	background-color: transparent;
+	border:none;
+	float:right;
+	margin-right: 28px;
+}
+#btn-uncheck-all_permisos_usuarios{
+	background-color: transparent;
+	border:none;
+	float:right;
+	margin-right: 28px;
+}
+#btn-check-all_permisos_usuarios span, #btn-uncheck-all_permisos_usuarios span {
+	pointer-events: none;
+	cursor: default;
+	color: #048E12;
+}
+.container_btn_guardar_locales_permisos{
+	width:100%;
+	height:42px;
+	border-top:1px solid #ddd;
+}
+.container_table_locales_seleccionados{
+	width:100%;
+	height: 420px;
+	overflow-y: scroll;
+}
+.container_table_menus_sub_menus_botones{
+	width:100%;
+	height: 420px;
+	overflow-y: scroll;	
+}
+#filter_tbl_locales_usuarios_seleccionados {
+	width:120px;
+	float:right;
+	font-family: "proximaNovaLight";	
+}
+#tbl_locales_usuarios_seleccionados tbody tr:hover{
+	background-color: #ffff99;
+}
+.container_filtros_locales_permisos{
+	max-height:550px;
+	overflow-y: scroll;  
+}
+#tbl_locales_usuarios_seleccionados .td_nombres_locales_usuarios{
+	color: #886104;
+	padding-left:20px;
+}
+.tbl_locales_usuarios_seleccionados tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+.tabla_menu_sub_menu_botones_checkbox_botones_padre tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+.tabla_menu_sub_menu_botones_checkbox_botones_padre_copiar tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+.tbl_menu_sub_menu_botones_checbox{
+	/*border-top:1px solid #ddd;*/
+	border-bottom:1px solid #ddd;	
+}
+.tbl_sub_menu_botones tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+.tbl_menu_sub_menu_botones tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+.tr_tbl_sub_menu_botones tr td{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;  
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;  
+}
+
+.tbl_locales_usuarios_seleccionados .checkbox {
+	margin-top: 2px !important; 
+	margin-bottom: 2px !important; 
+}
+.tabla_menu_sub_menu_botones_checkbox_botones_padre .checkbox {
+	margin-top: 2px !important; 
+	margin-bottom: 2px !important; 
+}
+.tbl_sub_menu_botones .checkbox {
+	margin-top: 2px !important; 
+	margin-bottom: 2px !important; 
+}
+.tbl_menu_sub_menu_botones .checkbox {
+	margin-top: 2px !important; 
+	margin-bottom: 2px !important; 
+}
+.tr_tbl_sub_menu_botones .checkbox {
+	margin-top: 2px !important; 
+	margin-bottom: 2px !important; 
+}
+.btn_save_settings_users_permisos{
+	display:none;
+}
+.sec_permisos_treeview_usuarios .list-group .list-group-item{
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;	
+}
+.sec_permisos_treeview_usuarios .list-group li:first-child { 
+	border-top:1px solid transparent;
+	margin-top: -10px;	
+}
+.sec_permisos_treeview_usuarios .list-group li:last-child { 
+	border-bottom:1px solid transparent;
+	margin-bottom: -20px;			
+}
+.sec_permisos_treeview_usuarios{
+	height:350px;
+	overflow:scroll;
+}
+.redes_usuarios_span{
+	margin-right: 5px;
+	color: #8E44AD;
+}
+.locales_usuarios_span{
+	margin-right: 10px;
+    color: #016D92;		
+}
+.rows_hidden_usuarios_permisos{
+	display: none;
+}
+.rows_expanded_usuarios_permisos{
+	display:block;
+}
+.parent_usuarios_permisos{
+	border:1px solid transparent;
+	background-color: transparent;
+	color: #8E44AD;
+}
+.all_parent_usuarios_permisos{
+	border:1px solid transparent;
+	background-color: transparent;
+	color: #8E44AD;	
+}
+.td_id_locales_usuarios{
+    color:#189c73;
+    padding-right: 5px;    	
+}
+.estilos_nombre_red_collapse{
+	color: #8E44AD;
+}
+.estilos_nombre_red_expand{
+	color: #886104;
+}
+.nombre_menu_a_asignar_botones{
+	color: #8E44AD;	
+}
+.tbl_menu_sub_menu_botones{
+	margin-bottom: 10px;	
+}
+.tbl_menu_sub_menu_botones tr {
+}
+.tbl_menu_sub_menu_botones tbody tr:hover{
+	background-color: #ffff99;
+}
+.tbl_menu_sub_menu_botones_primer_td_copiar{
+	padding-left:35px;
+	border-bottom:1px solid #ddd;
+}
+.tbl_menu_sub_menu_botones_ultimo_td{
+}
+.tbl_menu_sub_menu_botones_thead{
+	padding:5px;		
+}
+.tbl_sub_menu_botones{
+	float: right;
+	margin:0px;
+}
+.panel_titulo_menu_sub_menu_botones{
+    color: #1c84c6;
+    font-weight: 800;
+}    
+
+.tbl_menu_sub_menu_botones_icon_expand_collapse_padre{
+	color: #8E44AD;
+}
+.tbl_menu_sub_menu_botones_icon_lista_padre{
+    color: #016D92;	
+}
+.tbl_menu_sub_menu_botones_icon_expand_collapse_hijos{
+	color: #8E44AD;
+}
+.tbl_menu_sub_menu_botones_icon_lista_hijos{
+	color: #016D92;
+}
+.tbl_menu_sub_menu_botones_icon_lista_hijos_copiar{
+	color: #158461;
+}
+.tbl_menu_sub_menu_botones_icon_expand_collapse_abuelo{
+	color: #8E44AD;
+}
+.tbl_menu_sub_menu_botones_icon_lista_abuelo{
+	color: #016D92;
+}
+.tbl_menu_sub_menu_botones_texto{
+	color: #886104;
+}
+.parent_tbl_sub_menu_botones{
+	border:1px solid transparent;
+	background-color: transparent;	
+}
+.parent_tbl_sub_menu_botones_padres{
+	border:1px solid transparent;
+	background-color: transparent;		
+}
+.tbl_menu_sub_menu_botones_iconos{
+	color: #8E44AD;
+	margin-left:9px;	
+}
+.tbl_menu_sub_menu_botones_texto_botones_padre{
+	color: #016D92;
+    margin-left:5px;	
+}
+.tbl_menu_sub_menu_botones_checkbox_botones_padre{
+	width: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:15px !important;
+}
+.tbl_menu_sub_menu_botones_texto_botones_hijo{
+	color: #016D92;
+    margin-left:5px;	
+}
+.tbl_menu_sub_menu_botones_iconos_hijo{
+	color: #8E44AD;
+	margin-left:12px;	
+}
+.tbl_menu_sub_menu_botones_checkbox_botones_hijo{
+	width: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0px !important;		
+}
+.tbl_menu_sub_menu_botones_botones_padre_td{
+	border-left:1px solid #ddd;
+}
+.tbl_menu_sub_menu_botones_botones_padre_td_copiar{
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding:0px !important;	
+}
+
+.tbl_menu_sub_menu_botones_botones_hijos_td{
+	border-left:1px solid #ddd;
+}
+.tbl_menu_sub_menu_botones_botones_hijos_td_copiar{
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+
+.tbl_menu_sub_menu_botones_ultimo_td{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;	
+}
+.button-checkbox-usuarios_locales_menus_sub_menus button{
+	height:17px;
+	background-color:transparent !important;
+	border:transparent ;
+	outline: none;
+}
+#container_locales_menus_sub_menus{
+	display:none;
+	height: 700px; 
+}
+/* editado por alex */
+.asignar_permisos_locales{
+	display: none;
+}
+.panel_heading_usuarios_menu_sub_menus{
+	background-color: #f5f5f5 !important;
+	height:37px !important;	
+}
+.panel_heading_usuarios_locales{
+	background-color: #f5f5f5 !important;
+	height:37px !important;	
+}
+.parent_redes_usuarios_permisos_copiar {
+	padding:0px;
+	border-bottom: 1px solid #ddd;
+}
+.children_usuarios_permisos_copiar{
+	padding:0px;
+	border-bottom:1px solid #ddd;
+}
+.nombre_red_usuarios_permisos_copiar{
+	margin-left: 5px !important;	
+}
+.icono_red_usuarios_permisos_copiar{
+	margin-left: 10px !important;
+	color: #8E44AD;
+}
+
+.children_usuarios_permisos_copiar span{
+	margin-left: 25px !important;
+}
+.contenedor_tabla_permisos_locales_copiar{
+    border: 1px solid rgba(0,0,0,.2);
+	overflow:scroll;
+	height:350px;	
+}
+.contenedor_tabla_permisos_menus_copiar{
+    border: 1px solid rgba(0,0,0,.2);
+	overflow:scroll;
+	height:350px;	
+}
+.tbl_copiar_permisos_menus_sub_menus{
+	margin-top:5px;
+	margin-left: -25px !important;
+}
+.td_nombres_locales_usuarios_copiar span.locales_usuarios_span_copiar {
+	color: #016D92;
+	padding-left:10px;
+}
+.tbl_menu_sub_menu_botones_primer_td_copiar_border_none{
+	border:none !important;
+}
+.contenedor_permisos_locales_copiar{
+	border:1px solid #ddd;
+	height: 100%;
+}
+.contenedor_permisos_menus_sub_menus_copiar{
+	border:1px solid #ddd;
+	height: 100%;
+}
+.btn_copiar_user_settings_locales{
+	margin-top: 7px;
+    margin-right: 3px;
+}
+.btn_copiar_user_settings_menus{
+	margin-top: 7px;
+    margin-right: 3px;	
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------------------
+switch on/off
+----------------------------------*/
+/* The switch - the box around the slider */
+.switch_redes {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch_redes input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(16px);
+	-ms-transform: translateX(16px);
+	transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 24px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }

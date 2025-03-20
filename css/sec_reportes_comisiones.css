@@ -1,0 +1,458 @@
+#tabla_reportes_comisiones thead {
+    background-color: #c0c0c0 !important;
+    color: #333;
+}
+#tabla_reportes_comisiones tr:hover {
+    background-color: #ffff99 !important;
+}
+#tabla_reportes_comisiones tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.fechainicio_comisiones {
+    font-size: 11px;
+}
+.fechafin_comisiones {
+    font-size: 11px;
+}
+.localreporte_comisiones_custom {
+    font-size: 11px;
+}
+.canalventasreportecomisiones_custom {
+    font-size: 11px;
+}
+.redcustomreporte_comisiones {
+    font-size: 11px;
+}
+.btn_filtrar_reporte_comisiones {
+    margin-top: 23px;
+}
+.reportes_comisiones_datepicker {
+    height: 32px;
+    min-width: 139px;
+    cursor: pointer;
+    font-size: 11px;
+}
+.btn_export_comisiones_xlsx {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+
+.btn_export_comisiones_xls {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+
+.btn_export_comisiones_xlsx:hover {
+    border: none;
+    background: #337ab7;
+    color: #fafafa;
+    padding: 3px 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+}
+
+.btn_export_comisiones_xls:hover {
+    border: none;
+    color: #fafafa;
+    background: #8e44ad;
+    padding: 3px 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 10px;
+}
+.btn_comisiones_expand_collapse {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #8e44ad;
+}
+
+#th_anio_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_mes_comisiones {
+    background-color: #c0c0c0 !important;
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_fecha_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_semana_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_canal_de_venta_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_cliente_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_punto_de_venta_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_tipo_administracion_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_tipo_de_punto_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_qty_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_porcentaje_apostado_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_porcentaje_web_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_total_depositado_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_anulado_retirado_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_total_apostado_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_tk_pagados_en_su_punto {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_tk_pagados_en_otro_punto {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_total_premio_pagados_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_resultado_del_negocio_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_caja_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_depositado_web_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_retirado_web_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_difer_web_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_tk_pagado_de_otro_punto_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+#th_participacion_cliente_freegames_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_comision_apostado_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_comision_web_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+#th_total_a_abonar_freegames_comisiones {
+    border-right: 1px solid #fafafa;
+    text-align: center;
+    padding: 0px 5px;
+}
+.btn_collapse_expand_comisiones {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.anio_comisiones {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.mes_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+    background-color: #b4c7e6;
+}
+.fecha_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.semana_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.canal_de_venta_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: left;
+}
+.cliente_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+}
+.punto_de_venta_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: left;
+}
+.tipo_admin_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: left;
+}
+.tipo_de_punto_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: left;
+}
+.qty_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.porcentaje_apostado_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.porcentaje_web_apostado {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_depositado_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_anulado_retirado_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_apostado_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_pagados_en_su_punto_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_pagado_en_otro_punto_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_premios_pagados_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.resultado_del_negocio_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.caja_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_depositado_web_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_retirado_web_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.difer_web_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+    white-space: nowrap;
+}
+.total_pagado_de_otro_punto_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.participacion_cliente_freegames_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.comision_apostado_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.comision_web_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.total_a_abonar_freegames_comisiones {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.btn_expand_collapse_rows_comisiones {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #8e44ad;
+}
+.row_mes_collapse_expand_comisiones {
+    background-color: #c5e0b4 !important;
+}
+.rows_hidden_comisiones {
+    display: none;
+}
+.rows_expanded_comisiones {
+    display: block;
+}
+.anio_comisiones_mes {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+}
+.mes_comisiones_mes {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 5px;
+    text-align: right;
+    background-color: #b4c7e6;
+}
+.row_anio_collapse_expand_comisiones {
+    background-color: #ffe699 !important;
+}
+
+.row_collapse_expand_all_comisiones {
+    background-color: #b4c7e6 !important;
+}
+
+.all_parent_comisiones {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #8e44ad;
+}
+.negative_number_reportes_comisiones {
+    color: red !important;
+}

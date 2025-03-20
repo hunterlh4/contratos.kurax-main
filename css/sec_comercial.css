@@ -1,0 +1,10 @@
+.btn_filtrar_comercial_reporte_total_pais {
+    margin-top: 27px;
+    border-radius: 0px;
+    font-size: 13px;
+    font-family: "proximaNovaLight";
+}
+
+.hasDatepicker{
+	min-height: 32px !important;
+}

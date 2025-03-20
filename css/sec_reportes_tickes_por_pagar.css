@@ -1,0 +1,5 @@
+.scrolrepagr{
+  height: 70vh;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}

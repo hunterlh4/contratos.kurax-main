@@ -1,0 +1,286 @@
+#tabla_caja_sistema thead {
+	font-family: "opensansregular" ;	
+	background-color:#016D92 ;
+}
+#tabla_caja_sistema th{
+	font-family: "proximaNovaLight" ;
+	color:#fafafa ;
+	font-weight: 100 ;	
+}
+#tabla_caja_sistema td{
+	font-family: "opensansregular" ;	
+	border-top:1px solid #ddd ;
+	border-left:1px solid #ddd ;
+	padding:1px 6px ; 			
+}
+.btn_collapse_expand_row_caja_sistema{
+	border: 1px solid transparent ;
+	background-color:transparent ;
+}
+.btn_collapse_expand_row_caja_sistema span{ 
+	color:#8E44AD ;
+}
+#tabla_caja_sistema tr:hover{
+	background-color: #ffff99 !important;
+}
+#tabla_caja_sistema tr:nth-child(even) {
+	background-color:#F5F5F5;
+}
+#tabla_caja_sistema tr:nth-child(odd) {
+	background-color: #fafafa;
+} 
+
+.fila_ocultar{
+	font-family: "opensansregular" ;
+	color: #484848 ;
+	background-color: #C5E0B4 !important;
+	border-color: #faebcc ;  	
+}
+
+.negative_number{
+	color:red ;
+}
+.alinear_numeros{
+	text-align: right ;
+	padding-right:5px;
+}
+.alinear_letras{
+	text-align: left ;
+	padding-left:5px;
+}
+.btn_export_table_caja_sistema{
+	position: relative;
+    top: 30px;
+    width: 125px;
+    height: 21px;
+}
+#tabla_caja_sistema_filter{
+
+}
+.row_totales_por_dia{
+	background-color:#9679E8 ;
+}
+.btn_export_xls_caja_sistema {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;				 
+	font-size: 10px ;
+}
+
+.btn_export_xls_caja_sistema:hover {
+	border:none ;
+	background: #337ab7 ;
+	color: #fafafa ;
+	padding: 3px 5px ;
+	border-top-left-radius:2px ;
+	border-bottom-left-radius:2px ;
+	border-top-right-radius:2px ;	
+	border-bottom-right-radius:2px ;				 
+	font-size: 10px ;
+}
+
+.cabecera_seleccionar_todos_row{
+	border-left: 1px solid #fafafa ;
+	background-color: #C0C0C0 ;  
+}
+.cabecera_web_total_local{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ;  
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;
+}
+.cabecera_web_total_canal_de_venta_nombre{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;     
+}
+.cabecera_web_total_dia{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_dia{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_mes{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_anio{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_fecha{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_ingresado{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_retirado_cobrado{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_apostado{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;   
+}
+.cabecera_web_total_total_pagado{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;   
+}
+.cabecera_web_total_caja_fisico{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_depositado_web{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_retirado_web{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_caja_web{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;   
+}
+.cabecera_web_total_total_balance_pos{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_total_caja_real{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;   
+}
+.cabecera_web_total_pagado_de_otra_tienda{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.cabecera_web_total_pagado_en_otra_tienda{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;   
+}
+.cabecera_web_total_total_anulado_retirado{
+	color:#333 ;  
+	border-left: 1px solid #fafafa ; 
+	text-align: center ;
+	font-weight: 100 ;
+	padding:2px 8px 8px 0px ;
+	background-color: #C0C0C0 ;    
+}
+.total_dia_caja_sistema{
+	background-color: #B4C7E6 !important;
+	font-weight: 800 ;
+}
+.fechainiciotextcajasistema{
+	font-size: 11px ;
+}
+.fechafintextcajasistema{
+	font-size: 11px ;
+}
+.localreportecajasistemacustom{
+	font-size: 11px ;
+}
+.canalventasreportecajasistemacustom{
+	font-size: 11px ;
+}
+.redcajasistemacustom{
+	font-size: 11px ;	
+}
+.reportes_caja_sistema_datepicker{
+	height:32px ; 
+	min-width:139px ;
+	cursor:pointer ;	
+}
+.btn_filtrar_reporte_caja_sistema {
+	border-radius: 0px ;
+	font-size: 13px ;	
+    font-family: "proximaNovaLight" ;	
+	margin-top: 25px;
+}
+.rows_hidden_caja_sistema{
+	display: none;
+}
+.rows_expanded_caja_sistema{
+	display:block;
+}
