@@ -329,7 +329,7 @@ if (isset($_POST["accion"]) && $_POST["accion"] === "obtener_formato") {
 				if ($row["tipo_contrato_id"] == 13) {
 				}
 
-				// as
+				// asasas
 				$result["contenido"] = $contenido;
 			} else {
 				$result["http_code"] = 404;
