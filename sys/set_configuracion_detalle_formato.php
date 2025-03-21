@@ -289,7 +289,7 @@ if (isset($_POST["accion"]) && $_POST["accion"] === "obtener_formato") {
 					// Consulta para obtener los datos adicionales
 					$queryDetalles = "SELECT
 					a.contrato_id,
-					c.nombre AS razon_social,
+					c.nombre AS nombre,
 					c.num_ruc AS arrendador_ruc,
 					c.direccion AS arrendador_direccion,
 					c.representante_legal AS arrendatario_denominacion_social,
@@ -312,7 +312,7 @@ if (isset($_POST["accion"]) && $_POST["accion"] === "obtener_formato") {
 					if ($detalles) {
 						// Array con los placeholders y sus valores
 						$placeholders = [
-							"@ARRENDADOR" => $detalles["razon_social"],
+							"@ARRENDADOR_NOMBRE" => $detalles["nombre"],
 							"@ARRENDADOR_RUC" => $detalles["arrendador_ruc"],
 							"@ARRENDADOR_DIRECCION" => $detalles["arrendador_direccion"],
 							"@ARRENDADOR_NOMBRE_COMPLETO" => $detalles["arrendador_nombre_completo"],

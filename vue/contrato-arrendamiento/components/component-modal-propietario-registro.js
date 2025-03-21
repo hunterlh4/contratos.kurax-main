@@ -3,7 +3,7 @@ Vue.component("component-modal-propietario-registro", {
   template: `
  
     <div id="component-modal-registro-propietario" class="modal" data-keyboard="false">
-        <div class="modal-dialog modal-md" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -49,6 +49,26 @@ Vue.component("component-modal-propietario-registro", {
                                 <input ref="direccion" type="text" class="form-control" v-model="propietario.direccion">
                             </div>
                         </div>
+                        <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Departamento:</label>
+                            <v-select ref="departamento" placeholder="-- Seleccione --" class="w-100" :options="departamentos_emisor" :filterable="true" label="text"  v-model='departamento_val_emisor'></v-select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Provincia:</label>
+                            <v-select ref="provincia" placeholder="-- Seleccione --" class="w-100" :options="provincias_emisor" :filterable="true" label="text"  v-model='provincia_val_emisor'></v-select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Distrito:</label>
+                            <v-select ref="distrito" placeholder="-- Seleccione --" class="w-100" :options="distritos_emisor" :filterable="true" label="text"  v-model='distrito_val_emisor'></v-select>
+                        </div>
+                    </div>
                         <div class="col-md-12" v-if="propietario.tipo_persona_id == 2">
                             <div class="form-group">
                                 <label for="">Representante Legal:</label>
@@ -113,6 +133,11 @@ Vue.component("component-modal-propietario-registro", {
   data() {
     return {
       //options
+
+      departamentos_emisor: [],
+      provincias_emisor: [],
+      distritos_emisor: [],
+
       tipo_persona: [
         { id: 1, text: "Persona Natural" },
         { id: 2, text: "Persona Jurídica" },
@@ -128,6 +153,10 @@ Vue.component("component-modal-propietario-registro", {
         { id: 2, text: "El propietario no es la persona de contacto" },
       ],
       //options vale
+      departamento_val_emisor: null,
+      provincia_val_emisor: null,
+      distrito_val_emisor: null,
+
       tipo_persona_val: null,
       tipo_docu_identidad_val: null,
       tipo_persona_contacto_val: null,
@@ -170,6 +199,10 @@ Vue.component("component-modal-propietario-registro", {
   },
   computed: {},
   methods: {
+    obtener_departamentos_emisor,
+    obtener_provincias_emisor,
+    obtener_distritos_emisor,
+
     show_modal_propietario,
     validar_formulario,
     validar_email_valido,
@@ -177,6 +210,9 @@ Vue.component("component-modal-propietario-registro", {
     resetear_form_propietario,
     obtener_propietario,
     modificar_propietario,
+  },
+  created() {
+    this.obtener_departamentos_emisor();
   },
   watch: {
     tipo_persona_val(newValue) {
@@ -226,6 +262,55 @@ Vue.component("component-modal-propietario-registro", {
       if (newValue.id == 2) {
         this.propietario.contacto_nombre = "";
       }
+    },
+
+    departamento_val_emisor(newValue) {
+      if (newValue == null) {
+        // this.contrato.inmuebles.departamento_id = "";
+        // this.contrato.inmuebles.provincia_id = "";
+        // this.contrato.inmuebles.distrito_id = "";
+        // this.contrato.inmuebles.ubigeo_id = "";
+        this.provincias_emisor = [];
+        this.distritos_emisor = [];
+        this.provincia_val_emisor = null;
+        this.distrito_val_emisor = null;
+        return false;
+      }
+      // this.contrato.inmuebles.departamento_id = newValue.id;
+      this.obtener_provincias_emisor();
+      // this.contrato.inmuebles.provincia_id = "";
+      // this.contrato.inmuebles.distrito_id = "";
+      // this.contrato.inmuebles.ubigeo_id = "";
+      this.$refs.provincia.focus();
+    },
+    provincia_val_emisor(newValue) {
+      if (newValue == null) {
+        // this.contrato.inmuebles.provincia_id = "";
+        // this.contrato.inmuebles.distrito_id = "";
+        // this.contrato.inmuebles.ubigeo_id = "";
+        this.distritos_emisor = [];
+        this.distrito_val_emisor = null;
+        return false;
+      }
+
+      // this.contrato.inmuebles.provincia_id = newValue.id;
+      this.obtener_distritos_emisor();
+      // this.contrato.inmuebles.distrito_id = "";
+      // this.contrato.inmuebles.ubigeo_id = "";
+      this.$refs.distrito.focus();
+    },
+    distrito_val_emisor(newValue) {
+      if (newValue == null) {
+        // this.contrato.inmuebles.ubigeo_id = "";
+        return false;
+      }
+      // this.contrato.inmuebles.distrito_id = newValue.id;
+      // this.contrato.inmuebles.ubigeo_id =
+      // this.contrato.inmuebles.departamento_id +
+      // this.contrato.inmuebles.provincia_id +
+      // this.contrato.inmuebles.distrito_id;
+
+      // this.$refs.ubicacion.focus();
     },
   },
 });
@@ -352,6 +437,86 @@ function validar_formulario() {
   } else {
     this.modificar_propietario();
   }
+}
+
+function obtener_departamentos_emisor() {
+  let me = this;
+  let url = "sys/router/contratos/index.php";
+  let data = {
+    action: "obtener_departartamentos",
+  };
+  axios({
+    method: "post",
+    url: url,
+    data: data,
+  }).then(function (response) {
+    me.departamentos_emisor = [];
+    if (response.data.status == 200) {
+      response.data.result.forEach((element) => {
+        me.departamentos_emisor.push({
+          id: element.id,
+          text: element.nombre,
+        });
+      });
+    }
+  });
+}
+
+function obtener_provincias_emisor() {
+  let me = this;
+  let url = "sys/router/contratos/index.php";
+  this.provincias = [];
+  this.provincia_val = null;
+  let data = {
+    action: "obtener_provincias_segun_departamento",
+    departamento_id: this.contrato.inmuebles.departamento_id,
+  };
+  if (data.departamento_id.length == 0) {
+    return false;
+  }
+  axios({
+    method: "post",
+    url: url,
+    data: data,
+  }).then(function (response) {
+    if (response.data.status == 200) {
+      response.data.result.forEach((element) => {
+        me.provincias_emisor.push({
+          id: element.id,
+          text: element.nombre,
+        });
+      });
+    }
+  });
+}
+
+function obtener_distritos_emisor() {
+  let me = this;
+  let url = "sys/router/contratos/index.php";
+  this.distritos = [];
+  this.distrito_val = null;
+  let data = {
+    action: "obtener_distritos_segun_provincia",
+    departamento_id: this.contrato.inmuebles.departamento_id,
+    provincia_id: this.contrato.inmuebles.provincia_id,
+  };
+  if (data.provincia_id.length == 0) {
+    return false;
+  }
+  axios({
+    method: "post",
+    url: url,
+    data: data,
+  }).then(function (response) {
+    if (response.data.status == 200) {
+      response.data.result.forEach((element) => {
+        me.distritos.push({
+          id: element.id,
+          text: element.nombre,
+        });
+      });
+    }
+  });
 }
 
 function registrar_propietario() {

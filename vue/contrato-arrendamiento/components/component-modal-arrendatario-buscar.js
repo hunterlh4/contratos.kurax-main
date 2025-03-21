@@ -123,7 +123,8 @@ function BuscarPropietarios() {
     return false;
   }
   let data = {
-    action: "obtener_ocupante",
+    // action: "obtener_ocupante",
+    action: "obtener_propietario",
     tipo_busqueda: this.propietario.tipo_busqueda,
     nombre_o_numdocu: this.propietario.search,
     ids: [],

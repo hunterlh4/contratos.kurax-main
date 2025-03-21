@@ -180,22 +180,22 @@ if (!($permiso_ver)) {
                 </div>
 
                 <div class="panel-body">
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                     <div class="form-group">
                       <label class="form-label">Tipo de Solicitud <span class="text-danger">(*)</span></label>
                       <input readonly type="text" v-model="arrendamiento.tipo_solicitud" class="form-control form-control-lg border rounded">
                     </div>
                   </div>
 
-                  <!-- <div class="col-md-4">
+                  <div class="col-md-4">
                     <div class="form-group">
                       <label class="form-label">Empresa (Locador)<span class="text-danger">(*)</span></label>
                       <v-select ref="empresa_suscribe" placeholder="Seleccione una empresa" class="w-100 form-control-lg"
                         :filterable="true" label="text" :options="empresa_suscribe" v-model='empresa_suscribe_val'>
                       </v-select>
                     </div>
-                  </div> -->
-                  <div class="col-md-6">
+                  </div>
+                  <div class="col-md-4">
                     <div class="form-group">
                       <label class="form-label">Abogado <span class="text-danger">(*)</span></label>
                       <v-select ref="abogado" placeholder="Seleccione un abogado" class="w-100 form-control-lg"
@@ -238,49 +238,24 @@ if (!($permiso_ver)) {
                     <span class="icon-wrapper">
                       <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                     </span>
-                    <span>Datos del Locatario (1)</span>
+                    <span>Datos del Locatario</span>
                   </div>
-                  <button v-if="locatario.length === 0" class="btn btn-info btn-sm" @click="show_modal_nuevo_locatario" type="button">
+                  <button v-if="propietarios.length === 0" class="btn btn-info btn-sm" @click="show_modal_nuevo_propietario" type="button">
                     <i class="icon fa fa-plus"></i> Agregar Locatario
                   </button>
                 </div>
                 <div class="panel-body">
                   <div class="col-md-12">
                     <br>
-                    <!-- <component-propietario-listar :propietarios="propietarios"></component-propietario-listar> -->
-                    <component-locatario-listar :locatario="locatario"></component-locatario-listar>
-                  </div>
-                </div>
-              </div>
-
-              <div class="panel">
-                <div class="panel-heading" style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
-                  <div style="display: flex; align-items: center; gap: 5px;">
-                    <span class="icon-wrapper">
-                      <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                    </span>
-                    <span>Datos del Locador (2)</span>
-                  </div>
-                  <button v-if="locador.length === 0" class="btn btn-info btn-sm" @click="show_modal_nuevo_locador" type="button">
-                    <i class="icon fa fa-plus"></i> Agregar Locador
-                  </button>
-                </div>
-                <div class="panel-body">
-                  <div class="col-md-12">
-                    <br>
-                    <!-- <component-propietario-listar :propietarios="propietarios"></component-propietario-listar> -->
-                    <component-locador-listar :locador="locador"></component-locador-listar>
+                    <component-propietario-listar :propietarios="propietarios"></component-propietario-listar>
                   </div>
                 </div>
               </div>
             </div>
-
-
             <!-- Inicio Panel Proveedores -->
 
 
             <!-- Final Panel Proveedores -->
-            <!-- AQUI VAN LOS DATOS EXTRA -->
             <component-contrato_locacion :propietarios="propietarios" v-for="(contrato, index) in contratos" :key="index" :contrato="contrato" :index="index" :arrendamiento="arrendamiento" :ref="'componente_contrato_' + index"></component-contrato_locacion>
 
             <div class="row">
@@ -303,8 +278,6 @@ if (!($permiso_ver)) {
 
       <!-- INICIO MODALS -->
       <component-modal-propietario-buscar :propietarios="propietarios" ref="ComponentPropietarioBuscar"></component-modal-propietario-buscar>
-
-      <component-modal-locatorio-buscar :locatario="locatario" ref="ComponentLocatorioBuscar"></component-modal-locatorio-buscar>
       <component-modal-propietario-registro :propietarios="propietarios" ref="ComponentPropietarioRegistro"></component-modal-propietario-registro>
 
       <loader :loader="loader" ref="loader"></loader>
@@ -327,14 +300,6 @@ if (!($permiso_ver)) {
   <script src="./vue/contrato-locacionservicio/components/component-modal-beneficiario-registro.js"></script>
   <script src="./vue/contrato-locacionservicio/components/component-modal-anexo.js"></script>
   <script src="./vue/contrato-locacionservicio/components/component-modal-anexo-registro.js"></script>
-
-  <!-- locatario -->
-  <script src="./vue/contrato-locacionservicio/components/component-locatario-listar.js"></script>
-  <script src="./vue/contrato-locacionservicio/components/component-modal-locatario-buscar.js"></script>
-  <!-- <script src="./vue/contrato-locacionservicio/components/component-modal-locatario-registro.js"></script> -->
-  <!-- locador -->
-  <script src="./vue/contrato-locacionservicio/components/component-locador-listar.js"></script>
-
   <!-- <script src="./vue/contrato-locacionservicio/components/component-ckeditor.js"></script>  -->
   <!-- Store -->
 

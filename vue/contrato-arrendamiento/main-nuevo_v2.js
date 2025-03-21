@@ -129,7 +129,7 @@ var vm = new Vue({
         return false;
       }
       this.arrendamiento.abogado_id = newValue.id;
-      this.show_modal_nuevo_propietario();
+      // this.show_modal_nuevo_propietario();
     },
   },
 });
@@ -285,16 +285,17 @@ function validar_contrato() {
 
   console.log("this. this: ", this);
   this.validate_errors = true;
-  if (this.arrendatarios.length == 0) {
-    alertify.error(
-      "Seleccione la empresa (arrendatario) que suscribe el contrato",
-      5
-    );
-    $(this.$refs.empresa_suscribe).focus();
-    this.validate_errors = false;
-    return false;
-  }
-  this.arrendamiento.empresa_suscribe_id = this.arrendatarios[0]["id"];
+  // if (this.arrendatarios.length == 0) {
+  //   // alertify.error(
+  //   //   "Seleccione la empresa (arrendatario) que suscribe el contrato",
+  //   //   5
+  //   // );
+  //   alertify.error("Ingrese los campos", 5);
+  //   $(this.$refs.empresa_suscribe).focus();
+  //   this.validate_errors = false;
+  //   return false;
+  // }
+  // this.arrendamiento.empresa_suscribe_id = this.arrendatarios[0]["id"];
 
   // if (this.arrendamiento.supervisor_id.length == 0) {
   //   alertify.error("Seleccione el supervisor", 5);
@@ -309,6 +310,13 @@ function validar_contrato() {
   //   this.validate_errors = false;
   //   return false;
   // }
+
+  if (!this.abogado_val) {
+    alertify.error("Seleccione un abogado", 5);
+    $(this.$refs.abogado.$el).focus();
+    this.validate_errors = false;
+    return false;
+  }
 
   if (this.propietarios.length == 0) {
     alertify.error("Ingrese un arriendador", 5);
@@ -401,168 +409,6 @@ function validar_contrato() {
       return false;
     }
 
-    // if (inmueble.inmueble_servicio_agua.length == 0) {
-    // 	alertify.error("Ingrese una servicios de agua #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].agregar_nuevo_suministro_agua();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-
-    // for (let index_sa = 0; index_sa < inmueble.inmueble_servicio_agua.length; index_sa++) {
-    // 	const element_sa = inmueble.inmueble_servicio_agua[index_sa];
-    // 	if (element_sa.nro_suministro.length == 0){
-    // 		alertify.error("Ingrese un numero de suministro #"+ (parseInt(index_sa) +1) , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.nro_suministro.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-
-    // 	if (element_sa.nro_suministro.length < 7) {
-    // 		alertify.error("El número de suministro de agua debe ser mayor a 6 dígitos", 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.nro_suministro.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-
-    // 	if (element_sa.tipo_compromiso_pago_id.length == 0) {
-    // 		alertify.error("Seleccione el tipo de compromiso de pago del servicio del agua del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.tipo_compromiso_pago_id.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	if (parseInt(element_sa.tipo_compromiso_pago_id) == 1 && element_sa.monto_o_porcentaje.length == 0) {
-    // 		alertify.error("Ingrese el porcentaje del pago del servicio de agua del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.monto_o_porcentaje.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	if (parseInt(element_sa.tipo_compromiso_pago_id) == 2 && element_sa.monto_o_porcentaje.length == 0) {
-    // 		alertify.error("Ingrese el monto fijo del pago del servicio de agua del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.monto_o_porcentaje.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	// if (parseInt(element_sa.tipo_compromiso_pago_id) == 5) {
-    // 	// 	if (parseInt(element_sa.tipo_documento_beneficiario) == 1 && element_sa.nro_documento_beneficiario.length != 8) {
-    // 	// 		alertify.error("El nro de documento debe tener 8 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (parseInt(element_sa.tipo_documento_beneficiario) == 2 && element_sa.nro_documento_beneficiario.length != 11) {
-    // 	// 		alertify.error("El nro de documento debe tener 11 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if ( (parseInt(element_sa.tipo_documento_beneficiario) == 3 || parseInt(element_sa.tipo_documento_beneficiario) == 4) && element_sa.nro_documento_beneficiario.length != 12) {
-    // 	// 		alertify.error("El nro de documento debe tener 12 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (element_sa.nombre_beneficiario.length <= 8) {
-    // 	// 		alertify.error("Ingrese el nombre del beneficiario" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.nombre_beneficiario.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (element_sa.nro_cuenta_soles.length <= 6) {
-    // 	// 		alertify.error("Ingrese el numero de cuenta" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_agua_'+index_sa][0].$refs.nro_cuenta_beneficario.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// }
-    // }
-
-    // if (inmueble.inmueble_servicio_luz.length == 0) {
-    // 	alertify.error("Ingrese una servicios de luz #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].agregar_nuevo_suministro_luz();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-
-    // for (let index_sa = 0; index_sa < inmueble.inmueble_servicio_luz.length; index_sa++) {
-    // 	const element_sa = inmueble.inmueble_servicio_luz[index_sa];
-    // 	if (element_sa.nro_suministro.length == 0){
-    // 		alertify.error("Ingrese un numero de suministro #"+ (parseInt(index_sa) +1) , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.nro_suministro.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-
-    // 	if (element_sa.nro_suministro.length < 7) {
-    // 		alertify.error("El número de suministro de agua debe ser mayor a 6 dígitos", 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.nro_suministro.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-
-    // 	if (element_sa.tipo_compromiso_pago_id.length == 0) {
-    // 		alertify.error("Seleccione el tipo de compromiso de pago del servicio del luz del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.tipo_compromiso_pago_id.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	if (parseInt(element_sa.tipo_compromiso_pago_id) == 1 && element_sa.monto_o_porcentaje.length == 0) {
-    // 		alertify.error("Ingrese el porcentaje del pago del servicio de luz del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.monto_o_porcentaje.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	if (parseInt(element_sa.tipo_compromiso_pago_id) == 2 && element_sa.monto_o_porcentaje.length == 0) {
-    // 		alertify.error("Ingrese el monto fijo del pago del servicio de luz del inmuble" , 5);
-    // 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.monto_o_porcentaje.focus();
-    // 		this.validate_errors = false;
-    // 		return false;
-    // 	}
-    // 	// if (parseInt(element_sa.tipo_compromiso_pago_id) == 5) {
-    // 	// 	if (parseInt(element_sa.tipo_documento_beneficiario) == 1 && element_sa.nro_documento_beneficiario.length != 8) {
-    // 	// 		alertify.error("El nro de documento debe tener 8 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (parseInt(element_sa.tipo_documento_beneficiario) == 2 && element_sa.nro_documento_beneficiario.length != 11) {
-    // 	// 		alertify.error("El nro de documento debe tener 11 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if ( (parseInt(element_sa.tipo_documento_beneficiario) == 3 || parseInt(element_sa.tipo_documento_beneficiario) == 4) && element_sa.nro_documento_beneficiario.length != 12) {
-    // 	// 		alertify.error("El nro de documento debe tener 12 digitos" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.num_docu.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (element_sa.nombre_beneficiario.length <= 8) {
-    // 	// 		alertify.error("Ingrese el nombre del beneficiario" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.nombre_beneficiario.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// 	if (element_sa.nro_cuenta_soles.length <= 6) {
-    // 	// 		alertify.error("Ingrese el numero de cuenta" , 5);
-    // 	// 		this.$refs[component][0].$refs['comp_suministro_luz_'+index_sa][0].$refs.nro_cuenta_beneficario.focus();
-    // 	// 		this.validate_errors = false;
-    // 	// 		return false;
-    // 	// 	}
-    // 	// }
-    // }
-
-    // if (inmueble.tipo_compromiso_pago_arbitrios.length == 0) {
-    // 	alertify.error("Seleccione el tipo de compromiso de pago de arbitrios del inmuble #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.tipo_compromiso_pago_arbitrios.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(inmueble.tipo_compromiso_pago_arbitrios) == 1 && inmueble.porcentaje_pago_arbitrios.length == 0 ) {
-    // 	alertify.error("Ingrese el porcentaje de pago de arbitrios del inmuble #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.porcentaje_pago_arbitrios.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
     inmueble.tipo_compromiso_pago_arbitrios = 2;
     var condicion_economica = element.condicion_economica;
 
@@ -631,61 +477,6 @@ function validar_contrato() {
       this.validate_errors = false;
       return false;
     }
-    // if (condicion_economica.afectacion_igv_id.length  == 0 ) {
-    // 	alertify.error("Seleccione el IGV en la renta de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.afectacion_igv_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.garantia_monto.length  < 4 ) {
-    // 	alertify.error("Ingresa un monto de garantia de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.garantia_monto.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.tipo_adelanto_id.length  == 0 ) {
-    // 	alertify.error("Seleccione un tipo de adelanto de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.tipo_adelanto_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(condicion_economica.tipo_adelanto_id) == 1 && condicion_economica.adelantos.length == 0 ) {
-    // 	alertify.error("Seleccione los adelantos de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].show_modal_adelantos();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.impuesto_a_la_renta_id.length == 0 ) {
-    // 	alertify.error("Seleccione el impuesto a la renta de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.impuesto_a_la_renta_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.carta_de_instruccion_id.length == 0 ) {
-    // 	alertify.error("Seleccione si AT deposita impuesto a la renta a SUNAT, o no de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.carta_de_instruccion_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    //if (condicion_economica.numero_cuenta_detraccion.length == 0 ) {
-    //	alertify.error("SIngrese el Número de Cuenta de Detracción (Banco de la Nación) de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    //	this.$refs[component][0].$refs.numero_cuenta_detraccion.focus();
-    //	this.validate_errors = false;
-    //  return false;
-    //}
-
-    // if (condicion_economica.periodo_gracia_id.length == 0 ) {
-    // 	alertify.error("Ingrese el numero de periodo de gracias de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.periodo_gracia_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(condicion_economica.periodo_gracia_id) == 1 && condicion_economica.periodo_gracia_numero.length == 0 ) {
-    // 	alertify.error("Ingrese el numero de periodo de gracias de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.periodo_gracia_numero.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
 
     if (condicion_economica.plazo_id.length == 0) {
       alertify.error(
@@ -734,42 +525,6 @@ function validar_contrato() {
       return false;
     }
 
-    // if (condicion_economica.tipo_incremento_id.length == 0 ) {
-    // 	alertify.error("Seleccione el tipo de incremento de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.tipo_incremento_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(condicion_economica.tipo_incremento_id) == 1 && condicion_economica.incrementos.length == 0 ) {
-    // 	alertify.error("Ingrese los incrementos de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].show_modal_nuevo_incremento();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.tipo_inflacion_id.length == 0 ) {
-    // 	alertify.error("Seleccione el tipo de inflación de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.tipo_inflacion_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(condicion_economica.tipo_inflacion_id) == 1 && condicion_economica.inflaciones.length == 0 ) {
-    // 	alertify.error("Ingrese las inflaciones de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].show_modal_nueva_inflacion();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (condicion_economica.tipo_cuota_extraordinaria_id.length == 0 ) {
-    // 	alertify.error("Seleccione el tipo de cuota extraordinaria de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].$refs.tipo_cuota_extraordinaria_id.focus();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-    // if (parseInt(condicion_economica.tipo_cuota_extraordinaria_id) == 1 && condicion_economica.cuotas_extraordinarias.length == 0 ) {
-    // 	alertify.error("Ingrese las cuotas extraordinarias de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].show_modal_nueva_cuota_extraordinaria();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
     console.log("element.banco_val.id: ", element.banco_val.id);
     console.log("element.num_cuenta_bancaria: ", element.num_cuenta_bancaria);
     propietario_temporal = this.propietarios[0];
@@ -798,25 +553,6 @@ function validar_contrato() {
       this.validate_errors = false;
       return false;
     }
-
-    // if (condicion_economica.responsables_ir.length == 0 ) {
-    // 	alertify.error("Ingrese los responsables IR de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.$refs[component][0].show_modal_nuevo_responsable_ir();
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
-
-    // let porcentaje = 0;
-    // for (let index = 0; index < condicion_economica.responsables_ir.length; index++) {
-    // 	const responsable = condicion_economica.responsables_ir[index];
-    // 	porcentaje += parseFloat(responsable.porcentaje);
-    // }
-
-    // if (porcentaje != 100 ) {
-    // 	alertify.error("La suma de porcentaje del responsable IR debe ser igual a 100% de la condición económica #"+ (parseInt(index_contrato) +1) , 5);
-    // 	this.validate_errors = false;
-    // 	return false;
-    // }
 
     if (condicion_economica.fecha_suscripcion.length == 0) {
       alertify.error(
