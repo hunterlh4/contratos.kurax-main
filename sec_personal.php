@@ -266,7 +266,7 @@
 										</div>
 									</div>
 
-									<div class="form-group">
+									<div class="form-group hidden">
 										<label class="control-label col-xs-4">Zona</label>
 										<div class="input-group col-xs-8">
 											<select

@@ -1,5 +1,5 @@
 var get_data_personal = {};
-
+console.log("personal/sec_personal.js");
 function sec_personal() {
   if (sec_id == "personal") {
     console.log("sec_personal");

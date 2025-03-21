@@ -29,6 +29,9 @@ var vm = new Vue({
   },
   data() {
     return {
+      locador: [],
+      locatario: [],
+
       empresa_suscribe: [],
       supervisor: [],
       abogado: [],
@@ -76,6 +79,9 @@ var vm = new Vue({
     obtener_aprobador,
     obtener_cargo_aprobador,
     show_modal_nuevo_propietario,
+
+    show_modal_nuevo_locatario,
+    show_modal_nuevo_locador,
     agregar_contrato,
 
     validar_contrato,
@@ -267,32 +273,47 @@ function obtener_cargo_aprobador() {
 }
 
 function show_modal_nuevo_propietario() {
-  EventBus.$emit("modal-registro-propietario-buscar");
-  $("#component-modal-buscar-propietario").modal("show");
+  // if ($valor == 1) {
+  //   EventBus.$emit("modal-registro-propietario-buscar");
+  //   $("#component-modal-buscar-locador").modal("show");
+  // }
+  // if ($valor == 2) {
+  //   EventBus.$emit("modal-registro-propietario-buscar");
+  //   $("#component-modal-buscar-loca").modal("show");
+  // }
+}
+
+function show_modal_nuevo_locador() {
+  console.log("abrir modal locador");
+  EventBus.$emit("modal-registro-locador-buscar");
+  $("#component-modal-locador-buscar").modal("show");
+}
+function show_modal_nuevo_locatario() {
+  console.log("abrir modal locatario");
+  EventBus.$emit("modal-registro-locatario-buscar");
+  $("#component-modal-locatario-buscar").modal("show");
 }
 
 function validar_contrato() {
   this.validate_errors = true;
 
-  // if(!this.empresa_suscribe_id){
-  //   alertify.error("Seleccione una empresa.", 5);
+  // if (this.propietarios.length == 0) {
+  //   alertify.error("Ingrese al menos un locatario", 5);
+  //   this.show_modal_nuevo_propietario();
   //   this.validate_errors = false;
   //   return false;
   // }
-  // if(!this.aprobador_id){
-  //   alertify.error("Seleccione el aprobador.", 5);
-  //   this.validate_errors = false;
-  //   return false;
-  // }
-  // if(!this.cargo_aprobador_id){
-  //   alertify.error("Seleccione el cargo del aprobador.", 5);
-  //   this.validate_errors = false;
-  //   return false;
-  // }
-
-  if (this.propietarios.length == 0) {
+  // locador
+  if (this.locador.length == 0) {
+    alertify.error("Ingrese al menos un locador", 5);
+    this.show_modal_nuevo_locador;
+    this.validate_errors = false;
+    return false;
+  }
+  // locatario
+  if (this.locatario.length == 0) {
     alertify.error("Ingrese al menos un locatario", 5);
-    this.show_modal_nuevo_propietario();
+    this.show_modal_nuevo_locatario;
     this.validate_errors = false;
     return false;
   }

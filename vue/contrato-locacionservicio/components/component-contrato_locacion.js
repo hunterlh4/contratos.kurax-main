@@ -82,7 +82,14 @@ const contrato = {
   components: {
     "v-select": VueSelect.VueSelect,
   },
-  props: ["contrato", "index", "arrendamiento", "propietarios"],
+  props: [
+    "contrato",
+    "index",
+    "arrendamiento",
+    "propietarios",
+    "locatario",
+    "locador",
+  ],
   data() {
     return {
       contrato: {
